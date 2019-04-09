@@ -1,0 +1,61 @@
+version: 2.1
+executors:
+  default-executor:
+    docker:
+      - image: circleci/node:lts
+jobs:
+  install-dependencies:
+    executor: default-executor
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "yarn.lock" }}
+            - v1-dependencies
+      - run:
+          name: "Install dependencies"
+          command: yarn install
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "yarn.lock" }}
+      - persist_to_workspace:
+          root: .
+          paths: .
+
+  build:
+    executor: default-executor
+    steps:
+      - attach_workspace:
+          at: .
+      - run:
+          name: "Build"
+          command: yarn build
+      - persist_to_workspace:
+          root: .
+          paths: public
+
+  deploy:
+    executor: default-executor
+    steps:
+      - attach_workspace:
+          at: .
+      - run:
+          name: "Netlify deploy"
+          command: yarn netlify:deploy
+
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      - install-dependencies
+      - build:
+          requires:
+            - install-dependencies
+      - deploy:
+          filters:
+            branches:
+              only:
+                - master
+          requires:
+            - build
