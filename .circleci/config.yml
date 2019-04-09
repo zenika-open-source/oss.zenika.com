@@ -42,7 +42,7 @@ jobs:
           at: .
       - run:
           name: "Netlify deploy"
-          command: yarn netlify:deploy
+          command: yarn deploy
 
 workflows:
   version: 2
