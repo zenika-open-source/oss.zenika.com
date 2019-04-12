@@ -1,0 +1,175 @@
+{
+  "organization": "zenika",
+  "totalMembers": 370,
+  "membersWithRepositories": 300,
+  "totalRepositories": 3768,
+  "topLanguages": [
+    {
+      "language": "JavaScript",
+      "count": 1068
+    },
+    {
+      "language": "Java",
+      "count": 754
+    },
+    {
+      "language": "HTML",
+      "count": 209
+    },
+    {
+      "language": "TypeScript",
+      "count": 163
+    },
+    {
+      "language": "Shell",
+      "count": 161
+    },
+    {
+      "language": "CSS",
+      "count": 107
+    },
+    {
+      "language": "C",
+      "count": 85
+    },
+    {
+      "language": "PHP",
+      "count": 81
+    },
+    {
+      "language": "Python",
+      "count": 75
+    },
+    {
+      "language": "Vue",
+      "count": 61
+    }
+  ],
+  "topMemberRepositories": [
+    {
+      "repo": "generator-gulp-angular (Swiip)",
+      "count": 3852
+    },
+    {
+      "repo": "Rythm.js (Okazari)",
+      "count": 3515
+    },
+    {
+      "repo": "rn-diff (ncuillery)",
+      "count": 1070
+    },
+    {
+      "repo": "rn-placeholder (mfrachet)",
+      "count": 931
+    },
+    {
+      "repo": "angular-breadcrumb (ncuillery)",
+      "count": 808
+    },
+    {
+      "repo": "eslint-plugin-angular (EmmanuelDemey)",
+      "count": 590
+    },
+    {
+      "repo": "vue-crud-x (ais-one)",
+      "count": 216
+    },
+    {
+      "repo": "kafkastreams-cep (fhussonnois)",
+      "count": 206
+    },
+    {
+      "repo": "SceneGraph.js (GwennaelBuchet)",
+      "count": 129
+    },
+    {
+      "repo": "vue-chartist (Yopadd)",
+      "count": 108
+    }
+  ],
+  "totalOrganizationRepositories": 199,
+  "topRepositories": [
+    {
+      "repo": "alpine-chrome",
+      "count": 193
+    },
+    {
+      "repo": "immutadot",
+      "count": 154
+    },
+    {
+      "repo": "angular-from-scratch",
+      "count": 39
+    },
+    {
+      "repo": "Blogs",
+      "count": 20
+    },
+    {
+      "repo": "zenscaler",
+      "count": 19
+    },
+    {
+      "repo": "kafka-specs",
+      "count": 12
+    },
+    {
+      "repo": "MARCEL",
+      "count": 11
+    },
+    {
+      "repo": "k8s-on-gce",
+      "count": 11
+    },
+    {
+      "repo": "goru",
+      "count": 10
+    },
+    {
+      "repo": "alpine-node",
+      "count": 9
+    }
+  ],
+  "topPrimaryLanguages": [
+    {
+      "language": "JavaScript",
+      "count": 53
+    },
+    {
+      "language": "Java",
+      "count": 46
+    },
+    {
+      "language": "HTML",
+      "count": 26
+    },
+    {
+      "language": "Shell",
+      "count": 7
+    },
+    {
+      "language": "Go",
+      "count": 7
+    },
+    {
+      "language": "Dockerfile",
+      "count": 7
+    },
+    {
+      "language": "TypeScript",
+      "count": 6
+    },
+    {
+      "language": "CSS",
+      "count": 5
+    },
+    {
+      "language": "Kotlin",
+      "count": 5
+    },
+    {
+      "language": "Vue",
+      "count": 3
+    }
+  ]
+}
