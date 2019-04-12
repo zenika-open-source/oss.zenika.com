@@ -1,7 +1,7 @@
 import React from "react"
 
-import logoTwitter from "../../images/icons/icon-twitter.svg"
-import logoGithub from "../../images/icons/icon-github.svg"
+import logoTwitter from "./icon-twitter.svg"
+import logoGithub from "./icon-github.svg"
 import "./SocialLinks.css"
 
 const SocialLinks = () => {
