@@ -620,3 +620,12 @@ pre tt:after {
     font-size: 100%;
   }
 }
+.partners {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.copyright {
+  width: 100%;
+  text-align: center;
+}
