@@ -1,0 +1,12 @@
+.social-links-wrapper > a {
+  margin: 1rem 1rem;
+}
+
+.social-link-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.social-link-icon:hover {
+  opacity: 0.8;
+}
