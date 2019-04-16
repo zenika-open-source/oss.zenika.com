@@ -23,39 +23,32 @@ jobs:
           root: .
           paths: .
 
-  build:
+  check-prettier:
     executor: default-executor
     steps:
       - attach_workspace:
           at: .
       - run:
-          name: "Build"
-          command: yarn build
-      - persist_to_workspace:
-          root: .
-          paths: public
+          name: "Check prettier"
+          command: echo 'Fake prettier check'
 
-  deploy:
+  check-linter:
     executor: default-executor
     steps:
       - attach_workspace:
           at: .
       - run:
-          name: "Netlify deploy"
-          command: yarn deploy
+          name: "Check linter"
+          command: echo 'Fake linter check'
 
 workflows:
   version: 2
-  build-and-deploy:
+  quality-checks:
     jobs:
       - install-dependencies
-      - build:
+      - check-prettier:
           requires:
             - install-dependencies
-      - deploy:
-          filters:
-            branches:
-              only:
-                - master
+      - check-linter:
           requires:
-            - build
+            - install-dependencies
