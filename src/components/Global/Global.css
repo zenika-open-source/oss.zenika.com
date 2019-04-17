@@ -1,0 +1,37 @@
+.global {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  background-color: #f1f1f1;
+}
+
+.global__title {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 300;
+}
+
+.global__content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.global__value {
+  font-weight: 300;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.global__value > span {
+  color: #b51432;
+}
+
+@media (max-width: 768px) {
+  .global__title {
+    margin-top: 3rem;
+    font-size: 1.2rem;
+  }
+
+  .total__value {
+    font-size: 1.5rem;
+  }
+}

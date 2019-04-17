@@ -1,12 +1,12 @@
-.social-links-wrapper > a {
+.social-links > a {
   margin: 1rem 1rem;
 }
 
-.social-link-icon {
+.social-links__icon {
   width: 2rem;
   height: 2rem;
 }
 
-.social-link-icon:hover {
+.social-links__icon:hover {
   opacity: 0.8;
 }
