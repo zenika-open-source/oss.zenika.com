@@ -10,11 +10,6 @@
   font-weight: 300;
 }
 
-.global__content {
-  display: flex;
-  justify-content: space-around;
-}
-
 .global__value {
   font-weight: 300;
   font-size: 2.5rem;
@@ -23,6 +18,7 @@
 
 .global__value > span {
   color: #b51432;
+  font-weight: 700;
 }
 
 @media (max-width: 768px) {

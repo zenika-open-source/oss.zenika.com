@@ -1,10 +1,11 @@
-.social-links > a {
-  margin: 1rem 1rem;
+.social-links {
+  display: flex;
 }
 
-.social-links__icon {
-  width: 2rem;
+.social-links > a {
+  margin: 0rem 0.8rem;
   height: 2rem;
+  width: 2rem;
 }
 
 .social-links__icon:hover {

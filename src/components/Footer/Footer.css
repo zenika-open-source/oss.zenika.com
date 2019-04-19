@@ -1,3 +1,9 @@
 .footer {
   padding: 2rem;
+  text-align: center;
+}
+
+.footer__phrase > a {
+  text-decoration: none;
+  color: #b51432;
 }

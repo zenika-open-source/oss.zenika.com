@@ -1,4 +1,3 @@
-import PropTypes from "prop-types"
 import React from "react"
 
 import { SocialLinks } from "../SocialLinks"
@@ -9,13 +8,5 @@ const Header = () => (
     <SocialLinks />
   </header>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header

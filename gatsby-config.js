@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Zenika Open Source`,
     description: `Insights about Zenika's Open Source contributions`,
-    author: `@gatsbyjs`,
+    author: `@ZenikaOSS`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

@@ -1,22 +1,41 @@
 .landing {
-  height: 100vh;
+  height: 60vh;
   width: 100%;
   background: url("./background.svg");
   background-color: #000000;
-  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  z-index: -1;
 }
 
 .landing__title {
-  font-weight: 300;
+  color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  font-size: 2.5rem;
+  font-weight: 600;
   text-align: center;
+  z-index: 1;
+}
+
+.landing__logo {
+  position: absolute;
+  transform: translateY(-2rem);
+  align-self: center;
+  z-index: 0;
+  width: 350px;
+  height: 350px;
 }
 
 @media (max-width: 768px) {
+  .landing {
+    height: 100vh;
+  }
+
   .landing__title {
-    font-size: 1.5rem;
+    font-size: 3rem;
     padding: 1rem;
   }
 }
