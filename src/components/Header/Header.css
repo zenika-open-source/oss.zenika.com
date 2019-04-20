@@ -2,17 +2,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background: rebeccapurple;
-  margin-bottom: 1.25rem;
-  padding: 1.5rem 1rem;
-}
-
-.header > h1 {
-  margin: 0;
-  margin-right: auto;
-}
-
-.header > h1 > a {
-  color: white;
-  text-decoration: none;
+  background: #b51432;
+  padding: 0.5rem;
+  width: 100%;
 }
