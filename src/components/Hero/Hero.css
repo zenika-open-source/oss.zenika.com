@@ -1,4 +1,4 @@
-.landing {
+.hero {
   height: 60vh;
   width: 100%;
   background: url("./background.svg");
@@ -9,7 +9,7 @@
   z-index: -1;
 }
 
-.landing__title {
+.hero__title {
   color: black;
   -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 2px;
@@ -20,7 +20,7 @@
   z-index: 1;
 }
 
-.landing__logo {
+.hero__logo {
   position: absolute;
   transform: translateY(-2rem);
   align-self: center;
@@ -30,11 +30,11 @@
 }
 
 @media (max-width: 768px) {
-  .landing {
+  .hero {
     height: 100vh;
   }
 
-  .landing__title {
+  .hero__title {
     font-size: 3rem;
     padding: 1rem;
   }

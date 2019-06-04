@@ -1,14 +1,14 @@
 import React from 'react'
 import CountUp from 'react-countup'
 
-import "./TotalValue.css"
+import "./Metric.css"
 
-const TotalValue = ({ value, text }) => {
+const Metric = ({ value, text }) => {
   return (
-    <h3 className="global__value">
+    <h3 className="metric__value">
       <CountUp end={value} /> {text}
     </h3>
   )
 }
 
-export default TotalValue
+export default Metric
