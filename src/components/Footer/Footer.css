@@ -1,9 +1,27 @@
 .footer {
-  padding: 2rem;
-  text-align: center;
+  display: flex;
+  text-transform: uppercase;
+  height: 160px;
+  background-color: #3D3333;
 }
 
-.footer__phrase > a {
-  text-decoration: none;
-  color: #b51432;
+.footer__wrapper {
+  width: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.footer__phrase {
+  color: #847e7e;
+  margin: 0;
+  margin-right: 4rem;
+  line-height: 4rem;
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+.footer__phrase > a:visited {
+  color: white;
 }
