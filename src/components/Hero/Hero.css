@@ -8,7 +8,7 @@
   color: #fff;
   height: 100vh;
   width: 100%;
-  padding: 0 4rem;
+  padding: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -30,7 +30,7 @@
 }
 
 .hero__section > h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 300;
   margin-bottom: 3rem;
 }
