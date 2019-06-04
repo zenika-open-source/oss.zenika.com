@@ -1,0 +1,26 @@
+.people {
+  background: #7B838C;
+  color: #FFF;
+}
+
+.people__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.people__row {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background: #0D0100;
+  border-bottom: 1px solid #7B838C;
+}
+
+.people__name {
+
+}
+
+.people__nbContributions {
+  color: #F2C230;
+}

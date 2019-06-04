@@ -1,7 +1,5 @@
 import React from "react";
 
-import data from "../../data/stats.json";
-
 import { Project } from './Project';
 import "./TopProjects.css";
 

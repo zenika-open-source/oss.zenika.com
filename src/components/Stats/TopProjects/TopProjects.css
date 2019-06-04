@@ -1,5 +1,5 @@
 .topProjects {
-  max-height: 100vh;
+  flex-grow: 1;
 }
 
 .topProjects__title {
