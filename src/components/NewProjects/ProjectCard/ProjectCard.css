@@ -4,15 +4,17 @@
   padding: 3rem 3rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: flex-start;
   font-weight: 300;
+  height: 19rem;
 }
 
 .project-card__title {
+  height: 100%;
   display: flex;
   justify-content: space-between;
   font-size: 1.1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-weight: 400;
   color: #b51432;
   text-transform: uppercase;
@@ -21,6 +23,7 @@
 .project-card__wrapper {
   display: flex;
   align-items: flex-start;
+  flex-grow: 1;
 }
 
 .project-card__wrapper > img {

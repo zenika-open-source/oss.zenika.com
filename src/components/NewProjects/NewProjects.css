@@ -1,7 +1,6 @@
 .newProjects__content {
   display: flex;
   justify-content: space-between;
-  height: 16rem;
   margin-bottom: 3rem;
 }
 
