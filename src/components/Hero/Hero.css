@@ -45,7 +45,7 @@
   }
 
   .hero__logo {
-    margin: 1rem;
+    margin-top: 4rem;
   }
 
   .hero__section {
@@ -59,10 +59,13 @@
 
   .hero__section > h1 {
     font-size: 1.4rem;
+    margin-bottom: 1rem;
   }
 
   .hero__section > p {
-    font-size: 1.2rem;
-    text-align: center;
+    font-size: 1rem;
+    text-align: left;
+    line-height: 1.2rem;
+    padding: 1rem;
   }
 }

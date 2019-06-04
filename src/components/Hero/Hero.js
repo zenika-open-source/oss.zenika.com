@@ -9,11 +9,8 @@ const Hero = () => (
     <section className="hero__section">
       <h1>&lt;Coding <strong>an open source</strong> World&gt;</h1>
       <p>
-        Duis pulvinar tellus ullamcorper dui consequat ultricies. Duis
-        bibendum tincidunt ultricies.Aenean tincidunt accumsan aliquet. Nulla
-        sed eros vitae ligula suscipit consequat ornare vitae augue.Donec sed
-        sem a ligula finibus pellentesque. Vivamus nec sem faucibus, auctor
-        est non, sodales erat.
+        Since the beginning, Zenika's DNA is based on open source philosophy. <br />
+        Driven by this passion, we contribute and share more and more projects with communities. <br />
       </p>
     </section>
   </article>

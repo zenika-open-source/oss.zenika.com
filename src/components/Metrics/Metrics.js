@@ -11,9 +11,9 @@ import "./Metrics.css"
 const Metrics = () => {
   return (
     <article className="metrics">
-      <Metric value={data.totalMembers} text="contributors" image={contributors} />
-      <Metric value={data.membersWithRepositories} text="projects" image={projects} />
-      <Metric value={data.membersWithRepositories} text="repos" image={repositories} />
+      <Metric value={data.totalMembers} text="contributors" image={contributors} subtitle="All around the world" />
+      <Metric value={data.membersWithRepositories} text="projects" image={projects}  subtitle="Apps, Librairies, Trainings..."/>
+      <Metric value={data.membersWithRepositories} text="contributions" image={repositories} subtitle="On famous & personal projects" />
     </article>
   )
 }
