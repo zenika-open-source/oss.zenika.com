@@ -13,3 +13,16 @@
   border-right: none;
 }
 
+@media (max-width: 768px) {
+  .newProjects__content {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .newProjects__content > * {
+    border-right: none;
+    margin: 0;
+    padding: 2rem 1rem;
+  }
+}
+

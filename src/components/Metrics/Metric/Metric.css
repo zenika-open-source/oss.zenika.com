@@ -24,6 +24,20 @@
     margin-bottom: 5rem;
   }
 
+  .metric  > img {
+    height: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .metric > div {
+    font-size: 1rem;
+  }
+
+  .metric__value {
+    font-size: 2rem;
+    padding-right: 0.8rem;
+  }
+
   .metric:last-child {
     margin-bottom: 0;
   }

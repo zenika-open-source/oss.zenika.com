@@ -38,3 +38,28 @@
   align-items: center;
   margin: 2rem 4rem;
 }
+
+
+@media (max-width: 768px) {
+  .resources__content {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .resources__links {
+    width: 100%;
+  }
+
+  .resources__links > * {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .resources__social {
+    width: 100%;
+    display: block;
+    margin: 3rem 0;
+    margin-bottom: 1rem;
+  }
+
+}
