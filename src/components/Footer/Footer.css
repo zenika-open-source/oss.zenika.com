@@ -3,23 +3,26 @@
   text-transform: uppercase;
   height: 160px;
   background-color: #3D3333;
+  font-weight: 300;
+  color: #ddd;
 }
 
 .footer__wrapper {
-  width: fit-content;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  width: fit-content;
   margin: auto;
 }
 
 .footer__phrase {
-  color: #847e7e;
   margin: 0;
   margin-right: 4rem;
-  line-height: 4rem;
-  font-weight: 300;
-  font-size: 1.8rem;
+  line-height: 2rem;
+  font-size: 0.8rem;
+}
+
+.footer__phrase > a {
+  color: #ddd;
 }
 
 .footer__phrase > a:visited {
