@@ -1,5 +1,13 @@
 .metrics {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+  padding: 7rem;
   background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .metrics {
+    flex-direction: column;
+  }
 }

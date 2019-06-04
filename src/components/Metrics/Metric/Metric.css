@@ -1,11 +1,33 @@
-
-.metric__value {
+.metric {
   font-weight: 300;
-  font-size: 2.5rem;
   text-align: center;
 }
 
-.metric__value > span {
-  color: #b51432;
-  font-weight: 700;
+.metric  > img {
+  height: 7rem;
+  margin-bottom: 3rem;
 }
+
+.metric > div {
+  color: #b51432;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.metric__value {
+  font-size: 3rem;
+  padding-right: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .metric {
+    margin-bottom: 5rem;
+  }
+
+  .metric:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+

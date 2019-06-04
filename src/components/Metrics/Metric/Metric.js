@@ -3,11 +3,14 @@ import CountUp from 'react-countup'
 
 import "./Metric.css"
 
-const Metric = ({ value, text }) => {
+const Metric = ({ value, text, image }) => {
   return (
-    <h3 className="metric__value">
-      <CountUp end={value} /> {text}
-    </h3>
+    <div className="metric">
+      <img src={image} alt="text" />
+      <div>
+        <span className="metric__value"><CountUp end={value} /></span> {text}
+      </div>
+    </div>
   )
 }
 
