@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import { Metrics } from "../components/Metrics"
 import { TopProjects } from "../components/TopProjects"
 import { NewProjects } from "../components/NewProjects"
+import { Resources } from "../components/Resources"
 
 const IndexPage = () => (
   <Layout>
@@ -12,6 +13,7 @@ const IndexPage = () => (
     <Metrics />
     <TopProjects />
     <NewProjects />
+    <Resources />
   </Layout>
 )
 

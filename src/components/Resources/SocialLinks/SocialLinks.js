@@ -7,11 +7,11 @@ import "./SocialLinks.css"
 const SocialLinks = () => {
   return (
     <div className="social-links">
-      <a href="https://twitter.com/ZenikaIT">
-        <img src={logoTwitter} className="social-links__icon" alt="twitter logo" />
+      <a href="https://github.com/zenika-open-source" target="NEW">
+        <img src={logoGithub} className="social-links__icon" alt="github" />
       </a>
-      <a href="https://github.com/zenika-open-source">
-        <img src={logoGithub} className="social-links__icon" alt="github logo" />
+      <a href="https://twitter.com/ZenikaOSS" target="NEW">
+        <img src={logoTwitter} className="social-links__icon" alt="twitter" />
       </a>
     </div>
   )
