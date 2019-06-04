@@ -1,23 +1,8 @@
 import React from "react";
 
-import "./People.css";
+import data from '../../../data/stats.json'
 
-const people = [{
-  name: 'Charles-Henri Guerin',
-  nbContributions: 51,
-},{
-  name: 'Charles-Henri Guerin',
-  nbContributions: 51,
-},{
-  name: 'Charles-Henri Guerin',
-  nbContributions: 51,
-},{
-  name: 'Charles-Henri Guerin',
-  nbContributions: 51,
-},{
-  name: 'Charles-Henri Guerin',
-  nbContributions: 51,
-}]
+import "./People.css";
 
 const People = () => {
   return (
@@ -25,10 +10,10 @@ const People = () => {
       <div className="people__title">
         <h2>Top contributors</h2>
         <div className="people__list">
-          {people.map(person => (
-            <div key={person.name} className="people__row">
-              <div className="people__name">{person.name}</div>
-              <div className="people__nbContributions">{person.nbContributions}</div>
+          {data.topContributors.map(person => (
+            <div key={person.login} className="people__row">
+              <div className="people__name"><a href={`https://github.com/${person.login}`}>{person.login}</a></div>
+              <div className="people__nbContributions">{person.totalContributions}</div>
             </div>
           ))}
         </div>

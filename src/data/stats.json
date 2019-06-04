@@ -90,44 +90,64 @@
   "totalOrganizationRepositories": 223,
   "topRepositories": [
     {
-      "repo": "alpine-chrome",
-      "count": 227
+      "name": "alpine-chrome",
+      "description": "Chrome Headless docker images built upon alpine official image",
+      "count": 227,
+      "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
-      "repo": "immutadot",
-      "count": 157
+      "name": "immutadot",
+      "description": "immutadot (pronounced immutadot) is a JavaScript library to deal with nested immutable structures.",
+      "count": 157,
+      "url": "https://github.com/zenika-open-source/immutadot"
     },
     {
-      "repo": "angular-from-scratch",
-      "count": 39
+      "name": "angular-from-scratch",
+      "description": null,
+      "count": 39,
+      "url": "https://github.com/Zenika/angular-from-scratch"
     },
     {
-      "repo": "FAQ",
-      "count": 21
+      "name": "FAQ",
+      "description": "Internal Knowledge Database for your organization",
+      "count": 21,
+      "url": "https://github.com/zenika-open-source/FAQ"
     },
     {
-      "repo": "Blogs",
-      "count": 20
+      "name": "Blogs",
+      "description": "Source code for the blog posts",
+      "count": 20,
+      "url": "https://github.com/Zenika/Blogs"
     },
     {
-      "repo": "zenscaler",
-      "count": 19
+      "name": "zenscaler",
+      "description": "A flexible autoscaler for docker",
+      "count": 19,
+      "url": "https://github.com/Zenika/zenscaler"
     },
     {
-      "repo": "k8s-on-gce",
-      "count": 17
+      "name": "k8s-on-gce",
+      "description": "Use Infra as Code to pop a k8S cluster on gcp",
+      "count": 17,
+      "url": "https://github.com/Zenika/k8s-on-gce"
     },
     {
-      "repo": "kafka-specs",
-      "count": 14
+      "name": "kafka-specs",
+      "description": "Tool to ease and automate Apache Kafka cluster configuration management",
+      "count": 14,
+      "url": "https://github.com/Zenika/kafka-specs"
     },
     {
-      "repo": "MARCEL",
-      "count": 11
+      "name": "MARCEL",
+      "description": "Interactive Mirror (or other dashboard), based on a plugins system and a backoffice to configure everything",
+      "count": 11,
+      "url": "https://github.com/Zenika/MARCEL"
     },
     {
-      "repo": "traefik-gke-demo",
-      "count": 11
+      "name": "traefik-gke-demo",
+      "description": "Demo to use Traefik as GKE loadbalancer",
+      "count": 11,
+      "url": "https://github.com/Zenika/traefik-gke-demo"
     }
   ],
   "topPrimaryLanguages": [

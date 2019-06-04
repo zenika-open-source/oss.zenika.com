@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Project } from './Project';
+import data from '../../../data/stats.json'
 import "./TopProjects.css";
 
 const TopProjects = () => {
@@ -9,21 +10,14 @@ const TopProjects = () => {
       <div className="topProjects__title">
         <h2>Top projects</h2>
       </div>
-      <Project
-        title="Immutad•t"
-        description="immutadot (pronounced immutadot) is a JavaScript library to deal with nested immutable structures."
-        stars={157}
-      />
-      <Project
-        title="Immutad•t"
-        description="immutadot (pronounced immutadot) is a JavaScript library to deal with nested immutable structures."
-        stars={157}
-      />
-      <Project
-        title="Immutad•t"
-        description="immutadot (pronounced immutadot) is a JavaScript library to deal with nested immutable structures."
-        stars={157}
-      />
+      {data.topRepositories.map(repository => (
+        <Project
+          title={repository.name}
+          url={repository.url}
+          description={repository.description}
+          stars={repository.count}
+        />
+      ))}
     </article>
   );
 };

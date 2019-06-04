@@ -2,6 +2,11 @@
   flex-grow: 1;
 }
 
+.topProjects a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .topProjects__title {
   border-bottom: 1px solid #b51432;
 }
