@@ -1,35 +1,38 @@
 import React from "react";
 
 import { ProjectCard } from './ProjectCard';
+import bento from './images/bento-starter.svg';
+import immutadot from './images/immutadot.svg';
+import emendare from './images/emendare.png';
 import "./NewProjects.css";
 
 const NewProjects = () => {
   return (
     <article className="newProjects">
-      <h2>New projects</h2>
+      <h2>Project highlights</h2>
       <div className="newProjects__content">
         <ProjectCard
+          title="bento-starter"
+          description="Full-Stack solution to quickly build PWA applications with Vue.js and Firebase"
+          image={bento}
+          github="https://github.com/kefranabg/bento-starter"
+          website="https://bento-starter.firebaseapp.com"
+          languages={['pwa', 'vuejs', 'firebase']}
+        />
+        <ProjectCard
           title="Immutad•t"
           description="immutadot (pronounced immutadot) is a JavaScript library to deal with nested immutable structures."
-          stars={157}
+          image={immutadot}
           github="https://github.com/zenika-open-source/immutadot"
           website="https://immutadot.zenika.com"
           languages={['javascript']}
         />
         <ProjectCard
-          title="Immutad•t"
-          description="immutadot (pronounced immutadot) is a JavaScript library to deal with nested immutable structures."
-          stars={157}
-          github="https://github.com/zenika-open-source/immutadot"
-          website="https://immutadot.zenika.com"
-          languages={['javascript']}
-        />
-        <ProjectCard
-          title="Immutad•t"
-          description="immutadot (pronounced immutadot) is a JavaScript library to deal with nested immutable structures."
-          stars={157}
-          github="https://github.com/zenika-open-source/immutadot"
-          website="https://immutadot.zenika.com"
+          title="Emendare"
+          description="Democratic platform to draft amendable texts. Emendare is a citizen, non-profit, distributed and open-source initiative. It helps groups share and improve texts iteratively."
+          image={emendare}
+          github="https://github.com/jimmyleray/Emendare"
+          website="https://emendare.org"
           languages={['javascript']}
         />
       </div>

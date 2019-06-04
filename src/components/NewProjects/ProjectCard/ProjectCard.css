@@ -18,6 +18,16 @@
   text-transform: uppercase;
 }
 
+.project-card__wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+.project-card__wrapper > img {
+  width: 8rem;
+  margin-right: 2rem;
+}
+
 .project-card__description {
   justify-content: flex-start;
   font-size: 0.9rem;
@@ -44,4 +54,10 @@
 .project-card__star {
   font-size: 1.3rem;
 }
+
+.project-card__languages > * {
+  margin-top: 2rem;
+  margin-right: 0.5rem;
+}
+
 
