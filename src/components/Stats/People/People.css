@@ -1,6 +1,7 @@
 .people {
   background: #7B838C;
   color: #FFF;
+  width: 25%;
 }
 
 .people__list {
@@ -19,4 +20,10 @@
 
 .people__nbContributions {
   color: #F2C230;
+}
+
+@media (max-width: 768px) {
+  .people {
+    width: auto;
+  }
 }
