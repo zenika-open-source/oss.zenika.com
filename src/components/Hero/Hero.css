@@ -1,6 +1,6 @@
 .hero {
   background-image: url(./background.jpg);
-  background-position: center top;
+  background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #000000;
@@ -16,9 +16,8 @@
 
 .hero__logo {
   align-self: center;
-  width: 300px;
-  height: 300px;
-  margin-top: 3rem;
+  width: 16rem;
+  height: 16rem;
 }
 
 

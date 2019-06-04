@@ -1,7 +1,7 @@
 .project-card {
   height: 100%;
   width: 100%;
-  padding: 3rem 2rem;
+  padding: 3rem 3rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -14,7 +14,7 @@
   font-size: 1.1rem;
   margin-bottom: 1rem;
   font-weight: 400;
-  color: #BF2604;
+  color: #b51432;
   text-transform: uppercase;
 }
 

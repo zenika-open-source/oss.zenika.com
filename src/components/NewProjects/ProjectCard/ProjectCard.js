@@ -25,14 +25,14 @@ const ProjectCard = ({
         {github && (
           <div className="project-card__url">
             <a href={github} target="_NEW">
-              {github}
+              Repository
             </a>
           </div>
         )}
         {website && (
           <div className="project-card__url">
             <a href={website} target="_NEW">
-              {website}
+              Website
             </a>
           </div>
         )}

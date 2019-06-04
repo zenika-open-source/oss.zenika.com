@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #F2F1F1;
+  background: #EBECED;
   border-bottom: 1px solid #FFF;
 }
 
@@ -22,5 +22,5 @@
 .project__stars {
   font-size: 1.5rem;
   font-weight: 400;
-  color: #BF2604;
+  color: #b51432;
 }

@@ -1,12 +1,12 @@
 .newProjects__content {
   display: flex;
   justify-content: space-between;
-  height: 20rem;
+  height: 16rem;
   margin-bottom: 3rem;
 }
 
 .newProjects__content > * {
-  border-right: 1px solid #ddd;
+  border-right: 1px solid #CCCCCC;
 }
 
 .newProjects__content > *:last-child {
