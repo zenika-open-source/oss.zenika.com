@@ -10,9 +10,9 @@ import { Resources } from "../components/Resources"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <NewProjects />
     <Metrics />
     <Stats />
-    <NewProjects />
     <Resources />
   </Layout>
 )

@@ -9,7 +9,7 @@ import "./NewProjects.css";
 const NewProjects = () => {
   return (
     <article className="newProjects">
-      <h2>Project highlights</h2>
+      <h2>highlighted projects</h2>
       <div className="newProjects__content">
         <ProjectCard
           title="bento-starter"
