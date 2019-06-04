@@ -608,3 +608,13 @@ pre tt:after {
   width: 100%;
   text-align: center;
 }
+
+.badge {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  color: #fff;
+  background: #F28705;
+  border-radius: 1rem;
+  padding: 0.2rem 0.6rem;
+  display: inline-block;
+}

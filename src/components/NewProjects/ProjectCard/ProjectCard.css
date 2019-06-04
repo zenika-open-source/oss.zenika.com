@@ -1,0 +1,47 @@
+.project-card {
+  height: 100%;
+  width: 100%;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: 300;
+}
+
+.project-card__title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  color: #BF2604;
+  text-transform: uppercase;
+}
+
+.project-card__description {
+  justify-content: flex-start;
+  font-size: 0.9rem;
+  flex-grow: 1;
+}
+
+.project-card__footer {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+}
+
+.project-card__url {
+  font-size: 0.9em;
+  margin-bottom: 0.5rem;
+}
+
+.project-card__stars {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #000;
+}
+
+.project-card__star {
+  font-size: 1.3rem;
+}
+

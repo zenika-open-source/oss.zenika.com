@@ -1,0 +1,15 @@
+.newProjects__content {
+  display: flex;
+  justify-content: space-between;
+  height: 20rem;
+  margin-bottom: 3rem;
+}
+
+.newProjects__content > * {
+  border-right: 1px solid #ddd;
+}
+
+.newProjects__content > *:last-child {
+  border-right: none;
+}
+
