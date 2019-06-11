@@ -1,0 +1,27 @@
+.project {
+  padding: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #EBECED;
+  border-bottom: 1px solid #FFF;
+  width: 100%;
+}
+
+.project__title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+.project__description {
+  font-size: 0.8rem;
+}
+
+.project__stars {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #b51432;
+}

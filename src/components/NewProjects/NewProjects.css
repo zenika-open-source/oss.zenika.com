@@ -1,0 +1,27 @@
+.newProjects__content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.newProjects__content > * {
+  border-right: 1px solid #CCCCCC;
+}
+
+.newProjects__content > *:last-child {
+  border-right: none;
+}
+
+@media (max-width: 768px) {
+  .newProjects__content {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .newProjects__content > * {
+    border-right: none;
+    margin: 0;
+    padding: 2rem 1rem;
+  }
+}
+

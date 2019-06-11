@@ -9,7 +9,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
 
-import { Header } from "./Header";
+import { Hero } from "./Hero";
 import { Footer } from "./Footer"
 import "./layout.css";
 
@@ -26,7 +26,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Header />
+        <Hero />
         <main>{children}</main>
         <Footer />
       </>

@@ -1,0 +1,86 @@
+.project-card {
+  height: 100%;
+  width: 100%;
+  padding: 3rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: 300;
+  height: 19rem;
+}
+
+.project-card__title {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  color: #b51432;
+  text-transform: uppercase;
+}
+
+.project-card__wrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-grow: 1;
+}
+
+.project-card__wrapper > img {
+  width: 8rem;
+  margin-right: 2rem;
+}
+
+.project-card__description {
+  justify-content: flex-start;
+  font-size: 0.9rem;
+  flex-grow: 1;
+}
+
+.project-card__footer {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+}
+
+.project-card__url {
+  font-size: 0.9em;
+  margin-bottom: 0.5rem;
+  margin-right: 1rem;
+}
+
+.project-card__url a {
+  display: flex;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.project-card__url img {
+  margin-right: .2rem;
+}
+
+.project-card__stars {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #000;
+}
+
+.project-card__star {
+  font-size: 1.3rem;
+}
+
+.project-card__languages > * {
+  margin-top: 2rem;
+  margin-right: 0.5rem;
+}
+
+.project-card__icon {
+  width: 1rem;
+}
+
+.project-card__links {
+  margin-top: 1rem;
+  display: flex;
+}
