@@ -46,6 +46,19 @@
 .project-card__url {
   font-size: 0.9em;
   margin-bottom: 0.5rem;
+  margin-right: 1rem;
+}
+
+.project-card__url a {
+  display: flex;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.project-card__url img {
+  margin-right: .2rem;
 }
 
 .project-card__stars {
@@ -63,4 +76,11 @@
   margin-right: 0.5rem;
 }
 
+.project-card__icon {
+  width: 1rem;
+}
 
+.project-card__links {
+  margin-top: 1rem;
+  display: flex;
+}
