@@ -1,7 +1,7 @@
 {
   "name": "insights-website",
   "private": true,
-  "description": "White label website to display awesome insights about organization open source activity",
+  "description": "Website to display awesome insights about organization open source activity",
   "version": "0.1.0",
   "author": "Zenika",
   "dependencies": {
@@ -26,7 +26,7 @@
   "keywords": [
     "gatsby"
   ],
-  "homepage": "https://zenika-open-source-insights.netlify.com",
+  "homepage": "https://oss.zenika.com",
   "license": "Apache 2.0",
   "scripts": {
     "build": "gatsby build",

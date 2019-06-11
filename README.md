@@ -15,11 +15,11 @@
   </a>
 </p>
 
-> White label website to display awesome insights about organization open source activity
+> Website to display awesome insights about organization open source activity
 
 ## ✨Homepage
 
-[https://zenika-open-source-insights.netlify.com](https://zenika-open-source-insights.netlify.com)
+[https://oss.zenika.com](https://oss.zenika.com)
 
 ## 📦 Install
 
