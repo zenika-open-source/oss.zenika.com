@@ -1,6 +1,9 @@
-import React from "react";
+import React from 'react';
 
-import "./ProjectCard.css";
+import link from './icons/link.svg';
+import githubIcon from './icons/icon-github.svg';
+
+import './ProjectCard.css';
 
 const ProjectCard = ({
   title,
@@ -8,7 +11,7 @@ const ProjectCard = ({
   image,
   github,
   website,
-  languages
+  languages,
 }) => {
   return (
     <article className="project-card">
@@ -16,24 +19,24 @@ const ProjectCard = ({
         <div>{title}</div>
       </div>
       <div className="project-card__wrapper">
-        {image && <img src={image} alt="logo"/>}
+        {image && <img src={image} alt="logo" />}
         <div>
           <div className="project-card__description">
             <div>{description}</div>
           </div>
           <div className="project-card__footer">
-            <div>
+            <div className="project-card__links">
               {github && (
                 <span className="project-card__url">
                   <a href={github} target="_NEW">
-                    Repository
+                    <img alt="link icon" className="project-card__icon" src={githubIcon} /> Repository
                   </a>
                 </span>
               )}
               {website && (
                 <span className="project-card__url">
                   <a href={website} target="_NEW">
-                    Website
+                    <img alt="link icon" className="project-card__icon" src={link} /> Website
                   </a>
                 </span>
               )}

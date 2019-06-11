@@ -2,7 +2,7 @@ import React from "react"
 
 import logoTwitter from "./icon-twitter.svg"
 import logoGithub from "./icon-github.svg"
-import logoZenika from "./icon-zenika.png"
+import logoZenika from "./Zenika_RougesurBlanc.svg"
 import "./SocialLinks.css"
 
 const SocialLinks = () => {
