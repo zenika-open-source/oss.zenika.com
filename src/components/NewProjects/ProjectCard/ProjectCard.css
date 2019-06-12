@@ -13,11 +13,12 @@
   height: 100%;
   display: flex;
   justify-content: space-between;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   margin-bottom: 2rem;
   font-weight: 400;
   color: #b51432;
   text-transform: uppercase;
+  padding: 0;
 }
 
 .project-card__wrapper {
@@ -33,7 +34,7 @@
 
 .project-card__description {
   justify-content: flex-start;
-  font-size: 0.9rem;
+  font-size: 1rem;
   flex-grow: 1;
 }
 
