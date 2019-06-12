@@ -13,7 +13,7 @@ const People = () => {
           {data.topContributors.map(person => (
             <div key={person.login} className="people__row">
               <div className="people__name"><a href={`https://github.com/${person.login}`}>{person.login}</a></div>
-              <div className="people__nbContributions">{person.totalContributions}</div>
+              <div className="people__nbContributions" title={`${person.totalContributions} contributions`}>{person.totalContributions}</div>
             </div>
           ))}
         </div>
