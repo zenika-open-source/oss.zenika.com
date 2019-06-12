@@ -15,15 +15,15 @@ const ProjectCard = ({
 }) => {
   return (
     <article className="project-card">
-      <div className="project-card__title">
-        <div>{title}</div>
-      </div>
+      <h2 className="project-card__title">
+        {title}
+      </h2>
       <div className="project-card__wrapper">
         {image && <img src={image} alt="logo" />}
         <div>
-          <div className="project-card__description">
-            <div>{description}</div>
-          </div>
+          <p className="project-card__description">
+            {description}
+          </p>
           <div className="project-card__footer">
             <div className="project-card__links">
               {github && (
@@ -43,9 +43,9 @@ const ProjectCard = ({
             </div>
             <div className="project-card__languages">
               {languages.map(language => (
-                <div key={language} className="badge">
+                <span key={language} className="badge">
                   {language}
-                </div>
+                </span>
               ))}
             </div>
           </div>
