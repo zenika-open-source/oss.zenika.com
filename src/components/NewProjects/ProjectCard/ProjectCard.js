@@ -43,9 +43,9 @@ const ProjectCard = ({
             </div>
             <div className="project-card__languages">
               {languages.map(language => (
-                <div key={language} className="badge">
+                <span key={language} className="badge">
                   {language}
-                </div>
+                </span>
               ))}
             </div>
           </div>
