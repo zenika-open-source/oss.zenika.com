@@ -3,11 +3,14 @@
   text-transform: uppercase;
   font-weight: 300;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   background: #EBECED;
   border-bottom: 1px solid #FFF;
   width: 100%;
+}
+
+.project__text {
+  padding-right: 1rem;
 }
 
 .project__title {
@@ -24,4 +27,5 @@
   font-size: 1.5rem;
   font-weight: 400;
   color: #b51432;
+  margin-left: auto;  
 }

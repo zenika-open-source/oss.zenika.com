@@ -12,6 +12,7 @@ const TopProjects = () => {
       </div>
       {data.topRepositories.map(repository => (
         <Project
+          key={repository.name}
           title={repository.name}
           url={repository.url}
           description={repository.description}
