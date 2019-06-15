@@ -1,5 +1,6 @@
 import React from "react"
 
+import star from "./star.svg"
 import "./Project.css"
 
 const Project = ({ title, description, stars, url }) => {
@@ -11,7 +12,11 @@ const Project = ({ title, description, stars, url }) => {
         </a>
         <div className="project__description">{description}</div>
       </div>
-      <div className="project__stars">{stars}</div>&nbsp;⭐️
+      <div className="project__stars">
+        <span>{stars}</span>
+        &nbsp;
+        <img src={star} alt="" />
+      </div>
     </article>
   )
 }

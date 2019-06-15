@@ -24,8 +24,15 @@
 }
 
 .project__stars {
+  display: flex;
+  align-items: center;
   font-size: 1.5rem;
   font-weight: 400;
   color: #b51432;
   margin-left: auto;  
+}
+
+.project__stars > img {
+  width: 1rem;
+  height: 1rem;
 }
