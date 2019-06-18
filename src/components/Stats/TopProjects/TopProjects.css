@@ -7,6 +7,10 @@
   text-decoration: none;
 }
 
+.topProjects a:hover{
+  text-decoration: underline;
+}
+
 .topProjects__title {
   border-bottom: 1px solid #b51432;
 }

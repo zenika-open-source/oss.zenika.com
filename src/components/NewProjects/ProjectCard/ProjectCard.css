@@ -57,6 +57,10 @@
   font-size: 0.9rem;
 }
 
+.project-card__url a:hover{
+  text-decoration: underline;
+}
+
 .project-card__url img {
   margin-right: .2rem;
 }

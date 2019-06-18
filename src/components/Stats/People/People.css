@@ -9,6 +9,10 @@
   text-decoration: none;
 }
 
+.people a:hover{
+  text-decoration: underline;
+}
+
 .people__list {
   display: flex;
   flex-direction: column;
