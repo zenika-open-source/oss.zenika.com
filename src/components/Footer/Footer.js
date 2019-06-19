@@ -1,5 +1,6 @@
 import React from "react";
 
+import netlify from "./netlify.svg";
 import "./Footer.css";
 
 const Footer = () => {
@@ -12,7 +13,7 @@ const Footer = () => {
         <a href="https://www.netlify.com">
           <img
             alt="Deploys by Netlify"
-            src="https://www.netlify.com/img/global/badges/netlify-light.svg"
+            src={netlify}
           />
         </a>
       </div>
