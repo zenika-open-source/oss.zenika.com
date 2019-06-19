@@ -4,7 +4,7 @@ module.exports = {
     description: `Insights about Zenika's Open Source contributions`,
     author: `@ZenikaOSS`,
     siteUrl: `https://oss.zenika.com`,
-    image: `https://oss.zenika.com/sharing.jpg`,
+    image: `https://oss.zenika.com/sharing.jpg`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -12,8 +12,8 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
-      },
+        path: `${__dirname}/src/images`
+      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -26,14 +26,16 @@ module.exports = {
         background_color: `#000000`,
         theme_color: `#000000`,
         display: `minimal-ui`,
-        icon: `src/images/favicon.png`,
-      },
+        icon: `src/images/favicon.png`
+      }
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-138180707-1",
-      },
+        trackingId: "UA-138180707-1"
+      }
     },
-  ],
-}
+    `gatsby-plugin-robots-txt`,
+    `gatsby-plugin-sitemap`,
+  ]
+};
