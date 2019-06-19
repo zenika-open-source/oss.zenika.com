@@ -3,11 +3,7 @@ import React from 'react'
 import "./Metric.css"
 
 const Metric = ({ value, text, image, subtitle }) => {
-  let displayedValue = value
-
-  if (value > 1000) {
-    displayedValue = new Intl.NumberFormat('en-US', { maximumSignificantDigits: 3 }).format(value / 1000)
-  }
+  let displayedValue = value > 1000 ? Math.trunc(value / 1000) : value
 
   return (
     <div className="metric">
