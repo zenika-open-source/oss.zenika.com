@@ -4,7 +4,7 @@ module.exports = {
     description: `Insights about Zenika's Open Source contributions`,
     author: `@ZenikaOSS`,
     url: `https://oss.zenika.com`,
-    image: `https://oss.zenika.com/public/sharing.jpg`,
+    image: `https://oss.zenika.com/sharing.jpg`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
