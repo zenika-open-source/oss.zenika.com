@@ -1,0 +1,9 @@
+.terms__body {
+  max-width: 960px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.terms__body h2 {
+  padding-left: 0;
+}

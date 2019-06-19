@@ -13,7 +13,7 @@ import { Hero } from "./Hero";
 import { Footer } from "./Footer"
 import "./layout.css";
 
-const Layout = ({ children }) => (
+const Layout = ({ children, noHero = false }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -26,7 +26,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Hero />
+        {noHero ? null : <Hero />}
         <main>{children}</main>
         <Footer />
       </>
