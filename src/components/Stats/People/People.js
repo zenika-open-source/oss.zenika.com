@@ -1,6 +1,7 @@
 import React from "react";
 
 import data from '../../../data/stats.json'
+import { Logo } from '../../Logo'
 
 import "./People.css";
 
@@ -17,6 +18,9 @@ const People = () => {
             </div>
           ))}
         </div>
+      </div>
+      <div className="people__logo">
+        <Logo color="#000" />
       </div>
     </article>
   );
