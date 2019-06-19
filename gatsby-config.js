@@ -3,6 +3,8 @@ module.exports = {
     title: `Zenika Open Source`,
     description: `Insights about Zenika's Open Source contributions`,
     author: `@ZenikaOSS`,
+    url: `https://oss.zenika.com`,
+    image: `https://oss.zenika.com/public/sharing.jpg`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
