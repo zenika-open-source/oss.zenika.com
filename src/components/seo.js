@@ -20,7 +20,7 @@ function SEO({ description, lang, meta, keywords, title }) {
             description
             author
             image
-            url
+            siteUrl
           }
         }
       }
@@ -70,7 +70,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           property: `og:url`,
-          content: site.siteMetadata.url,
+          content: site.siteMetadata.siteUrl,
         },
         {
           property: `og:site_name`,
