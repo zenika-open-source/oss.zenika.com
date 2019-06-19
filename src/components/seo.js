@@ -5,13 +5,13 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
-import PropTypes from "prop-types"
-import Helmet from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
+import React from 'react'
+import PropTypes from 'prop-types'
+import Helmet from 'react-helmet'
+import {useStaticQuery, graphql} from 'gatsby'
 
-function SEO({ description, lang, meta, keywords, title }) {
-  const { site } = useStaticQuery(
+function SEO({description, lang, meta, keywords, title}) {
+  const {site} = useStaticQuery(
     graphql`
       query {
         site {
@@ -24,7 +24,7 @@ function SEO({ description, lang, meta, keywords, title }) {
           }
         }
       }
-    `
+    `,
   )
 
   const metaDescription = description || site.siteMetadata.description
@@ -103,12 +103,22 @@ function SEO({ description, lang, meta, keywords, title }) {
                 name: `keywords`,
                 content: keywords.join(`, `),
               }
-            : []
+            : [],
         )
-        .concat(meta)}
-      >
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet"/>
-      </Helmet>
+        .concat(meta)}>
+      <link
+        href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
+        rel="stylesheet"
+      />
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"
+      />
+      <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" />
+      <script src="/cookie.js">
+      </script>
+    </Helmet>
   )
 }
 
