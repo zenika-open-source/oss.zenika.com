@@ -1,11 +1,11 @@
 import React from "react";
 
-import logo from "./logo.svg";
+import { Logo } from "../Logo";
 import "./Hero.css";
 
 const Hero = () => (
   <article className="hero">
-    <img className="hero__logo" src={logo} alt="logo" />
+    <Logo className="hero__logo" />
     <section className="hero__section">
       <h1>&lt;Coding <strong>an open source</strong> World&gt;</h1>
       <p>

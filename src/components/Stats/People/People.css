@@ -2,6 +2,9 @@
   background: #7B838C;
   color: #FFF;
   width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .people a {
@@ -11,6 +14,10 @@
 .people__list {
   display: flex;
   flex-direction: column;
+}
+
+.people__title {
+  width: 100%;
 }
 
 .people__row {
@@ -26,8 +33,23 @@
   color: #F2C230;
 }
 
+.people__logo {
+  opacity: .2;
+  height: 80%;
+  width: 80%;
+  display: flex;
+}
+
+.people__logo svg {
+  flex: 0 0 100%;
+}
+
 @media (max-width: 768px) {
   .people {
     width: auto;
+  }
+
+  .people__logo {
+    display: none;
   }
 }
