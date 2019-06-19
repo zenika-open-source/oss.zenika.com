@@ -19,7 +19,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Zenika Open Source`,
-        short_name: `Zenika OSS`,
+        short_name: `OSS by Zenika`,
         start_url: `/`,
         background_color: `#000000`,
         theme_color: `#000000`,
