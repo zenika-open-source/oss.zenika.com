@@ -1,12 +1,7 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Metrics } from "../components/Metrics"
-import { Stats } from "../components/Stats"
-import { NewProjects } from "../components/NewProjects"
-import { Resources } from "../components/Resources"
 
 import './terms.css'
 
@@ -31,10 +26,10 @@ const IndexPage = () => {
           RCS : Paris B 489 682 005
           </p>
           <p>
-          Créé en 2006, Zenika est un cabinet d'innovation technologique, managériale et organisationnelle, qui accompagne les entreprises dans leur transformation numérique. Zenika fait le lien entre le monde organique et le monde numérique et se positionne comme un "One Stop Shop"​ pour ses clients. 
+          Créé en 2006, Zenika est un cabinet d'innovation technologique, managériale et organisationnelle, qui accompagne les entreprises dans leur transformation numérique. Zenika fait le lien entre le monde organique et le monde numérique et se positionne comme un "One Stop Shop"​ pour ses clients.
           </p>
           <p>
-          Depuis l'interface (Web, Mobile, Voix, Objet Connecté, RA/RV) jusqu'à la data et son usage, le tout en mode agile, Zenika regroupe des profils variés sur les domaines d'expertise suivants : Java, Big Data, Web, Mobilité, IoT, DevOps, Craftsmanship, Agilité, sécurité et transformation des organisations. Après les ouvertures successives des agences de Paris, Lyon, Rennes, Nantes, Lille, Bordeaux, Singapour et Montréal, le groupe souhaite renforcer son rayonnement national et international. 
+          Depuis l'interface (Web, Mobile, Voix, Objet Connecté, RA/RV) jusqu'à la data et son usage, le tout en mode agile, Zenika regroupe des profils variés sur les domaines d'expertise suivants : Java, Big Data, Web, Mobilité, IoT, DevOps, Craftsmanship, Agilité, sécurité et transformation des organisations. Après les ouvertures successives des agences de Paris, Lyon, Rennes, Nantes, Lille, Bordeaux, Singapour et Montréal, le groupe souhaite renforcer son rayonnement national et international.
           </p>
           <p>
           Directeur de publication : Carl Azoury, CEO Zenika
@@ -70,7 +65,7 @@ const IndexPage = () => {
           Ce site Web utilise des cookies. Les cookies nous permettent d'analyser notre trafic. Nous partageons également des informations sur l'utilisation de notre site avec nos partenaires d'analyse, qui peuvent combiner celles-ci avec d'autres informations que vous leur avez fournies ou qu'ils ont collectées lors de votre utilisation de leurs services. Vous consentez à nos cookies si vous continuez à utiliser notre site Web.
           </p>
           <p>
-          Les cookies sont des petits fichiers textes qui peuvent être utilisés par les sites Web pour rendre l'expérience utilisateur plus efficace. 
+          Les cookies sont des petits fichiers textes qui peuvent être utilisés par les sites Web pour rendre l'expérience utilisateur plus efficace.
           </p>
           <p>
           La loi stipule que nous ne pouvons stocker des cookies sur votre appareil que s’ils sont strictement nécessaires au fonctionnement de ce site. Pour tous les autres types de cookies, nous avons besoin de votre permission.
@@ -88,7 +83,7 @@ const IndexPage = () => {
           Votre consentement s'applique au domaine suivant : oss.zenika.com
           </p>
           <p>
-          Votre état ​​actuel: Utiliser uniquement les cookies nécessaires . 
+          Votre état ​​actuel: Utiliser uniquement les cookies nécessaires .
           </p>
           <p>
           Modifiez votre consentement
