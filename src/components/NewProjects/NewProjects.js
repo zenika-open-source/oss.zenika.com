@@ -21,7 +21,7 @@ const NewProjects = () => {
         />
         <ProjectCard
           title="Immutad•t"
-          description="immutadot (pronounced immutadot) is a JavaScript library to deal with nested immutable structures."
+          description="immutadot (pronounced immutadot) is a JavaScript library that manages nested immutable structures."
           image={immutadot}
           github="https://github.com/zenika-open-source/immutadot"
           website="https://immutadot.zenika.com"
