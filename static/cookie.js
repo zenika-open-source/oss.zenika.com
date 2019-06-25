@@ -1,3 +1,28 @@
+const GA_ID = 'UA-138180707-1'
+
+function setCookie(name, value, expires, domain) {
+  document.cookie = name + "=" + value + ";expires=" + expires + ";path=/;domain=" + domain
+}
+
+function optin() {
+  const disableGA = 'ga-disable-' + GA_ID
+  window[disableGA] = false;
+
+  ga('create', GA_ID, 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+}
+
+function optout() {
+  const disableGA = 'ga-disable-' + GA_ID
+  window[disableGA] = true;
+
+  const domain = "." + document.location.hostname
+  setCookie('_ga', 'false', 'Thu, 01 Jan 1970 00:00:01 GMT', domain)
+  setCookie('_gat', 'false', 'Thu, 01 Jan 1970 00:00:01 GMT', domain)
+  setCookie('_gid', 'false', 'Thu, 01 Jan 1970 00:00:01 GMT', domain)
+}
+
 window.addEventListener('load', function() {
   window.cookieconsent.initialise({
     palette: {
@@ -13,30 +38,31 @@ window.addEventListener('load', function() {
       href: 'https://oss.zenika.com/terms',
     },
     onInitialise: function(status) {
-      const type = this.options.type
       const didConsent = this.hasConsented()
-      console.log({ callback: 'onInitialise', status, didConsent })
-      if (type === 'deny' && !didConsent) {
-        console.log('disable cookie')
-        window.gaOptout()
+      if (status === 'deny' || !didConsent) {
+        optout()
+      } else if (status === 'allow') {
+        optin()
       }
     },
-    onStatusChange: function(status, chosenBefore) {
-      const type = this.options.type
-      const didConsent = this.hasConsented()
-      console.log({ callback: 'onStatusChange', status, didConsent, chosenBefore })
-      if (type === 'deny' && !didConsent) {
-        console.log('disable cookie')
-        window.gaOptout()
+    onStatusChange: function(status) {
+      console.log({ cb: 'onStatusChange', status })
+      if (status === 'deny') {
+        optout()
+      } else if (status === 'allow') {
+        optin()
       }
     },
     onRevokeChoice: function() {
-      const type = this.options.type
-      console.log({ callback: 'onRevokeChoice', status })
-      if (type === 'deny') {
-        console.log('disable cookie')
-        window.gaOptout()
+      console.log({ cb: 'onRevokeChoice', status })
+      if (status === 'deny') {
+        optout()
+      } else if (status === 'allow') {
+        optin()
       }
     },
   })
 })
+
+// by default all cookie disabled
+optout();
