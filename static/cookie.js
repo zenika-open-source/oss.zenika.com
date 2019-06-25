@@ -16,7 +16,8 @@ window.addEventListener('load', function() {
       const type = this.options.type
       const didConsent = this.hasConsented()
       console.log({ callback: 'onInitialise', status, didConsent })
-      if (type === 'opt-out' && !didConsent) {
+      if (type === 'deny' && !didConsent) {
+        console.log('disable cookie')
         window.gaOptout()
       }
     },
@@ -24,14 +25,16 @@ window.addEventListener('load', function() {
       const type = this.options.type
       const didConsent = this.hasConsented()
       console.log({ callback: 'onStatusChange', status, didConsent, chosenBefore })
-      if (type === 'opt-out' && !didConsent) {
+      if (type === 'deny' && !didConsent) {
+        console.log('disable cookie')
         window.gaOptout()
       }
     },
     onRevokeChoice: function() {
       const type = this.options.type
       console.log({ callback: 'onRevokeChoice', status })
-      if (type === 'opt-out') {
+      if (type === 'deny') {
+        console.log('disable cookie')
         window.gaOptout()
       }
     },
