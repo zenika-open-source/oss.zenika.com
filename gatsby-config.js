@@ -35,6 +35,7 @@ module.exports = {
         trackingId: "UA-138180707-1",
         anonymize: true,
         respectDNT: true,
+        head: false,
       }
     },
     `gatsby-plugin-robots-txt`,
