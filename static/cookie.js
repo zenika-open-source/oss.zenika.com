@@ -46,7 +46,6 @@ window.addEventListener('load', function() {
       }
     },
     onStatusChange: function(status) {
-      console.log({ cb: 'onStatusChange', status })
       if (status === 'deny') {
         optout()
       } else if (status === 'allow') {
@@ -54,7 +53,6 @@ window.addEventListener('load', function() {
       }
     },
     onRevokeChoice: function() {
-      console.log({ cb: 'onRevokeChoice', status })
       if (status === 'deny') {
         optout()
       } else if (status === 'allow') {
