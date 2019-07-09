@@ -16,12 +16,13 @@
 }
 
 .blog-post li {
-	font-size: 1.2rem;
-	font-weight: 300;
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 
-.blog-post strong, .blog-post em {
-	font-size: 1.2rem;	
+.blog-post strong,
+.blog-post em {
+  font-size: 1.2rem;
 }
 
 .blog-post h1 {
@@ -31,7 +32,7 @@
 }
 
 .blog-post h1 sub {
-	font-size: 1rem;
+  font-size: 1rem;
 }
 
 .blog-post h2 {
@@ -44,12 +45,14 @@
   letter-spacing: -0.45px;
 }
 
-.blog-post p, .blog-post i, .blog-post a {
+.blog-post p,
+.blog-post i,
+.blog-post a {
   margin-top: 21px;
   letter-spacing: -0.03px;
   line-height: 1.58;
-	font-size: 1.2rem;
-	font-weight: 300;
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 
 .blog-post a {
@@ -70,13 +73,14 @@
 
 .blog-post code {
   font-size: 18px;
-  background: rgba(0,0,0,.05);
+  background: rgba(0, 0, 0, 0.05);
   border-radius: 2px;
   padding: 3px 5px;
 }
 
-.blog-post mark, .blog-post .highlighted {
-  background: #7DFFB3;
+.blog-post mark,
+.blog-post .highlighted {
+  background: #7dffb3;
 }
 
 .blog-post .first-letter {
@@ -94,7 +98,9 @@
   margin: 0 0 24px 0;
 }
 
-::selection{background-color: lavender}
+::selection {
+  background-color: lavender;
+}
 
 .blog-post-content {
   margin: 2rem 0;
