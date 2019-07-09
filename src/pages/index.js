@@ -6,6 +6,7 @@ import { Metrics } from "../components/Metrics"
 import { Stats } from "../components/Stats"
 import { NewProjects } from "../components/NewProjects"
 import { Resources } from "../components/Resources"
+import { Blog } from "../components/Blog"
 
 const IndexPage = () => {
   return (
@@ -14,6 +15,7 @@ const IndexPage = () => {
       <NewProjects />
       <Metrics />
       <Stats />
+      <Blog />
       <Resources />
     </Layout>
   )
