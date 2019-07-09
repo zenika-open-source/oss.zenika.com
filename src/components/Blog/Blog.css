@@ -1,3 +1,33 @@
 .blog__content {
   padding: 1.5rem;
 }
+
+.blog__content a,
+.blog__content a:visited {
+	color: #b51432;
+}
+
+.blog__chapters {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+}
+
+.blog__chapter {
+  flex: 0 0 50%;
+	font-size: 1.7rem;
+	font-weight: 700;
+	margin-bottom: 2rem;
+}
+
+.blog__chapter--disabled {
+  color: #ccc;
+}
+
+.blog__description {
+	font-size: 1.5rem;
+	line-height: 2rem;
+	font-weight: 300;
+	margin-bottom: 4rem;
+}

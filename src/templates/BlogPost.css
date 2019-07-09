@@ -1,6 +1,6 @@
 .blog-post {
   max-width: 960px;
-  margin: auto;
+  margin: 1rem auto;
   padding: 0 20px;
 }
 
@@ -95,3 +95,12 @@
 }
 
 ::selection{background-color: lavender}
+
+.blog-post-content {
+  margin: 2rem 0;
+}
+
+a.blog-post__back-home {
+  font-size: 1rem;
+  color: #b51432;
+}

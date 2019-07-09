@@ -89,3 +89,28 @@
     padding: 1rem;
   }
 }
+
+.hero--small {
+  height: 40vh;
+  background-position: center bottom;
+  background-attachment: initial;
+	justify-content: flex-end;
+}
+
+@media screen and (min-width: 1024px) {
+	.hero--small {
+		background-position: center 90%;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.hero--small {
+		background-position: center 80%;
+	}
+}
+
+@media screen and (min-width: 1460px) {
+	.hero--small {
+		background-position: center 75%;
+	}
+}
