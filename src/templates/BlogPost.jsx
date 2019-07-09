@@ -11,7 +11,15 @@ export default function Template({ data }) {
   const date = new Date(post.frontmatter.date);
   return (
     <Layout noHero>
-      <Helmet title={`OSS by Zenika - ${post.frontmatter.title}`} />
+      <Helmet title={`OSS by Zenika - ${post.frontmatter.title}`}>
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" />
+        <script src="/cookie.js" />
+      </Helmet>
       <Hero
         title={
           <h1>
