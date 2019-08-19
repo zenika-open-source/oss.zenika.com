@@ -2,7 +2,7 @@
   "organization": "Zenika",
   "totalMembers": 391,
   "membersWithRepositories": 319,
-  "totalRepositories": 4171,
+  "totalRepositories": 4175,
   "topLanguages": [
     {
       "language": "JavaScript",
@@ -10,7 +10,7 @@
     },
     {
       "language": "Java",
-      "count": 811
+      "count": 812
     },
     {
       "language": "HTML",
@@ -26,7 +26,7 @@
     },
     {
       "language": "CSS",
-      "count": 128
+      "count": 129
     },
     {
       "language": "Python",
@@ -60,7 +60,7 @@
     },
     {
       "repo": "rn-placeholder (mfrachet)",
-      "count": 1175
+      "count": 1185
     },
     {
       "repo": "bento-starter (kefranabg)",
@@ -68,23 +68,23 @@
     },
     {
       "repo": "rn-diff (ncuillery)",
-      "count": 1092
+      "count": 1094
     },
     {
       "repo": "angular-breadcrumb (ncuillery)",
-      "count": 808
+      "count": 809
     },
     {
       "repo": "eslint-plugin-angular (EmmanuelDemey)",
-      "count": 600
+      "count": 601
     },
     {
       "repo": "vue-crud-x (ais-one)",
-      "count": 263
+      "count": 264
     },
     {
       "repo": "kafkastreams-cep (fhussonnois)",
-      "count": 214
+      "count": 216
     }
   ],
   "totalOrganizationRepositories": 522,
@@ -172,7 +172,7 @@
     {
       "name": "rn-placeholder",
       "description": "🏖️Display some placeholder stuff before rendering your text or media content in React Native",
-      "count": 1175,
+      "count": 1185,
       "url": "https://github.com/mfrachet/rn-placeholder"
     },
     {
@@ -184,19 +184,19 @@
     {
       "name": "rn-diff",
       "description": "Easier React Native upgrades by clearly expose changes from a version to another. :rocket:",
-      "count": 1092,
+      "count": 1094,
       "url": "https://github.com/ncuillery/rn-diff"
     },
     {
       "name": "angular-breadcrumb",
       "description": "Generate a breadcrumb from ui-router's states",
-      "count": 808,
+      "count": 809,
       "url": "https://github.com/ncuillery/angular-breadcrumb"
     },
     {
       "name": "eslint-plugin-angular",
       "description": "ESLint plugin for AngularJS applications",
-      "count": 600,
+      "count": 601,
       "url": "https://github.com/EmmanuelDemey/eslint-plugin-angular"
     },
     {
@@ -208,7 +208,7 @@
     {
       "name": "vue-crud-x",
       "description": "Vue+Express Cookbook & CRUD Component",
-      "count": 263,
+      "count": 264,
       "url": "https://github.com/ais-one/vue-crud-x"
     }
   ],
@@ -257,15 +257,15 @@
   "topContributors": [
     {
       "login": "jimmyleray",
-      "totalContributions": 1919
+      "totalContributions": 1777
     },
     {
       "login": "EmmanuelDemey",
-      "totalContributions": 1518
+      "totalContributions": 1516
     },
     {
       "login": "ig1na",
-      "totalContributions": 760
+      "totalContributions": 761
     },
     {
       "login": "Matth10",
@@ -273,7 +273,7 @@
     },
     {
       "login": "T3kstiil3",
-      "totalContributions": 667
+      "totalContributions": 669
     },
     {
       "login": "claraonmars",
@@ -281,20 +281,20 @@
     },
     {
       "login": "Romakita",
-      "totalContributions": 664
-    },
-    {
-      "login": "FaustXVI",
-      "totalContributions": 603
+      "totalContributions": 644
     },
     {
       "login": "lisequesnel",
-      "totalContributions": 594
+      "totalContributions": 623
+    },
+    {
+      "login": "FaustXVI",
+      "totalContributions": 618
     },
     {
       "login": "christopherkade",
-      "totalContributions": 589
+      "totalContributions": 591
     }
   ],
-  "totalContributions": 30652
+  "totalContributions": 30428
 }
