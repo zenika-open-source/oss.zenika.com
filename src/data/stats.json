@@ -1,16 +1,16 @@
 {
   "organization": "Zenika",
-  "totalMembers": 391,
-  "membersWithRepositories": 319,
-  "totalRepositories": 4175,
+  "totalMembers": 392,
+  "membersWithRepositories": 320,
+  "totalRepositories": 4205,
   "topLanguages": [
     {
       "language": "JavaScript",
-      "count": 1166
+      "count": 1178
     },
     {
       "language": "Java",
-      "count": 812
+      "count": 811
     },
     {
       "language": "HTML",
@@ -18,11 +18,11 @@
     },
     {
       "language": "TypeScript",
-      "count": 189
+      "count": 194
     },
     {
       "language": "Shell",
-      "count": 176
+      "count": 177
     },
     {
       "language": "CSS",
@@ -30,7 +30,7 @@
     },
     {
       "language": "Python",
-      "count": 96
+      "count": 101
     },
     {
       "language": "C",
@@ -48,23 +48,23 @@
   "topMemberRepositories": [
     {
       "repo": "readme-md-generator (kefranabg)",
-      "count": 5724
+      "count": 5817
     },
     {
       "repo": "generator-gulp-angular (Swiip)",
-      "count": 3837
+      "count": 3836
     },
     {
       "repo": "Rythm.js (Okazari)",
-      "count": 3563
+      "count": 3564
     },
     {
       "repo": "rn-placeholder (mfrachet)",
-      "count": 1185
+      "count": 1191
     },
     {
       "repo": "bento-starter (kefranabg)",
-      "count": 1164
+      "count": 1180
     },
     {
       "repo": "rn-diff (ncuillery)",
@@ -80,19 +80,19 @@
     },
     {
       "repo": "vue-crud-x (ais-one)",
-      "count": 264
+      "count": 266
     },
     {
       "repo": "kafkastreams-cep (fhussonnois)",
-      "count": 216
+      "count": 217
     }
   ],
-  "totalOrganizationRepositories": 522,
+  "totalOrganizationRepositories": 524,
   "topOrganizationRepositories": [
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 275,
+      "count": 280,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
@@ -154,31 +154,31 @@
     {
       "name": "readme-md-generator",
       "description": "📄 CLI that generates beautiful README.md files",
-      "count": 5724,
+      "count": 5817,
       "url": "https://github.com/kefranabg/readme-md-generator"
     },
     {
       "name": "generator-gulp-angular",
       "description": "Yeoman generator for AngularJS with GulpJS [UNMAINTAINED next iteration is FountainJS]",
-      "count": 3837,
+      "count": 3836,
       "url": "https://github.com/Swiip/generator-gulp-angular"
     },
     {
       "name": "Rythm.js",
       "description": "A javascript library that makes your page dance.",
-      "count": 3563,
+      "count": 3564,
       "url": "https://github.com/Okazari/Rythm.js"
     },
     {
       "name": "rn-placeholder",
       "description": "🏖️Display some placeholder stuff before rendering your text or media content in React Native",
-      "count": 1185,
+      "count": 1191,
       "url": "https://github.com/mfrachet/rn-placeholder"
     },
     {
       "name": "bento-starter",
       "description": ":bento: Full-Stack solution to quickly build PWA applications with Vue.js and Firebase",
-      "count": 1164,
+      "count": 1180,
       "url": "https://github.com/kefranabg/bento-starter"
     },
     {
@@ -202,20 +202,20 @@
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 275,
+      "count": 280,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
       "name": "vue-crud-x",
       "description": "Vue+Express Cookbook & CRUD Component",
-      "count": 264,
+      "count": 266,
       "url": "https://github.com/ais-one/vue-crud-x"
     }
   ],
   "topPrimaryLanguages": [
     {
       "language": "JavaScript",
-      "count": 120
+      "count": 121
     },
     {
       "language": "Java",
@@ -257,44 +257,44 @@
   "topContributors": [
     {
       "login": "jimmyleray",
-      "totalContributions": 1777
+      "totalContributions": 1723
     },
     {
       "login": "EmmanuelDemey",
-      "totalContributions": 1516
+      "totalContributions": 1509
     },
     {
       "login": "ig1na",
-      "totalContributions": 761
+      "totalContributions": 763
     },
     {
       "login": "Matth10",
-      "totalContributions": 697
+      "totalContributions": 698
     },
     {
       "login": "T3kstiil3",
-      "totalContributions": 669
+      "totalContributions": 683
     },
     {
       "login": "claraonmars",
       "totalContributions": 666
     },
     {
-      "login": "Romakita",
-      "totalContributions": 644
+      "login": "lisequesnel",
+      "totalContributions": 635
     },
     {
-      "login": "lisequesnel",
-      "totalContributions": 623
+      "login": "Romakita",
+      "totalContributions": 627
     },
     {
       "login": "FaustXVI",
-      "totalContributions": 618
+      "totalContributions": 624
     },
     {
       "login": "christopherkade",
-      "totalContributions": 591
+      "totalContributions": 607
     }
   ],
-  "totalContributions": 30428
+  "totalContributions": 30283
 }
