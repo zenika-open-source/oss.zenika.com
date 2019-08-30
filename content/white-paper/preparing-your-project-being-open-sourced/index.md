@@ -24,11 +24,12 @@ The first one is well known and you probably already have one, but let's talk a 
 
 Mike McQuaid theorized about [the open source contributor funnel](https://mikemcquaid.com/2018/08/14/the-open-source-contributor-funnel-why-people-dont-contribute-to-your-open-source-project/) and how to get contributors on your open source projects. You need to provide information for every type of visitors (_users_, _contributors_, _maintainers_) in your readme.
 
-Your project description and first paragraph of your readme should be a simple summary of your project which hits all the important keywords that people search for. -- [Andrey Petrov](https://medium.com/code-zen/how-to-maintain-a-successful-open-source-project-aaa2a5437d3a)
+> Your project description and first paragraph of your readme should be a simple summary of your project which hits all the important keywords that people search for.
+> -- [Andrey Petrov](https://medium.com/code-zen/how-to-maintain-a-successful-open-source-project-aaa2a5437d3a)
 
 First of all, nobody is in your head. You should explain the goal of your project. It doesn't have to be an essay, a single sentence is good enough like in [Conference Hall’s readme](https://github.com/bpetetot/conference-hall).
 
-Conference Hall is an opened SaaS platform to manage call for papers and speakers submissions for your conferences and meetups. Speaker writes a talk once and can submit it to every events of the platform.
+> Conference Hall is an opened SaaS platform to manage call for papers and speakers submissions for your conferences and meetups. Speaker writes a talk once and can submit it to every events of the platform.
 
 This section is the first thing a newcomer will read on your project, you need to catch their attention.
 
@@ -46,7 +47,8 @@ The LICENSE file is what makes open source possible. It protects both _users_ an
 
 ## Contributing guide
 
-A CONTRIBUTING.md file, in your open source repository or site, provides potential project contributors with a short guide to how they can help with your project or study group. It is convention to capitalize the word "contributing" as the file title, and to save it as a resource in markdown (hence the extension .md). -- [Mozilla Science Lab](https://mozillascience.github.io/working-open-workshop/contributing/)
+> A CONTRIBUTING.md file, in your open source repository or site, provides potential project contributors with a short guide to how they can help with your project or study group. It is convention to capitalize the word "contributing" as the file title, and to save it as a resource in markdown (hence the extension .md).
+> -- [Mozilla Science Lab](https://mozillascience.github.io/working-open-workshop/contributing/)
 
 Earlier we talked about "The open source contributor funnel" in our readme, we provided documentation to help _users_ installing and using your project, we will now focus on _contributors_. The contributing guide is designed to give instructions to everybody that wants to participate to your project.
 
@@ -60,7 +62,8 @@ If your project is on GitHub, this file will be [automatically linked](https://h
 
 ## Code of conduct
 
-Having a CODE_OF_CONDUCT.md in your public repository lets potential _contributors_ know in advance how they can expect to be treated by the community and _maintainers_. -- [Michael Jolley](https://dev.to/michaeljolley/using-a-contributing-codeofconduct-to-assist-others-in-contributing-to-public-repositories-1l90)
+> Having a CODE_OF_CONDUCT.md in your public repository lets potential _contributors_ know in advance how they can expect to be treated by the community and _maintainers_.
+> -- [Michael Jolley](https://dev.to/michaeljolley/using-a-contributing-codeofconduct-to-assist-others-in-contributing-to-public-repositories-1l90)
 
 The code of conduct of your project is a document that protects every participant. It helps creating a welcoming community.
 
