@@ -16,11 +16,11 @@ If you want your project to have contributions you need to write a minimum of do
 - Contributing guide
 - Code of conduct
 
-We will describe each one and provide you guides to help you writing them.
+We will describe each one and provide you guides to help you write them.
 
 ## README
 
-The first one is well known and you probably already have one but let's talk a bit about README.md.
+The first one is well known and you probably already have one, but let's talk a bit about README.md.
 
 Mike McQuaid theorized about [the open source contributor funnel](https://mikemcquaid.com/2018/08/14/the-open-source-contributor-funnel-why-people-dont-contribute-to-your-open-source-project/) and how to get contributors on your open source projects. You need to provide information for every type of visitors (_users_, _contributors_, _maintainers_) in your readme.
 
@@ -30,11 +30,11 @@ First of all, nobody is in your head. You should explain the goal of your projec
 
 Conference Hall is an opened SaaS platform to manage call for papers and speakers submissions for your conferences and meetups. Speaker writes a talk once and can submit it to every events of the platform.
 
-This section is the first thing a newcomer will read on your project, you need to catch his attention.
+This section is the first thing a newcomer will read on your project, you need to catch their attention.
 
 Another important part to document in your readme is how to install and use your project. It is essential for _users_ to be able to easily test it. Gatsby does a good job explaining how to have a website [running in 5 minutes](https://github.com/gatsbyjs/gatsby#-get-up-and-running-in-5-minutes) with their cli.
 
-Last but not least, you should provide instructions for future contributors. A section that links your contributing guide is enough most of the time.
+Last but not least, you should provide instructions for future contributors. A section that links to your contributing guide is enough most of the time.
 
 A [template](https://www.makeareadme.com/#template-1) is available on makeareadme.com. It contains all the sections we talked about. You can find more information about how to write a good readme on this website. You can also use tools to generate your readme like [readme-md-generator](https://github.com/kefranabg/readme-md-generator). It fills it with information extracted from git configuration or your `package.json` file if your project is made with JavaScript. You can find [readme generators](https://github.com/search?utf8=%E2%9C%93&q=generate+readme&type=Repositories) for various languages on GitHub.
 
@@ -48,21 +48,21 @@ The LICENSE file is what makes open source possible. It protects both _users_ an
 
 A CONTRIBUTING.md file, in your open source repository or site, provides potential project contributors with a short guide to how they can help with your project or study group. It is convention to capitalize the word "contributing" as the file title, and to save it as a resource in markdown (hence the extension .md). -- [Mozilla Science Lab](https://mozillascience.github.io/working-open-workshop/contributing/)
 
-Earlier we talked about The open source contributor funnel in our readme, we provided documentation to help _users_ installing and using your project, we will now focus on _contributors_. The contributing guide is designed to give instructions to everybody that want to participate to your project.
+Earlier we talked about "The open source contributor funnel" in our readme, we provided documentation to help _users_ installing and using your project, we will now focus on _contributors_. The contributing guide is designed to give instructions to everybody that wants to participate to your project.
 
 Most of the time contributions are made by users because they encounter an issue using your project. It's nice to have instructions on how to report a bug or suggest a new feature.
 
-If you want code contributors you need to provide all details on how to set up the project's development environment and how to submit a contribution. [Mocha's contributing guide](https://github.com/mochajs/mocha/blob/master/.github/CONTRIBUTING.md#shoe-contributing-code-step-by-step) is a good example of step by step instructions to get your contribution merged.
+If you want code contributors you need to provide all the details on how to set up the project's development environment and how to submit a contribution. [Mocha's contributing guide](https://github.com/mochajs/mocha/blob/master/.github/CONTRIBUTING.md#shoe-contributing-code-step-by-step) is a good example of step by step instructions to get your contribution merged.
 
 The contributing guide is also the right place to describe coding styles. You can enforce good practices such as testing or conventions like in the [Immutadot's contributing guide](https://github.com/zenika-open-source/immutadot/blob/master/.github/CONTRIBUTING.md#tests-and-code-style-policeman).
 
-If your project is on GitHub, this file will be [automatically linked](https://help.github.com/en/articles/setting-guidelines-for-repository-contributors) when a contributor open an issue or create a pull request.
+If your project is on GitHub, this file will be [automatically linked](https://help.github.com/en/articles/setting-guidelines-for-repository-contributors) when a contributor opens an issue or creates a pull request.
 
 ## Code of conduct
 
 Having a CODE_OF_CONDUCT.md in your public repository lets potential _contributors_ know in advance how they can expect to be treated by the community and _maintainers_. -- [Michael Jolley](https://dev.to/michaeljolley/using-a-contributing-codeofconduct-to-assist-others-in-contributing-to-public-repositories-1l90)
 
-The code of conduct of your project is a document that protects every participants. It helps creating a welcoming community.
+The code of conduct of your project is a document that protects every participant. It helps creating a welcoming community.
 
 A good addition to your code of conduct is an explanation about how you plan to enforce it. It's important to show that you take it seriously so everybody knows what action will be taken in case of a code of conduct violation.
 
