@@ -2,31 +2,31 @@
   "organization": "Zenika",
   "totalMembers": 392,
   "membersWithRepositories": 320,
-  "totalRepositories": 4205,
+  "totalRepositories": 4212,
   "topLanguages": [
     {
       "language": "JavaScript",
-      "count": 1178
+      "count": 1179
     },
     {
       "language": "Java",
-      "count": 811
+      "count": 812
     },
     {
       "language": "HTML",
-      "count": 228
+      "count": 227
     },
     {
       "language": "TypeScript",
-      "count": 194
+      "count": 195
     },
     {
       "language": "Shell",
-      "count": 177
+      "count": 182
     },
     {
       "language": "CSS",
-      "count": 129
+      "count": 130
     },
     {
       "language": "Python",
@@ -48,11 +48,11 @@
   "topMemberRepositories": [
     {
       "repo": "readme-md-generator (kefranabg)",
-      "count": 5817
+      "count": 5848
     },
     {
       "repo": "generator-gulp-angular (Swiip)",
-      "count": 3836
+      "count": 3833
     },
     {
       "repo": "Rythm.js (Okazari)",
@@ -60,11 +60,11 @@
     },
     {
       "repo": "rn-placeholder (mfrachet)",
-      "count": 1191
+      "count": 1195
     },
     {
       "repo": "bento-starter (kefranabg)",
-      "count": 1180
+      "count": 1189
     },
     {
       "repo": "rn-diff (ncuillery)",
@@ -80,14 +80,14 @@
     },
     {
       "repo": "vue-crud-x (ais-one)",
-      "count": 266
+      "count": 270
     },
     {
       "repo": "kafkastreams-cep (fhussonnois)",
       "count": 217
     }
   ],
-  "totalOrganizationRepositories": 524,
+  "totalOrganizationRepositories": 523,
   "topOrganizationRepositories": [
     {
       "name": "alpine-chrome",
@@ -154,13 +154,13 @@
     {
       "name": "readme-md-generator",
       "description": "📄 CLI that generates beautiful README.md files",
-      "count": 5817,
+      "count": 5848,
       "url": "https://github.com/kefranabg/readme-md-generator"
     },
     {
       "name": "generator-gulp-angular",
       "description": "Yeoman generator for AngularJS with GulpJS [UNMAINTAINED next iteration is FountainJS]",
-      "count": 3836,
+      "count": 3833,
       "url": "https://github.com/Swiip/generator-gulp-angular"
     },
     {
@@ -172,13 +172,13 @@
     {
       "name": "rn-placeholder",
       "description": "🏖️Display some placeholder stuff before rendering your text or media content in React Native",
-      "count": 1191,
+      "count": 1195,
       "url": "https://github.com/mfrachet/rn-placeholder"
     },
     {
       "name": "bento-starter",
       "description": ":bento: Full-Stack solution to quickly build PWA applications with Vue.js and Firebase",
-      "count": 1180,
+      "count": 1189,
       "url": "https://github.com/kefranabg/bento-starter"
     },
     {
@@ -208,14 +208,14 @@
     {
       "name": "vue-crud-x",
       "description": "Vue+Express Cookbook & CRUD Component",
-      "count": 266,
+      "count": 270,
       "url": "https://github.com/ais-one/vue-crud-x"
     }
   ],
   "topPrimaryLanguages": [
     {
       "language": "JavaScript",
-      "count": 121
+      "count": 120
     },
     {
       "language": "Java",
@@ -257,15 +257,19 @@
   "topContributors": [
     {
       "login": "jimmyleray",
-      "totalContributions": 1723
+      "totalContributions": 1713
     },
     {
       "login": "EmmanuelDemey",
-      "totalContributions": 1509
+      "totalContributions": 1584
     },
     {
       "login": "ig1na",
-      "totalContributions": 763
+      "totalContributions": 843
+    },
+    {
+      "login": "FaustXVI",
+      "totalContributions": 707
     },
     {
       "login": "Matth10",
@@ -273,7 +277,7 @@
     },
     {
       "login": "T3kstiil3",
-      "totalContributions": 683
+      "totalContributions": 684
     },
     {
       "login": "claraonmars",
@@ -281,20 +285,16 @@
     },
     {
       "login": "lisequesnel",
-      "totalContributions": 635
-    },
-    {
-      "login": "Romakita",
-      "totalContributions": 627
-    },
-    {
-      "login": "FaustXVI",
-      "totalContributions": 624
+      "totalContributions": 656
     },
     {
       "login": "christopherkade",
-      "totalContributions": 607
+      "totalContributions": 608
+    },
+    {
+      "login": "Romakita",
+      "totalContributions": 601
     }
   ],
-  "totalContributions": 30283
+  "totalContributions": 30647
 }
