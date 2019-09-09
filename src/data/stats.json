@@ -1,20 +1,20 @@
 {
   "organization": "Zenika",
-  "totalMembers": 392,
-  "membersWithRepositories": 320,
-  "totalRepositories": 4205,
+  "totalMembers": 395,
+  "membersWithRepositories": 321,
+  "totalRepositories": 4239,
   "topLanguages": [
     {
       "language": "JavaScript",
-      "count": 1178
+      "count": 1186
     },
     {
       "language": "Java",
-      "count": 811
+      "count": 816
     },
     {
       "language": "HTML",
-      "count": 228
+      "count": 227
     },
     {
       "language": "TypeScript",
@@ -22,11 +22,11 @@
     },
     {
       "language": "Shell",
-      "count": 177
+      "count": 184
     },
     {
       "language": "CSS",
-      "count": 129
+      "count": 131
     },
     {
       "language": "Python",
@@ -48,23 +48,23 @@
   "topMemberRepositories": [
     {
       "repo": "readme-md-generator (kefranabg)",
-      "count": 5817
+      "count": 5884
     },
     {
       "repo": "generator-gulp-angular (Swiip)",
-      "count": 3836
+      "count": 3832
     },
     {
       "repo": "Rythm.js (Okazari)",
-      "count": 3564
+      "count": 3566
     },
     {
       "repo": "rn-placeholder (mfrachet)",
-      "count": 1191
+      "count": 1203
     },
     {
       "repo": "bento-starter (kefranabg)",
-      "count": 1180
+      "count": 1192
     },
     {
       "repo": "rn-diff (ncuillery)",
@@ -76,11 +76,11 @@
     },
     {
       "repo": "eslint-plugin-angular (EmmanuelDemey)",
-      "count": 601
+      "count": 604
     },
     {
       "repo": "vue-crud-x (ais-one)",
-      "count": 266
+      "count": 271
     },
     {
       "repo": "kafkastreams-cep (fhussonnois)",
@@ -92,7 +92,7 @@
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 280,
+      "count": 282,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
@@ -154,31 +154,31 @@
     {
       "name": "readme-md-generator",
       "description": "📄 CLI that generates beautiful README.md files",
-      "count": 5817,
+      "count": 5884,
       "url": "https://github.com/kefranabg/readme-md-generator"
     },
     {
       "name": "generator-gulp-angular",
       "description": "Yeoman generator for AngularJS with GulpJS [UNMAINTAINED next iteration is FountainJS]",
-      "count": 3836,
+      "count": 3832,
       "url": "https://github.com/Swiip/generator-gulp-angular"
     },
     {
       "name": "Rythm.js",
       "description": "A javascript library that makes your page dance.",
-      "count": 3564,
+      "count": 3566,
       "url": "https://github.com/Okazari/Rythm.js"
     },
     {
       "name": "rn-placeholder",
       "description": "🏖️Display some placeholder stuff before rendering your text or media content in React Native",
-      "count": 1191,
+      "count": 1203,
       "url": "https://github.com/mfrachet/rn-placeholder"
     },
     {
       "name": "bento-starter",
       "description": ":bento: Full-Stack solution to quickly build PWA applications with Vue.js and Firebase",
-      "count": 1180,
+      "count": 1192,
       "url": "https://github.com/kefranabg/bento-starter"
     },
     {
@@ -196,26 +196,26 @@
     {
       "name": "eslint-plugin-angular",
       "description": "ESLint plugin for AngularJS applications",
-      "count": 601,
+      "count": 604,
       "url": "https://github.com/EmmanuelDemey/eslint-plugin-angular"
     },
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 280,
+      "count": 282,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
       "name": "vue-crud-x",
       "description": "Vue+Express Cookbook & CRUD Component",
-      "count": 266,
+      "count": 271,
       "url": "https://github.com/ais-one/vue-crud-x"
     }
   ],
   "topPrimaryLanguages": [
     {
       "language": "JavaScript",
-      "count": 121
+      "count": 120
     },
     {
       "language": "Java",
@@ -223,7 +223,7 @@
     },
     {
       "language": "Shell",
-      "count": 59
+      "count": 58
     },
     {
       "language": "HTML",
@@ -243,58 +243,58 @@
     },
     {
       "language": "Dockerfile",
-      "count": 12
+      "count": 11
     },
     {
       "language": "Python",
       "count": 10
     },
     {
-      "language": "Kotlin",
+      "language": "Go",
       "count": 10
     }
   ],
   "topContributors": [
     {
       "login": "jimmyleray",
-      "totalContributions": 1723
+      "totalContributions": 1677
     },
     {
       "login": "EmmanuelDemey",
-      "totalContributions": 1509
+      "totalContributions": 1584
     },
     {
       "login": "ig1na",
-      "totalContributions": 763
-    },
-    {
-      "login": "Matth10",
-      "totalContributions": 698
-    },
-    {
-      "login": "T3kstiil3",
-      "totalContributions": 683
-    },
-    {
-      "login": "claraonmars",
-      "totalContributions": 666
-    },
-    {
-      "login": "lisequesnel",
-      "totalContributions": 635
-    },
-    {
-      "login": "Romakita",
-      "totalContributions": 627
+      "totalContributions": 845
     },
     {
       "login": "FaustXVI",
-      "totalContributions": 624
+      "totalContributions": 707
     },
     {
-      "login": "christopherkade",
-      "totalContributions": 607
+      "login": "Matth10",
+      "totalContributions": 697
+    },
+    {
+      "login": "T3kstiil3",
+      "totalContributions": 690
+    },
+    {
+      "login": "lisequesnel",
+      "totalContributions": 676
+    },
+    {
+      "login": "claraonmars",
+      "totalContributions": 649
+    },
+    {
+      "login": "FBerthelot",
+      "totalContributions": 623
+    },
+    {
+      "login": "hallya",
+      "totalContributions": 615
     }
   ],
-  "totalContributions": 30283
+  "totalContributions": 30010
 }
