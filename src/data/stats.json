@@ -1,24 +1,24 @@
 {
   "organization": "Zenika",
-  "totalMembers": 395,
-  "membersWithRepositories": 321,
-  "totalRepositories": 4239,
+  "totalMembers": 400,
+  "membersWithRepositories": 324,
+  "totalRepositories": 4275,
   "topLanguages": [
     {
       "language": "JavaScript",
-      "count": 1186
+      "count": 1193
     },
     {
       "language": "Java",
-      "count": 816
+      "count": 824
     },
     {
       "language": "HTML",
-      "count": 227
+      "count": 232
     },
     {
       "language": "TypeScript",
-      "count": 194
+      "count": 198
     },
     {
       "language": "Shell",
@@ -26,7 +26,7 @@
     },
     {
       "language": "CSS",
-      "count": 131
+      "count": 132
     },
     {
       "language": "Python",
@@ -42,29 +42,29 @@
     },
     {
       "language": "Vue",
-      "count": 71
+      "count": 72
     }
   ],
   "topMemberRepositories": [
     {
       "repo": "readme-md-generator (kefranabg)",
-      "count": 5884
+      "count": 5924
     },
     {
       "repo": "generator-gulp-angular (Swiip)",
-      "count": 3832
+      "count": 3831
     },
     {
       "repo": "Rythm.js (Okazari)",
-      "count": 3566
+      "count": 3568
     },
     {
       "repo": "rn-placeholder (mfrachet)",
-      "count": 1203
+      "count": 1216
     },
     {
       "repo": "bento-starter (kefranabg)",
-      "count": 1192
+      "count": 1198
     },
     {
       "repo": "rn-diff (ncuillery)",
@@ -76,15 +76,15 @@
     },
     {
       "repo": "eslint-plugin-angular (EmmanuelDemey)",
-      "count": 604
+      "count": 605
     },
     {
       "repo": "vue-crud-x (ais-one)",
-      "count": 271
+      "count": 273
     },
     {
       "repo": "kafkastreams-cep (fhussonnois)",
-      "count": 217
+      "count": 218
     }
   ],
   "totalOrganizationRepositories": 524,
@@ -92,7 +92,7 @@
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 282,
+      "count": 286,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
@@ -122,7 +122,7 @@
     {
       "name": "traefik-gke-demo",
       "description": "Demo to use Traefik as GKE loadbalancer",
-      "count": 17,
+      "count": 18,
       "url": "https://github.com/Zenika/traefik-gke-demo"
     },
     {
@@ -154,31 +154,31 @@
     {
       "name": "readme-md-generator",
       "description": "📄 CLI that generates beautiful README.md files",
-      "count": 5884,
+      "count": 5924,
       "url": "https://github.com/kefranabg/readme-md-generator"
     },
     {
       "name": "generator-gulp-angular",
       "description": "Yeoman generator for AngularJS with GulpJS [UNMAINTAINED next iteration is FountainJS]",
-      "count": 3832,
+      "count": 3831,
       "url": "https://github.com/Swiip/generator-gulp-angular"
     },
     {
       "name": "Rythm.js",
       "description": "A javascript library that makes your page dance.",
-      "count": 3566,
+      "count": 3568,
       "url": "https://github.com/Okazari/Rythm.js"
     },
     {
       "name": "rn-placeholder",
       "description": "🏖️Display some placeholder stuff before rendering your text or media content in React Native",
-      "count": 1203,
+      "count": 1216,
       "url": "https://github.com/mfrachet/rn-placeholder"
     },
     {
       "name": "bento-starter",
       "description": ":bento: Full-Stack solution to quickly build PWA applications with Vue.js and Firebase",
-      "count": 1192,
+      "count": 1198,
       "url": "https://github.com/kefranabg/bento-starter"
     },
     {
@@ -196,19 +196,19 @@
     {
       "name": "eslint-plugin-angular",
       "description": "ESLint plugin for AngularJS applications",
-      "count": 604,
+      "count": 605,
       "url": "https://github.com/EmmanuelDemey/eslint-plugin-angular"
     },
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 282,
+      "count": 286,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
       "name": "vue-crud-x",
       "description": "Vue+Express Cookbook & CRUD Component",
-      "count": 271,
+      "count": 273,
       "url": "https://github.com/ais-one/vue-crud-x"
     }
   ],
@@ -219,15 +219,15 @@
     },
     {
       "language": "Java",
-      "count": 116
+      "count": 115
     },
     {
       "language": "Shell",
-      "count": 58
+      "count": 57
     },
     {
       "language": "HTML",
-      "count": 37
+      "count": 38
     },
     {
       "language": "TypeScript",
@@ -257,11 +257,15 @@
   "topContributors": [
     {
       "login": "jimmyleray",
-      "totalContributions": 1677
+      "totalContributions": 1658
     },
     {
       "login": "EmmanuelDemey",
-      "totalContributions": 1584
+      "totalContributions": 1589
+    },
+    {
+      "login": "hallya",
+      "totalContributions": 1269
     },
     {
       "login": "ig1na",
@@ -273,28 +277,24 @@
     },
     {
       "login": "Matth10",
-      "totalContributions": 697
-    },
-    {
-      "login": "T3kstiil3",
-      "totalContributions": 690
+      "totalContributions": 696
     },
     {
       "login": "lisequesnel",
-      "totalContributions": 676
+      "totalContributions": 693
     },
     {
-      "login": "claraonmars",
-      "totalContributions": 649
+      "login": "T3kstiil3",
+      "totalContributions": 692
     },
     {
       "login": "FBerthelot",
-      "totalContributions": 623
+      "totalContributions": 641
     },
     {
-      "login": "hallya",
-      "totalContributions": 615
+      "login": "claraonmars",
+      "totalContributions": 632
     }
   ],
-  "totalContributions": 30010
+  "totalContributions": 30835
 }
