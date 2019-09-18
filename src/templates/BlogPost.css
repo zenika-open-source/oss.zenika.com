@@ -47,7 +47,8 @@
 
 .blog-post p,
 .blog-post i,
-.blog-post a {
+.blog-post a,
+.blog-post summary {
   margin-top: 21px;
   letter-spacing: -0.03px;
   line-height: 1.58;
@@ -65,7 +66,7 @@
   letter-spacing: -0.36px;
   line-height: 44.4px;
   overflow-wrap: break-word;
-  margin: 55px 0 33px 0;
+  margin: 13px 0 33px 0;
   /* text-align: center; */
   color: rgba(0, 0, 0, 0.68);
   padding: 0 0 0 50px;

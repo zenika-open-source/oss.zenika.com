@@ -12,8 +12,8 @@ export function Blog() {
         <ul className="blog__chapters">
           <li className="blog__chapter"><Link to="/white-paper/getting-started">Chapter 1: Getting started</Link></li>
           <li className="blog__chapter"><Link to="/white-paper/preparing-your-project-being-open-sourced">Chapter 2: Preparing your project being open sourced</Link></li>
-          <li className="blog__chapter blog__chapter--disabled">Chapter 3: Licenses</li>
-          <li className="blog__chapter blog__chapter--disabled">Chapter 4: Promotion</li>
+          <li className="blog__chapter blog__chapter--disabled"><Link to="/white-paper/promotion">Chapter 3: Promotion</Link></li>
+          <li className="blog__chapter blog__chapter--disabled">Chapter 4: Licenses</li>
           <li className="blog__chapter blog__chapter--disabled">Chapter 5: Maintaining</li>
           <li className="blog__chapter blog__chapter--disabled">Chapter 6: Recruitment</li>
           <li className="blog__chapter blog__chapter--disabled">Chapter 7: Business</li>
