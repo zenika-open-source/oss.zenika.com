@@ -1,24 +1,24 @@
 {
   "organization": "Zenika",
-  "totalMembers": 395,
-  "membersWithRepositories": 321,
-  "totalRepositories": 4239,
+  "totalMembers": 401,
+  "membersWithRepositories": 325,
+  "totalRepositories": 4301,
   "topLanguages": [
     {
       "language": "JavaScript",
-      "count": 1186
+      "count": 1204
     },
     {
       "language": "Java",
-      "count": 816
+      "count": 829
     },
     {
       "language": "HTML",
-      "count": 227
+      "count": 232
     },
     {
       "language": "TypeScript",
-      "count": 194
+      "count": 204
     },
     {
       "language": "Shell",
@@ -26,7 +26,7 @@
     },
     {
       "language": "CSS",
-      "count": 131
+      "count": 134
     },
     {
       "language": "Python",
@@ -38,37 +38,37 @@
     },
     {
       "language": "PHP",
-      "count": 89
+      "count": 90
     },
     {
       "language": "Vue",
-      "count": 71
+      "count": 72
     }
   ],
   "topMemberRepositories": [
     {
       "repo": "readme-md-generator (kefranabg)",
-      "count": 5884
+      "count": 5967
     },
     {
       "repo": "generator-gulp-angular (Swiip)",
-      "count": 3832
+      "count": 3831
     },
     {
       "repo": "Rythm.js (Okazari)",
-      "count": 3566
+      "count": 3569
     },
     {
       "repo": "rn-placeholder (mfrachet)",
-      "count": 1203
+      "count": 1227
     },
     {
       "repo": "bento-starter (kefranabg)",
-      "count": 1192
+      "count": 1199
     },
     {
       "repo": "rn-diff (ncuillery)",
-      "count": 1094
+      "count": 1093
     },
     {
       "repo": "angular-breadcrumb (ncuillery)",
@@ -76,23 +76,23 @@
     },
     {
       "repo": "eslint-plugin-angular (EmmanuelDemey)",
-      "count": 604
+      "count": 607
     },
     {
       "repo": "vue-crud-x (ais-one)",
-      "count": 271
+      "count": 275
     },
     {
       "repo": "kafkastreams-cep (fhussonnois)",
-      "count": 217
+      "count": 219
     }
   ],
-  "totalOrganizationRepositories": 524,
+  "totalOrganizationRepositories": 526,
   "topOrganizationRepositories": [
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 282,
+      "count": 291,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
@@ -104,7 +104,7 @@
     {
       "name": "k8s-on-gce",
       "description": "Use Infra as Code to pop a k8S cluster on gcp",
-      "count": 21,
+      "count": 22,
       "url": "https://github.com/Zenika/k8s-on-gce"
     },
     {
@@ -122,13 +122,13 @@
     {
       "name": "traefik-gke-demo",
       "description": "Demo to use Traefik as GKE loadbalancer",
-      "count": 17,
+      "count": 18,
       "url": "https://github.com/Zenika/traefik-gke-demo"
     },
     {
       "name": "docker-kotlin",
       "description": "Kotlin docker images built upon official openjdk images.",
-      "count": 13,
+      "count": 14,
       "url": "https://github.com/Zenika/docker-kotlin"
     },
     {
@@ -154,37 +154,37 @@
     {
       "name": "readme-md-generator",
       "description": "📄 CLI that generates beautiful README.md files",
-      "count": 5884,
+      "count": 5967,
       "url": "https://github.com/kefranabg/readme-md-generator"
     },
     {
       "name": "generator-gulp-angular",
       "description": "Yeoman generator for AngularJS with GulpJS [UNMAINTAINED next iteration is FountainJS]",
-      "count": 3832,
+      "count": 3831,
       "url": "https://github.com/Swiip/generator-gulp-angular"
     },
     {
       "name": "Rythm.js",
       "description": "A javascript library that makes your page dance.",
-      "count": 3566,
+      "count": 3569,
       "url": "https://github.com/Okazari/Rythm.js"
     },
     {
       "name": "rn-placeholder",
       "description": "🏖️Display some placeholder stuff before rendering your text or media content in React Native",
-      "count": 1203,
+      "count": 1227,
       "url": "https://github.com/mfrachet/rn-placeholder"
     },
     {
       "name": "bento-starter",
       "description": ":bento: Full-Stack solution to quickly build PWA applications with Vue.js and Firebase",
-      "count": 1192,
+      "count": 1199,
       "url": "https://github.com/kefranabg/bento-starter"
     },
     {
       "name": "rn-diff",
       "description": "Easier React Native upgrades by clearly expose changes from a version to another. :rocket:",
-      "count": 1094,
+      "count": 1093,
       "url": "https://github.com/ncuillery/rn-diff"
     },
     {
@@ -196,38 +196,38 @@
     {
       "name": "eslint-plugin-angular",
       "description": "ESLint plugin for AngularJS applications",
-      "count": 604,
+      "count": 607,
       "url": "https://github.com/EmmanuelDemey/eslint-plugin-angular"
     },
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 282,
+      "count": 291,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
       "name": "vue-crud-x",
       "description": "Vue+Express Cookbook & CRUD Component",
-      "count": 271,
+      "count": 275,
       "url": "https://github.com/ais-one/vue-crud-x"
     }
   ],
   "topPrimaryLanguages": [
     {
       "language": "JavaScript",
-      "count": 120
+      "count": 121
     },
     {
       "language": "Java",
-      "count": 116
+      "count": 115
     },
     {
       "language": "Shell",
-      "count": 58
+      "count": 57
     },
     {
       "language": "HTML",
-      "count": 37
+      "count": 40
     },
     {
       "language": "TypeScript",
@@ -257,44 +257,44 @@
   "topContributors": [
     {
       "login": "jimmyleray",
-      "totalContributions": 1677
+      "totalContributions": 1624
     },
     {
       "login": "EmmanuelDemey",
-      "totalContributions": 1584
+      "totalContributions": 1600
+    },
+    {
+      "login": "hallya",
+      "totalContributions": 1561
     },
     {
       "login": "ig1na",
-      "totalContributions": 845
+      "totalContributions": 844
     },
     {
       "login": "FaustXVI",
       "totalContributions": 707
     },
     {
+      "login": "lisequesnel",
+      "totalContributions": 706
+    },
+    {
       "login": "Matth10",
-      "totalContributions": 697
+      "totalContributions": 696
     },
     {
       "login": "T3kstiil3",
-      "totalContributions": 690
-    },
-    {
-      "login": "lisequesnel",
       "totalContributions": 676
     },
     {
-      "login": "claraonmars",
-      "totalContributions": 649
-    },
-    {
       "login": "FBerthelot",
-      "totalContributions": 623
+      "totalContributions": 648
     },
     {
-      "login": "hallya",
-      "totalContributions": 615
+      "login": "Romakita",
+      "totalContributions": 639
     }
   ],
-  "totalContributions": 30010
+  "totalContributions": 31095
 }
