@@ -8,7 +8,7 @@ import "./BlogPost.css";
 
 export default function Template({ data }) {
   const { markdownRemark: post } = data;
-        const date = new Date(post.frontmatter.date);
+  const date = new Date(post.frontmatter.date);
   return (
     <Layout noHero>
       <Helmet title={`OSS by Zenika - ${post.frontmatter.title}`}>

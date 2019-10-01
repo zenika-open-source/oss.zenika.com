@@ -25,7 +25,6 @@
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
-    "lint-staged": "^9.4.1",
     "netlify-cli": "^2.10.0",
     "pre-commit": "^1.2.2",
     "prettier": "^1.16.4"
@@ -45,9 +44,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "deploy": "netlify deploy --prod"
   },
-  "lint-staged": {
-    "*.js": "prettier"
-   },
+  "pre-commit": "format:check",
   "repository": {
     "type": "git",
     "url": "https://github.com/zenika-open-source/insights-website"
