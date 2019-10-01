@@ -36,12 +36,14 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
+    "format:check": "prettier --list-different src/**/*.{js,jsx}",
+    "format:fix": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "deploy": "netlify deploy --prod"
   },
+  "pre-commit": "format:check",
   "repository": {
     "type": "git",
     "url": "https://github.com/zenika-open-source/insights-website"
