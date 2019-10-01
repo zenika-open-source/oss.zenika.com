@@ -43,7 +43,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "deploy": "netlify deploy --prod"
   },
-  "pre-commit": "format:check",
+  "pre-commit": "format:fix",
   "repository": {
     "type": "git",
     "url": "https://github.com/zenika-open-source/insights-website"
