@@ -27,7 +27,7 @@ export function Hacktoberfest() {
   const numberOfPullRequests = data.reduce((acc, { user }) => acc + user.contributionsCollection.pullRequestContributions.totalCount, 0)
   const completionRate = Math.round(data
     .map(({ user }) => user.contributionsCollection.pullRequestContributions.totalCount)
-    .filter(pullRequestsTotal => pullRequestsTotal <= 4)
+    .filter(pullRequestsTotal => pullRequestsTotal >= 4)
     .length / data.length * 100)
 
   return (
