@@ -25,6 +25,7 @@
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
+    "eslint-config-airbnb": "^18.0.1",
     "netlify-cli": "^2.10.0",
     "pre-commit": "^1.2.2",
     "prettier": "^1.16.4"
@@ -42,7 +43,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
-    "deploy": "netlify deploy --prod"
+    "deploy": "netlify deploy --prod",
+    "lint": "eslint . --ext js --ext jsx"
   },
   "pre-commit": "format:check",
   "repository": {
