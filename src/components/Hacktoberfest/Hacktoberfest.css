@@ -1,0 +1,48 @@
+@media screen and (max-width: 1024px) {
+  .hacktoberfest {
+    display: none;
+  }
+}
+
+.hacktoberfest {
+   background-color: #152346;
+   border-bottom: 5px solid #f40dad;
+   color: white;
+}
+
+.hacktoberfest__wrapper {
+   display: flex;
+   padding: 20px;
+   height: 150px;
+   max-width: 960px;
+   margin: auto;
+}
+
+.hacktoberfest__logo {
+  height: 100%;
+  margin-right: 40px;
+}
+
+.hacktoberfest__stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat__title {
+  display: block;
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.stat__value {
+  color: #f40dad;
+  font-weight: 700;
+  font-size: 40px;
+}
