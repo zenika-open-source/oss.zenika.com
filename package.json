@@ -25,6 +25,7 @@
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
+    "bundlesize": "^0.18.0",
     "netlify-cli": "^2.10.0",
     "pre-commit": "^1.2.2",
     "prettier": "^1.16.4"
@@ -41,8 +42,9 @@
     "format:fix": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
-    "deploy": "netlify deploy --prod"
+    "test": "yarn test:bundlesize",
+    "deploy": "netlify deploy --prod",
+    "test:  ": "bundlesize"
   },
   "pre-commit": "format:check",
   "repository": {
