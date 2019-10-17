@@ -49,11 +49,7 @@ const IndexPage = () => (
 
 
       <p>
-        Tout lien avec ce site doit faire l’objet d’une autorisation préalable écrite de Zenika et ne pourra être réalisé que vers l’adresse de la page d’accueil du site
-        {' '}
-        <a href="http://www.zenika.com/">www.zenika.com</a>
-        {' '}
-        avec l’intégration d’un logo.
+        Tout lien avec ce site doit faire l’objet d’une autorisation préalable écrite de Zenika et ne pourra être réalisé que vers l’adresse de la page d’accueil du site <a href="http://www.zenika.com/">www.zenika.com</a> avec l’intégration d’un logo.
       </p>
       <p>
         Malgré les soins apportés par Zenika, les informations contenues dans ce site sont données à titre indicatif et sont sujettes à changement sans préavis. En conséquence, l’utilisateur reconnaît utiliser ces informations sous sa responsabilité exclusive.
@@ -92,10 +88,7 @@ const IndexPage = () => (
         Modifiez votre consentement
       </p>
       <p>
-        Déclaration relative aux cookies mise à jour le 26/06/2019 par
-        {' '}
-        <a href="https://www.cookiebot.com/">Cookiebot</a>
-        :
+        Déclaration relative aux cookies mise à jour le 26/06/2019 par <a href="https://www.cookiebot.com/">Cookiebot</a>:
       </p>
       <p>
         <strong>Optionnel (1)</strong>

@@ -34,11 +34,7 @@ const Layout = ({ children, noHero = false }) => (
             title={(
               <>
                 <h1>
-                  &lt;Coding
-                  {' '}
-                  <strong>an open source</strong>
-                  {' '}
-World&gt;
+                  &lt;Coding <strong>an open source</strong> World&gt;
                 </h1>
                 <img src={byZenika} alt="by Zenika" width="150px" />
               </>
@@ -46,11 +42,9 @@ World&gt;
             description={(
               <>
                 Zenika's DNA is based on open source philosophy.
-                {' '}
                 <br />
                 Driven by this passion, we contribute to projects and share more
                 and more with communities.
-                {' '}
                 <br />
               </>
 )}

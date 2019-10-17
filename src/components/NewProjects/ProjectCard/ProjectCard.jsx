@@ -30,8 +30,7 @@ const ProjectCard = ({
             <span className="project-card__url">
               <a href={github} target="_NEW">
                 <img alt="link icon" className="project-card__icon" src={githubIcon} />
-                {' '}
-Repository
+                Repository
               </a>
             </span>
             )}
@@ -39,8 +38,7 @@ Repository
             <span className="project-card__url">
               <a href={website} target="_NEW">
                 <img alt="link icon" className="project-card__icon" src={link} />
-                {' '}
-Website
+                Website
               </a>
             </span>
             )}
