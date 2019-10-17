@@ -117,7 +117,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"
       />
       <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" />
-      <script src="/cookie.js"></script>
+      <script src="/cookie.js" />
     </Helmet>
   );
 }
