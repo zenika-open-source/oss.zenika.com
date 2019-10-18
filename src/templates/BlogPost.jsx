@@ -1,14 +1,15 @@
-import React from "react";
-import { Link } from "gatsby";
-import { Helmet } from "react-helmet";
-import Layout from "../components/layout";
-import { Hero } from "../components/Hero";
+import React from 'react';
+import { Link, graphql } from 'gatsby';
+import PropTypes from 'prop-types';
+import { Helmet } from 'react-helmet';
+import Layout from '../components/layout';
+import { Hero } from '../components/Hero';
 
-import "./BlogPost.css";
+import './BlogPost.css';
 
 export default function Template({ data }) {
   const { markdownRemark: post } = data;
-  const date = new Date(post.frontmatter.date);
+
   return (
     <Layout noHero>
       <Helmet title={`OSS by Zenika - ${post.frontmatter.title}`}>
@@ -21,13 +22,13 @@ export default function Template({ data }) {
         <script src="/cookie.js" />
       </Helmet>
       <Hero
-        title={
+        title={(
           <h1>
             {post.frontmatter.title}
             <br />
             <sub />
           </h1>
-        }
+        )}
         small
       />
       <div className="blog-post">
@@ -45,6 +46,11 @@ export default function Template({ data }) {
     </Layout>
   );
 }
+
+Template.propTypes = {
+  data: PropTypes.node.isRequired,
+};
+
 
 export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {

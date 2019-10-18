@@ -1,9 +1,10 @@
-import React from "react";
+import React from 'react';
+import PropTypes from 'prop-types';
 import cn from 'classnames';
 
-import { Logo } from "../Logo";
-import zenika from "./zenika.png";
-import "./Hero.css";
+import { Logo } from '../Logo';
+import zenika from './zenika.png';
+import './Hero.css';
 
 const Hero = ({
   title = null,
@@ -19,5 +20,15 @@ const Hero = ({
     </section>
   </article>
 );
+
+Hero.propTypes = {
+  title: PropTypes.object.isRequired,
+  description: PropTypes.object.isRequired,
+  small: PropTypes.bool,
+};
+
+Hero.defaultProps = {
+  small: false,
+};
 
 export default Hero;
