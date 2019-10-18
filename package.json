@@ -44,7 +44,7 @@
     "serve": "gatsby serve",
     "test": "yarn test:bundlesize",
     "deploy": "netlify deploy --prod",
-    "test:  ": "bundlesize"
+    "test:bundlesize": "bundlesize"
   },
   "pre-commit": "format:check",
   "repository": {
