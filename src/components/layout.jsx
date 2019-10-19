@@ -5,15 +5,15 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import React from 'react';
-import PropTypes from 'prop-types';
-import { StaticQuery, graphql } from 'gatsby';
+import React from "react";
+import PropTypes from "prop-types";
+import { StaticQuery, graphql } from "gatsby";
 
-import byZenika from './byzenika.png';
-import { Hero } from './Hero';
-import { Hacktoberfest } from './Hacktoberfest';
-import { Footer } from './Footer';
-import './layout.css';
+import byZenika from "./byzenika.png";
+import { Hero } from "./Hero";
+import { Hacktoberfest } from "./Hacktoberfest";
+import { Footer } from "./Footer";
+import "./layout.css";
 
 const Layout = ({ children, noHero = false }) => (
   <StaticQuery
@@ -31,15 +31,15 @@ const Layout = ({ children, noHero = false }) => (
         <Hacktoberfest />
         {noHero ? null : (
           <Hero
-            title={(
+            title={
               <>
                 <h1>
                   &lt;Coding <strong>an open source</strong> World&gt;
                 </h1>
                 <img src={byZenika} alt="by Zenika" width="150px" />
               </>
-)}
-            description={(
+            }
+            description={
               <>
                 Zenika's DNA is based on open source philosophy.
                 <br />
@@ -47,7 +47,7 @@ const Layout = ({ children, noHero = false }) => (
                 and more with communities.
                 <br />
               </>
-)}
+            }
           />
         )}
         <main>{children}</main>
@@ -59,11 +59,11 @@ const Layout = ({ children, noHero = false }) => (
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-  noHero: PropTypes.bool,
+  noHero: PropTypes.bool
 };
 
 Layout.defaultProps = {
-  noHero: false,
+  noHero: false
 };
 
 export default Layout;
