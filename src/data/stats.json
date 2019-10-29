@@ -1,20 +1,20 @@
 {
   "organization": "Zenika",
-  "totalMembers": 417,
+  "totalMembers": 416,
   "membersWithRepositories": 334,
-  "totalRepositories": 4602,
+  "totalRepositories": 4581,
   "topLanguages": [
     {
       "language": "JavaScript",
-      "count": 1293
+      "count": 1288
     },
     {
       "language": "Java",
-      "count": 864
+      "count": 862
     },
     {
       "language": "HTML",
-      "count": 253
+      "count": 250
     },
     {
       "language": "TypeScript",
@@ -26,7 +26,7 @@
     },
     {
       "language": "CSS",
-      "count": 141
+      "count": 140
     },
     {
       "language": "Python",
@@ -219,7 +219,7 @@
     },
     {
       "language": "JavaScript",
-      "count": 109
+      "count": 108
     },
     {
       "language": "Shell",
@@ -227,7 +227,7 @@
     },
     {
       "language": "HTML",
-      "count": 42
+      "count": 41
     },
     {
       "language": "TypeScript",

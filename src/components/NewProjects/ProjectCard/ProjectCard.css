@@ -1,7 +1,7 @@
 .project-card {
   height: 100%;
   width: 100%;
-  padding: 3rem 3rem;
+  padding: 3rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -35,6 +35,7 @@
   justify-content: flex-start;
   font-size: 1.1rem;
   flex-grow: 1;
+  margin-bottom: 0;
 }
 
 .project-card__footer {
@@ -89,7 +90,7 @@
   .project-card {
     padding: 1rem 2rem;
     height: auto;
-  }  
+  }
 
   .project-card__wrapper {
     align-items: center;
@@ -98,7 +99,7 @@
   .project-card__wrapper > img {
     width: 6rem;
   }
-  
+
   .project-card__title {
     font-size: 1.2rem;
     margin-bottom: 1rem;

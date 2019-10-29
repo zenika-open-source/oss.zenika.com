@@ -19,7 +19,7 @@ const ProjectCard = ({
       {title}
     </h2>
     <div className="project-card__wrapper">
-      {image && <img src={image} alt="logo" />}
+      {typeof image === 'string' ? <img src={image} alt="logo" /> : image}
       <div>
         <p className="project-card__description">
           {description}
