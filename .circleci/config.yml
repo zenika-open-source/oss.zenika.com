@@ -2,7 +2,7 @@ version: 2.1
 executors:
   default-executor:
     docker:
-      - image: circleci/node:lts
+      - image: circleci/node:10
 jobs:
   install-dependencies:
     executor: default-executor
