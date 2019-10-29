@@ -30,7 +30,7 @@
     },
     {
       "language": "Python",
-      "count": 113
+      "count": 114
     },
     {
       "language": "PHP",
@@ -42,21 +42,21 @@
     },
     {
       "language": "Vue",
-      "count": 74
+      "count": 76
     }
   ],
   "topMemberRepositories": [
     {
       "repo": "readme-md-generator (kefranabg)",
-      "count": 6245
+      "count": 6289
     },
     {
       "repo": "generator-gulp-angular (Swiip)",
-      "count": 3827
+      "count": 3825
     },
     {
       "repo": "Rythm.js (Okazari)",
-      "count": 3587
+      "count": 3591
     },
     {
       "repo": "rn-placeholder (mfrachet)",
@@ -64,7 +64,7 @@
     },
     {
       "repo": "bento-starter (kefranabg)",
-      "count": 1213
+      "count": 1218
     },
     {
       "repo": "rn-diff (ncuillery)",
@@ -76,7 +76,7 @@
     },
     {
       "repo": "eslint-plugin-angular (EmmanuelDemey)",
-      "count": 607
+      "count": 608
     },
     {
       "repo": "vue-crud-x (ais-one)",
@@ -84,15 +84,15 @@
     },
     {
       "repo": "kafkastreams-cep (fhussonnois)",
-      "count": 220
+      "count": 222
     }
   ],
-  "totalOrganizationRepositories": 504,
+  "totalOrganizationRepositories": 507,
   "topOrganizationRepositories": [
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 321,
+      "count": 326,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
@@ -154,19 +154,19 @@
     {
       "name": "readme-md-generator",
       "description": "📄 CLI that generates beautiful README.md files",
-      "count": 6245,
+      "count": 6289,
       "url": "https://github.com/kefranabg/readme-md-generator"
     },
     {
       "name": "generator-gulp-angular",
       "description": "Yeoman generator for AngularJS with GulpJS [UNMAINTAINED next iteration is FountainJS]",
-      "count": 3827,
+      "count": 3825,
       "url": "https://github.com/Swiip/generator-gulp-angular"
     },
     {
       "name": "Rythm.js",
       "description": "A javascript library that makes your page dance.",
-      "count": 3587,
+      "count": 3591,
       "url": "https://github.com/Okazari/Rythm.js"
     },
     {
@@ -178,7 +178,7 @@
     {
       "name": "bento-starter",
       "description": ":bento: Full-Stack solution to quickly build PWA applications with Vue.js and Firebase",
-      "count": 1213,
+      "count": 1218,
       "url": "https://github.com/kefranabg/bento-starter"
     },
     {
@@ -196,13 +196,13 @@
     {
       "name": "eslint-plugin-angular",
       "description": "ESLint plugin for AngularJS applications",
-      "count": 607,
+      "count": 608,
       "url": "https://github.com/EmmanuelDemey/eslint-plugin-angular"
     },
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 321,
+      "count": 326,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
@@ -223,7 +223,7 @@
     },
     {
       "language": "Shell",
-      "count": 58
+      "count": 59
     },
     {
       "language": "HTML",
@@ -257,31 +257,31 @@
   "topContributors": [
     {
       "login": "bastienterrier",
-      "totalContributions": 2298
+      "totalContributions": 2299
     },
     {
       "login": "EmmanuelDemey",
-      "totalContributions": 1609
+      "totalContributions": 1670
     },
     {
       "login": "jimmyleray",
-      "totalContributions": 1589
+      "totalContributions": 1582
     },
     {
       "login": "hallya",
-      "totalContributions": 1506
+      "totalContributions": 1515
     },
     {
       "login": "ig1na",
-      "totalContributions": 819
-    },
-    {
-      "login": "lisequesnel",
-      "totalContributions": 716
+      "totalContributions": 812
     },
     {
       "login": "FaustXVI",
-      "totalContributions": 713
+      "totalContributions": 723
+    },
+    {
+      "login": "lisequesnel",
+      "totalContributions": 705
     },
     {
       "login": "Matth10",
@@ -289,12 +289,12 @@
     },
     {
       "login": "kefranabg",
-      "totalContributions": 675
+      "totalContributions": 690
     },
     {
-      "login": "FBerthelot",
-      "totalContributions": 659
+      "login": "Ked57",
+      "totalContributions": 647
     }
   ],
-  "totalContributions": 35800
+  "totalContributions": 35801
 }
