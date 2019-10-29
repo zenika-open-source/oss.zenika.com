@@ -1,9 +1,8 @@
 import React from 'react';
 
 import { ProjectCard } from './ProjectCard';
-import bento from './images/bento-starter.svg';
-import immutadot from './images/immutadot.svg';
-import emendare from './images/emendare.png';
+import quickperf from './images/quickperf.jpeg';
+import hygie from './images/hygie.png';
 import './NewProjects.css';
 
 const NewProjects = () => (
@@ -11,28 +10,28 @@ const NewProjects = () => (
     <h2>highlighted projects</h2>
     <div className="newProjects__content">
       <ProjectCard
-        title="bento-starter"
-        description="Full-Stack solution to quickly build PWA applications with Vue.js and Firebase"
-        image={bento}
-        github="https://github.com/kefranabg/bento-starter"
-        website="https://bento-starter.firebaseapp.com"
-        languages={['pwa', 'vuejs', 'firebase']}
+        title="readme-md-generator"
+        description="CLI that generates beautiful README.md files"
+        image={<div role="image" style={{ fontSize: '100px', marginRight: '2rem' }}>📄</div>}
+        github="https://github.com/kefranabg/readme-md-generator"
+        website="https://www.npmjs.com/package/readme-md-generator"
+        languages={['nodejs', 'javascript']}
       />
       <ProjectCard
-        title="Immutad•t"
-        description="immutadot (pronounced immutadot) is a JavaScript library that manages nested immutable structures."
-        image={immutadot}
-        github="https://github.com/zenika-open-source/immutadot"
-        website="https://immutadot.zenika.com"
-        languages={['javascript']}
+        title="quickperf"
+        description="QuickPerf is a testing library for Java providing annotations to quickly evaluate performance"
+        image={quickperf}
+        github="https://github.com/quick-perf/quickperf"
+        website="https://github.com/quick-perf/doc/wiki/QuickPerf"
+        languages={['java']}
       />
       <ProjectCard
-        title="Emendare"
-        description="Democratic platform to draft amendable texts. Emendare is a citizen, non-profit, distributed and open-source initiative. It helps groups share and improve texts iteratively."
-        image={emendare}
-        github="https://github.com/jimmyleray/Emendare"
-        website="https://emendare.org"
-        languages={['javascript']}
+        title="Hygie"
+        description="Easy-to-use API allowing you to interact with GIT events and manage your project's life-cycle"
+        image={hygie}
+        github="https://github.com/zenika-open-source/hygie"
+        website="https://zenika-open-source.github.io/hygie/"
+        languages={['javascript', 'NestJS']}
       />
     </div>
   </article>
