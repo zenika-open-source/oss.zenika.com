@@ -1,36 +1,36 @@
 {
   "organization": "Zenika",
-  "totalMembers": 432,
-  "membersWithRepositories": 343,
-  "totalRepositories": 4743,
+  "totalMembers": 433,
+  "membersWithRepositories": 344,
+  "totalRepositories": 4765,
   "topLanguages": [
     {
       "language": "JavaScript",
-      "count": 1322
+      "count": 1329
     },
     {
       "language": "Java",
-      "count": 898
+      "count": 900
     },
     {
       "language": "HTML",
-      "count": 262
+      "count": 263
     },
     {
       "language": "TypeScript",
-      "count": 254
+      "count": 258
     },
     {
       "language": "Shell",
-      "count": 189
+      "count": 190
     },
     {
       "language": "CSS",
-      "count": 149
+      "count": 148
     },
     {
       "language": "Python",
-      "count": 116
+      "count": 118
     },
     {
       "language": "C",
@@ -42,13 +42,13 @@
     },
     {
       "language": "Vue",
-      "count": 79
+      "count": 80
     }
   ],
   "topMemberRepositories": [
     {
       "repo": "readme-md-generator (kefranabg)",
-      "count": 6608
+      "count": 6672
     },
     {
       "repo": "generator-gulp-angular (Swiip)",
@@ -56,11 +56,11 @@
     },
     {
       "repo": "Rythm.js (Okazari)",
-      "count": 3599
+      "count": 3600
     },
     {
       "repo": "bento-starter (kefranabg)",
-      "count": 1252
+      "count": 1259
     },
     {
       "repo": "rn-placeholder (mfrachet)",
@@ -72,7 +72,7 @@
     },
     {
       "repo": "angular-breadcrumb (ncuillery)",
-      "count": 808
+      "count": 807
     },
     {
       "repo": "eslint-plugin-angular (EmmanuelDemey)",
@@ -84,15 +84,15 @@
     },
     {
       "repo": "kafkastreams-cep (fhussonnois)",
-      "count": 225
+      "count": 226
     }
   ],
-  "totalOrganizationRepositories": 518,
+  "totalOrganizationRepositories": 520,
   "topOrganizationRepositories": [
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 344,
+      "count": 349,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
@@ -126,16 +126,16 @@
       "url": "https://github.com/Zenika/traefik-gke-demo"
     },
     {
+      "name": "docker-kotlin",
+      "description": "Kotlin docker images built upon official openjdk images.",
+      "count": 15,
+      "url": "https://github.com/Zenika/docker-kotlin"
+    },
+    {
       "name": "marcel",
       "description": "marcel is a configurable plugin based dashboard system",
       "count": 14,
       "url": "https://github.com/Zenika/marcel"
-    },
-    {
-      "name": "docker-kotlin",
-      "description": "Kotlin docker images built upon official openjdk images.",
-      "count": 14,
-      "url": "https://github.com/Zenika/docker-kotlin"
     },
     {
       "name": "alpine-firestore-backup",
@@ -154,7 +154,7 @@
     {
       "name": "readme-md-generator",
       "description": "📄 CLI that generates beautiful README.md files",
-      "count": 6608,
+      "count": 6672,
       "url": "https://github.com/kefranabg/readme-md-generator"
     },
     {
@@ -166,13 +166,13 @@
     {
       "name": "Rythm.js",
       "description": "A javascript library that makes your page dance.",
-      "count": 3599,
+      "count": 3600,
       "url": "https://github.com/Okazari/Rythm.js"
     },
     {
       "name": "bento-starter",
       "description": ":bento: Full-Stack solution to quickly build PWA applications with Vue.js and Firebase",
-      "count": 1252,
+      "count": 1259,
       "url": "https://github.com/kefranabg/bento-starter"
     },
     {
@@ -190,7 +190,7 @@
     {
       "name": "angular-breadcrumb",
       "description": "Generate a breadcrumb from ui-router's states",
-      "count": 808,
+      "count": 807,
       "url": "https://github.com/ncuillery/angular-breadcrumb"
     },
     {
@@ -202,7 +202,7 @@
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 344,
+      "count": 349,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
@@ -214,16 +214,16 @@
   ],
   "topPrimaryLanguages": [
     {
-      "language": "Java",
-      "count": 112
+      "language": "JavaScript",
+      "count": 114
     },
     {
-      "language": "JavaScript",
-      "count": 112
+      "language": "Java",
+      "count": 113
     },
     {
       "language": "Shell",
-      "count": 59
+      "count": 60
     },
     {
       "language": "HTML",
@@ -231,7 +231,7 @@
     },
     {
       "language": "TypeScript",
-      "count": 29
+      "count": 30
     },
     {
       "language": "Vue",
@@ -261,7 +261,7 @@
     },
     {
       "login": "EmmanuelDemey",
-      "totalContributions": 1764
+      "totalContributions": 1768
     },
     {
       "login": "jimmyleray",
@@ -273,28 +273,28 @@
     },
     {
       "login": "ig1na",
-      "totalContributions": 809
+      "totalContributions": 801
     },
     {
       "login": "kefranabg",
-      "totalContributions": 743
-    },
-    {
-      "login": "lisequesnel",
-      "totalContributions": 723
+      "totalContributions": 748
     },
     {
       "login": "FBerthelot",
-      "totalContributions": 702
+      "totalContributions": 724
+    },
+    {
+      "login": "lisequesnel",
+      "totalContributions": 721
     },
     {
       "login": "Matth10",
-      "totalContributions": 698
+      "totalContributions": 695
     },
     {
       "login": "Romakita",
-      "totalContributions": 640
+      "totalContributions": 646
     }
   ],
-  "totalContributions": 36348
+  "totalContributions": 36296
 }
