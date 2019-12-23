@@ -1,16 +1,16 @@
 {
   "organization": "Zenika",
-  "totalMembers": 436,
-  "membersWithRepositories": 345,
-  "totalRepositories": 4793,
+  "totalMembers": 437,
+  "membersWithRepositories": 347,
+  "totalRepositories": 4810,
   "topLanguages": [
     {
       "language": "JavaScript",
-      "count": 1338
+      "count": 1343
     },
     {
       "language": "Java",
-      "count": 903
+      "count": 906
     },
     {
       "language": "HTML",
@@ -22,7 +22,7 @@
     },
     {
       "language": "Shell",
-      "count": 190
+      "count": 191
     },
     {
       "language": "CSS",
@@ -30,11 +30,11 @@
     },
     {
       "language": "Python",
-      "count": 118
+      "count": 120
     },
     {
       "language": "C",
-      "count": 100
+      "count": 101
     },
     {
       "language": "PHP",
@@ -48,7 +48,7 @@
   "topMemberRepositories": [
     {
       "repo": "readme-md-generator (kefranabg)",
-      "count": 6727
+      "count": 6747
     },
     {
       "repo": "generator-gulp-angular (Swiip)",
@@ -56,11 +56,11 @@
     },
     {
       "repo": "Rythm.js (Okazari)",
-      "count": 3600
+      "count": 3599
     },
     {
       "repo": "bento-starter (kefranabg)",
-      "count": 1268
+      "count": 1271
     },
     {
       "repo": "rn-placeholder (mfrachet)",
@@ -68,11 +68,11 @@
     },
     {
       "repo": "rn-diff (ncuillery)",
-      "count": 1093
+      "count": 1092
     },
     {
       "repo": "angular-breadcrumb (ncuillery)",
-      "count": 807
+      "count": 808
     },
     {
       "repo": "eslint-plugin-angular (EmmanuelDemey)",
@@ -92,7 +92,7 @@
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 358,
+      "count": 362,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
@@ -104,7 +104,7 @@
     {
       "name": "k8s-on-gce",
       "description": "Use Infra as Code to pop a k8S cluster on gcp",
-      "count": 24,
+      "count": 25,
       "url": "https://github.com/Zenika/k8s-on-gce"
     },
     {
@@ -154,7 +154,7 @@
     {
       "name": "readme-md-generator",
       "description": "📄 CLI that generates beautiful README.md files",
-      "count": 6727,
+      "count": 6747,
       "url": "https://github.com/kefranabg/readme-md-generator"
     },
     {
@@ -166,13 +166,13 @@
     {
       "name": "Rythm.js",
       "description": "A javascript library that makes your page dance.",
-      "count": 3600,
+      "count": 3599,
       "url": "https://github.com/Okazari/Rythm.js"
     },
     {
       "name": "bento-starter",
       "description": ":bento: Full-Stack solution to quickly build PWA applications with Vue.js and Firebase",
-      "count": 1268,
+      "count": 1271,
       "url": "https://github.com/kefranabg/bento-starter"
     },
     {
@@ -184,13 +184,13 @@
     {
       "name": "rn-diff",
       "description": "Easier React Native upgrades by clearly expose changes from a version to another. :rocket:",
-      "count": 1093,
+      "count": 1092,
       "url": "https://github.com/ncuillery/rn-diff"
     },
     {
       "name": "angular-breadcrumb",
       "description": "Generate a breadcrumb from ui-router's states",
-      "count": 807,
+      "count": 808,
       "url": "https://github.com/ncuillery/angular-breadcrumb"
     },
     {
@@ -202,7 +202,7 @@
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 358,
+      "count": 362,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
@@ -227,7 +227,7 @@
     },
     {
       "language": "HTML",
-      "count": 43
+      "count": 42
     },
     {
       "language": "TypeScript",
@@ -257,44 +257,44 @@
   "topContributors": [
     {
       "login": "bastienterrier",
-      "totalContributions": 2345
+      "totalContributions": 2348
     },
     {
       "login": "EmmanuelDemey",
-      "totalContributions": 1758
+      "totalContributions": 1766
     },
     {
       "login": "jimmyleray",
-      "totalContributions": 1544
+      "totalContributions": 1517
     },
     {
       "login": "hallya",
       "totalContributions": 1513
     },
     {
-      "login": "ig1na",
-      "totalContributions": 800
+      "login": "FBerthelot",
+      "totalContributions": 807
     },
     {
-      "login": "FBerthelot",
-      "totalContributions": 785
+      "login": "ig1na",
+      "totalContributions": 790
     },
     {
       "login": "kefranabg",
-      "totalContributions": 769
+      "totalContributions": 777
     },
     {
       "login": "lisequesnel",
-      "totalContributions": 751
-    },
-    {
-      "login": "Matth10",
-      "totalContributions": 689
+      "totalContributions": 760
     },
     {
       "login": "frinyvonnick",
-      "totalContributions": 675
+      "totalContributions": 686
+    },
+    {
+      "login": "Matth10",
+      "totalContributions": 669
     }
   ],
-  "totalContributions": 36530
+  "totalContributions": 36509
 }
