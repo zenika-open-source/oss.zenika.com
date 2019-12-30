@@ -18,7 +18,7 @@
     },
     {
       "language": "TypeScript",
-      "count": 260
+      "count": 262
     },
     {
       "language": "Shell",
@@ -30,7 +30,7 @@
     },
     {
       "language": "Python",
-      "count": 120
+      "count": 119
     },
     {
       "language": "C",
@@ -48,7 +48,7 @@
   "topMemberRepositories": [
     {
       "repo": "readme-md-generator (kefranabg)",
-      "count": 6747
+      "count": 6760
     },
     {
       "repo": "generator-gulp-angular (Swiip)",
@@ -60,7 +60,7 @@
     },
     {
       "repo": "bento-starter (kefranabg)",
-      "count": 1271
+      "count": 1276
     },
     {
       "repo": "rn-placeholder (mfrachet)",
@@ -80,19 +80,19 @@
     },
     {
       "repo": "vue-crud-x (ais-one)",
-      "count": 300
+      "count": 301
     },
     {
       "repo": "kafkastreams-cep (fhussonnois)",
       "count": 226
     }
   ],
-  "totalOrganizationRepositories": 526,
+  "totalOrganizationRepositories": 528,
   "topOrganizationRepositories": [
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 362,
+      "count": 365,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
@@ -104,7 +104,7 @@
     {
       "name": "k8s-on-gce",
       "description": "Use Infra as Code to pop a k8S cluster on gcp",
-      "count": 25,
+      "count": 26,
       "url": "https://github.com/Zenika/k8s-on-gce"
     },
     {
@@ -138,23 +138,23 @@
       "url": "https://github.com/Zenika/alpine-firestore-backup"
     },
     {
-      "name": "kubernetes-security-workshop",
-      "description": null,
-      "count": 15,
-      "url": "https://github.com/Zenika/kubernetes-security-workshop"
-    },
-    {
       "name": "docker-kotlin",
       "description": "Kotlin docker images built upon official openjdk images.",
       "count": 14,
       "url": "https://github.com/Zenika/docker-kotlin"
+    },
+    {
+      "name": "kubernetes-security-workshop",
+      "description": null,
+      "count": 14,
+      "url": "https://github.com/Zenika/kubernetes-security-workshop"
     }
   ],
   "topRepositories": [
     {
       "name": "readme-md-generator",
       "description": "📄 CLI that generates beautiful README.md files",
-      "count": 6747,
+      "count": 6760,
       "url": "https://github.com/kefranabg/readme-md-generator"
     },
     {
@@ -172,7 +172,7 @@
     {
       "name": "bento-starter",
       "description": ":bento: Full-Stack solution to quickly build PWA applications with Vue.js and Firebase",
-      "count": 1271,
+      "count": 1276,
       "url": "https://github.com/kefranabg/bento-starter"
     },
     {
@@ -202,13 +202,13 @@
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 362,
+      "count": 365,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
       "name": "vue-crud-x",
       "description": "Vue+Express Cookbook & CRUD Component",
-      "count": 300,
+      "count": 301,
       "url": "https://github.com/ais-one/vue-crud-x"
     }
   ],
@@ -219,11 +219,11 @@
     },
     {
       "language": "Java",
-      "count": 113
+      "count": 115
     },
     {
       "language": "Shell",
-      "count": 61
+      "count": 62
     },
     {
       "language": "HTML",
@@ -261,19 +261,19 @@
     },
     {
       "login": "EmmanuelDemey",
-      "totalContributions": 1766
-    },
-    {
-      "login": "jimmyleray",
-      "totalContributions": 1517
+      "totalContributions": 1740
     },
     {
       "login": "hallya",
       "totalContributions": 1513
     },
     {
+      "login": "jimmyleray",
+      "totalContributions": 1483
+    },
+    {
       "login": "FBerthelot",
-      "totalContributions": 807
+      "totalContributions": 809
     },
     {
       "login": "ig1na",
@@ -281,7 +281,7 @@
     },
     {
       "login": "kefranabg",
-      "totalContributions": 777
+      "totalContributions": 778
     },
     {
       "login": "lisequesnel",
@@ -289,12 +289,12 @@
     },
     {
       "login": "frinyvonnick",
-      "totalContributions": 686
+      "totalContributions": 701
     },
     {
       "login": "Matth10",
       "totalContributions": 669
     }
   ],
-  "totalContributions": 36509
+  "totalContributions": 36347
 }
