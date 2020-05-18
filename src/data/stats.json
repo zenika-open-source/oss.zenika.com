@@ -1,24 +1,24 @@
 {
   "organization": "Zenika",
   "totalMembers": 479,
-  "membersWithRepositories": 391,
-  "totalRepositories": 5760,
+  "membersWithRepositories": 392,
+  "totalRepositories": 5821,
   "topLanguages": [
     {
       "language": "JavaScript",
-      "count": 1576
+      "count": 1598
     },
     {
       "language": "Java",
-      "count": 1022
+      "count": 1029
     },
     {
       "language": "TypeScript",
-      "count": 340
+      "count": 346
     },
     {
       "language": "HTML",
-      "count": 320
+      "count": 325
     },
     {
       "language": "Shell",
@@ -26,23 +26,23 @@
     },
     {
       "language": "CSS",
-      "count": 167
+      "count": 168
     },
     {
       "language": "Python",
-      "count": 147
+      "count": 151
     },
     {
       "language": "C",
-      "count": 117
+      "count": 119
     },
     {
       "language": "PHP",
-      "count": 107
+      "count": 108
     },
     {
       "language": "Vue",
-      "count": 95
+      "count": 97
     }
   ],
   "topMemberRepositories": [
@@ -56,7 +56,7 @@
     },
     {
       "repo": "Rythm.js (Okazari)",
-      "count": 3624
+      "count": 3626
     },
     {
       "repo": "bento-starter (kefranabg)",
@@ -68,7 +68,7 @@
     },
     {
       "repo": "rn-diff (ncuillery)",
-      "count": 1093
+      "count": 1094
     },
     {
       "repo": "angular-breadcrumb (ncuillery)",
@@ -80,19 +80,19 @@
     },
     {
       "repo": "vue-use-web (Tarektouati)",
-      "count": 393
+      "count": 407
     },
     {
       "repo": "vue-crud-x (ais-one)",
-      "count": 330
+      "count": 340
     }
   ],
-  "totalOrganizationRepositories": 555,
+  "totalOrganizationRepositories": 557,
   "topOrganizationRepositories": [
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 437,
+      "count": 459,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
@@ -166,7 +166,7 @@
     {
       "name": "Rythm.js",
       "description": "A javascript library that makes your page dance.",
-      "count": 3624,
+      "count": 3626,
       "url": "https://github.com/Okazari/Rythm.js"
     },
     {
@@ -184,7 +184,7 @@
     {
       "name": "rn-diff",
       "description": "Easier React Native upgrades by clearly expose changes from a version to another. :rocket:",
-      "count": 1093,
+      "count": 1094,
       "url": "https://github.com/ncuillery/rn-diff"
     },
     {
@@ -202,13 +202,13 @@
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 437,
+      "count": 459,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
       "name": "vue-use-web",
       "description": "🕸 Web APIs implemented as Vue.js composition functions",
-      "count": 393,
+      "count": 407,
       "url": "https://github.com/Tarektouati/vue-use-web"
     }
   ],
@@ -223,7 +223,7 @@
     },
     {
       "language": "Shell",
-      "count": 64
+      "count": 63
     },
     {
       "language": "HTML",
@@ -239,7 +239,7 @@
     },
     {
       "language": "Python",
-      "count": 15
+      "count": 17
     },
     {
       "language": "Go",
@@ -264,37 +264,37 @@
       "totalContributions": 1513
     },
     {
-      "login": "bastienterrier",
-      "totalContributions": 1204
-    },
-    {
       "login": "FBerthelot",
       "totalContributions": 1111
     },
     {
+      "login": "bastienterrier",
+      "totalContributions": 1068
+    },
+    {
       "login": "lisequesnel",
-      "totalContributions": 898
+      "totalContributions": 885
     },
     {
       "login": "Romakita",
-      "totalContributions": 881
+      "totalContributions": 855
     },
     {
       "login": "frinyvonnick",
-      "totalContributions": 828
+      "totalContributions": 840
     },
     {
-      "login": "nlepage",
-      "totalContributions": 670
+      "login": "bpetetot",
+      "totalContributions": 764
     },
     {
       "login": "kefranabg",
       "totalContributions": 661
     },
     {
-      "login": "bpetetot",
-      "totalContributions": 641
+      "login": "nlepage",
+      "totalContributions": 649
     }
   ],
-  "totalContributions": 38577
+  "totalContributions": 39659
 }
