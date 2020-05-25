@@ -1,24 +1,24 @@
 {
   "organization": "Zenika",
   "totalMembers": 479,
-  "membersWithRepositories": 391,
-  "totalRepositories": 5760,
+  "membersWithRepositories": 392,
+  "totalRepositories": 5832,
   "topLanguages": [
     {
       "language": "JavaScript",
-      "count": 1576
+      "count": 1601
     },
     {
       "language": "Java",
-      "count": 1022
+      "count": 1030
     },
     {
       "language": "TypeScript",
-      "count": 340
+      "count": 348
     },
     {
       "language": "HTML",
-      "count": 320
+      "count": 326
     },
     {
       "language": "Shell",
@@ -30,19 +30,19 @@
     },
     {
       "language": "Python",
-      "count": 147
+      "count": 151
     },
     {
       "language": "C",
-      "count": 117
+      "count": 119
     },
     {
       "language": "PHP",
-      "count": 107
+      "count": 108
     },
     {
       "language": "Vue",
-      "count": 95
+      "count": 100
     }
   ],
   "topMemberRepositories": [
@@ -56,7 +56,7 @@
     },
     {
       "repo": "Rythm.js (Okazari)",
-      "count": 3624
+      "count": 3626
     },
     {
       "repo": "bento-starter (kefranabg)",
@@ -80,19 +80,19 @@
     },
     {
       "repo": "vue-use-web (Tarektouati)",
-      "count": 393
+      "count": 412
     },
     {
       "repo": "vue-crud-x (ais-one)",
-      "count": 330
+      "count": 342
     }
   ],
-  "totalOrganizationRepositories": 555,
+  "totalOrganizationRepositories": 559,
   "topOrganizationRepositories": [
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 437,
+      "count": 464,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
@@ -126,6 +126,12 @@
       "url": "https://github.com/Zenika/zenscaler"
     },
     {
+      "name": "docker-kotlin",
+      "description": "Kotlin docker images built upon official openjdk images.",
+      "count": 20,
+      "url": "https://github.com/Zenika/docker-kotlin"
+    },
+    {
       "name": "kubernetes-security-workshop",
       "description": null,
       "count": 20,
@@ -136,12 +142,6 @@
       "description": "Demo to use Traefik as GKE loadbalancer",
       "count": 19,
       "url": "https://github.com/Zenika/traefik-gke-demo"
-    },
-    {
-      "name": "docker-kotlin",
-      "description": "Kotlin docker images built upon official openjdk images.",
-      "count": 19,
-      "url": "https://github.com/Zenika/docker-kotlin"
     },
     {
       "name": "marcel",
@@ -166,7 +166,7 @@
     {
       "name": "Rythm.js",
       "description": "A javascript library that makes your page dance.",
-      "count": 3624,
+      "count": 3626,
       "url": "https://github.com/Okazari/Rythm.js"
     },
     {
@@ -202,13 +202,13 @@
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 437,
+      "count": 464,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
       "name": "vue-use-web",
       "description": "🕸 Web APIs implemented as Vue.js composition functions",
-      "count": 393,
+      "count": 412,
       "url": "https://github.com/Tarektouati/vue-use-web"
     }
   ],
@@ -219,7 +219,7 @@
     },
     {
       "language": "Java",
-      "count": 115
+      "count": 116
     },
     {
       "language": "Shell",
@@ -227,7 +227,7 @@
     },
     {
       "language": "HTML",
-      "count": 44
+      "count": 43
     },
     {
       "language": "TypeScript",
@@ -239,7 +239,7 @@
     },
     {
       "language": "Python",
-      "count": 15
+      "count": 17
     },
     {
       "language": "Go",
@@ -264,37 +264,37 @@
       "totalContributions": 1513
     },
     {
-      "login": "bastienterrier",
-      "totalContributions": 1204
-    },
-    {
       "login": "FBerthelot",
       "totalContributions": 1111
     },
     {
+      "login": "bastienterrier",
+      "totalContributions": 986
+    },
+    {
       "login": "lisequesnel",
-      "totalContributions": 898
+      "totalContributions": 865
     },
     {
       "login": "Romakita",
-      "totalContributions": 881
+      "totalContributions": 854
     },
     {
       "login": "frinyvonnick",
-      "totalContributions": 828
+      "totalContributions": 843
     },
     {
-      "login": "nlepage",
-      "totalContributions": 670
+      "login": "bpetetot",
+      "totalContributions": 822
     },
     {
       "login": "kefranabg",
       "totalContributions": 661
     },
     {
-      "login": "bpetetot",
-      "totalContributions": 641
+      "login": "nlepage",
+      "totalContributions": 639
     }
   ],
-  "totalContributions": 38577
+  "totalContributions": 39940
 }
