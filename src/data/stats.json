@@ -1,24 +1,24 @@
 {
   "organization": "Zenika",
   "totalMembers": 479,
-  "membersWithRepositories": 391,
-  "totalRepositories": 5760,
+  "membersWithRepositories": 393,
+  "totalRepositories": 5854,
   "topLanguages": [
     {
       "language": "JavaScript",
-      "count": 1576
+      "count": 1614
     },
     {
       "language": "Java",
-      "count": 1022
+      "count": 1031
     },
     {
       "language": "TypeScript",
-      "count": 340
+      "count": 348
     },
     {
       "language": "HTML",
-      "count": 320
+      "count": 327
     },
     {
       "language": "Shell",
@@ -26,23 +26,23 @@
     },
     {
       "language": "CSS",
-      "count": 167
+      "count": 166
     },
     {
       "language": "Python",
-      "count": 147
+      "count": 152
     },
     {
       "language": "C",
-      "count": 117
+      "count": 119
     },
     {
       "language": "PHP",
-      "count": 107
+      "count": 108
     },
     {
       "language": "Vue",
-      "count": 95
+      "count": 101
     }
   ],
   "topMemberRepositories": [
@@ -56,7 +56,7 @@
     },
     {
       "repo": "Rythm.js (Okazari)",
-      "count": 3624
+      "count": 3632
     },
     {
       "repo": "bento-starter (kefranabg)",
@@ -72,7 +72,7 @@
     },
     {
       "repo": "angular-breadcrumb (ncuillery)",
-      "count": 807
+      "count": 808
     },
     {
       "repo": "eslint-plugin-angular (EmmanuelDemey)",
@@ -80,19 +80,19 @@
     },
     {
       "repo": "vue-use-web (Tarektouati)",
-      "count": 393
+      "count": 423
     },
     {
       "repo": "vue-crud-x (ais-one)",
-      "count": 330
+      "count": 345
     }
   ],
-  "totalOrganizationRepositories": 555,
+  "totalOrganizationRepositories": 560,
   "topOrganizationRepositories": [
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 437,
+      "count": 492,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
@@ -104,8 +104,14 @@
     {
       "name": "k8s-on-gce",
       "description": "Use Infra as Code to pop a k8S cluster on gcp",
-      "count": 28,
+      "count": 29,
       "url": "https://github.com/Zenika/k8s-on-gce"
+    },
+    {
+      "name": "docker-kotlin",
+      "description": "Kotlin docker images built upon official openjdk images.",
+      "count": 21,
+      "url": "https://github.com/Zenika/docker-kotlin"
     },
     {
       "name": "alpine-firestore-backup",
@@ -138,12 +144,6 @@
       "url": "https://github.com/Zenika/traefik-gke-demo"
     },
     {
-      "name": "docker-kotlin",
-      "description": "Kotlin docker images built upon official openjdk images.",
-      "count": 19,
-      "url": "https://github.com/Zenika/docker-kotlin"
-    },
-    {
       "name": "marcel",
       "description": "marcel is a configurable plugin based dashboard system",
       "count": 16,
@@ -166,7 +166,7 @@
     {
       "name": "Rythm.js",
       "description": "A javascript library that makes your page dance.",
-      "count": 3624,
+      "count": 3632,
       "url": "https://github.com/Okazari/Rythm.js"
     },
     {
@@ -190,7 +190,7 @@
     {
       "name": "angular-breadcrumb",
       "description": "Generate a breadcrumb from ui-router's states",
-      "count": 807,
+      "count": 808,
       "url": "https://github.com/ncuillery/angular-breadcrumb"
     },
     {
@@ -202,13 +202,13 @@
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 437,
+      "count": 492,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
       "name": "vue-use-web",
       "description": "🕸 Web APIs implemented as Vue.js composition functions",
-      "count": 393,
+      "count": 423,
       "url": "https://github.com/Tarektouati/vue-use-web"
     }
   ],
@@ -219,15 +219,15 @@
     },
     {
       "language": "Java",
-      "count": 115
+      "count": 116
     },
     {
       "language": "Shell",
-      "count": 64
+      "count": 66
     },
     {
       "language": "HTML",
-      "count": 44
+      "count": 43
     },
     {
       "language": "TypeScript",
@@ -239,7 +239,7 @@
     },
     {
       "language": "Python",
-      "count": 15
+      "count": 16
     },
     {
       "language": "Go",
@@ -264,37 +264,37 @@
       "totalContributions": 1513
     },
     {
-      "login": "bastienterrier",
-      "totalContributions": 1204
-    },
-    {
       "login": "FBerthelot",
       "totalContributions": 1111
     },
     {
-      "login": "lisequesnel",
-      "totalContributions": 898
+      "login": "chesterheng",
+      "totalContributions": 936
     },
     {
-      "login": "Romakita",
-      "totalContributions": 881
+      "login": "lisequesnel",
+      "totalContributions": 870
+    },
+    {
+      "login": "bpetetot",
+      "totalContributions": 858
     },
     {
       "login": "frinyvonnick",
-      "totalContributions": 828
+      "totalContributions": 852
     },
     {
-      "login": "nlepage",
-      "totalContributions": 670
+      "login": "Romakita",
+      "totalContributions": 839
+    },
+    {
+      "login": "bastienterrier",
+      "totalContributions": 684
     },
     {
       "login": "kefranabg",
       "totalContributions": 661
-    },
-    {
-      "login": "bpetetot",
-      "totalContributions": 641
     }
   ],
-  "totalContributions": 38577
+  "totalContributions": 40017
 }
