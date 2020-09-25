@@ -63,7 +63,7 @@ const ProjectCard = ({
 ProjectCard.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
+  image: PropTypes.node.isRequired,
   github: PropTypes.string.isRequired,
   website: PropTypes.string.isRequired,
   languages: PropTypes.arrayOf(PropTypes.string).isRequired,
