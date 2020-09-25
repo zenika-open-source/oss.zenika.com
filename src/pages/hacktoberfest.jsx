@@ -1,4 +1,5 @@
 /* eslint-disable no-plusplus */
+import { Link } from "gatsby";
 import React, { useCallback, useMemo, useState } from "react";
 import useHacktoberfest from "../components/Hacktoberfest/useHacktoberfest";
 
@@ -55,6 +56,9 @@ const HacktoberfestPage = () => {
         keywords={["gatsby", "application", "react"]}
       />
       <article className="hacktober__body">
+        <Link className="blog-post__back-home" to="/">
+          Back to home
+        </Link>
         <h2>
           <strong>Zenika's Hacktoberfest Leaderboard</strong>
         </h2>
