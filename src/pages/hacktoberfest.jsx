@@ -58,7 +58,7 @@ const HacktoberfestPage = () => {
         <h2>
           <strong>Zenika's Hacktoberfest Leaderboard</strong>
         </h2>
-        <p>Count the number of PR between Oct. 1st 2020 and Oct. 31st</p>
+        <p>Count the number of PR between Oct. 1st and Oct. 31st 2020.</p>
         {!leaderboard && <div>Loading...</div>}
         {leaderboard && (
           <>
