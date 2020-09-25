@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import logoTwitter from './icon-twitter.svg';
-import logoGithub from './icon-github.svg';
-import logoZenika from './Zenika_RougesurBlanc.svg';
-import './SocialLinks.css';
+import logoTwitter from "./icon-twitter.svg";
+import logoGithub from "./icon-github.svg";
+import logoZenika from "./Zenika_RougesurBlanc.svg";
+import "./SocialLinks.css";
 
 const SocialLinks = () => (
   <div className="social-links">

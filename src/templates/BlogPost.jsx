@@ -1,3 +1,4 @@
+/* eslint-disable react/no-danger */
 import React from "react";
 import { Link, graphql } from "gatsby";
 import PropTypes from "prop-types";
@@ -48,7 +49,7 @@ export default function Template({ data }) {
 }
 
 Template.propTypes = {
-  data: PropTypes.node.isRequired
+  data: PropTypes.node.isRequired,
 };
 
 export const pageQuery = graphql`

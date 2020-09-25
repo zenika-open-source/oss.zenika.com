@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import { Project } from './Project';
-import data from '../../../data/stats.json';
-import './TopProjects.css';
+import { Project } from "./Project";
+import data from "../../../data/stats.json";
+import "./TopProjects.css";
 
 const TopProjects = () => (
   <article className="topProjects">

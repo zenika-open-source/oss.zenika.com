@@ -1,12 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
-import Star from './Star';
-import './Project.css';
+import Star from "./Star";
+import "./Project.css";
 
-const Project = ({
-  title, description, stars, url,
-}) => (
+const Project = ({ title, description, stars, url }) => (
   <article className="project">
     <div className="project__text">
       <a href={url}>
@@ -16,7 +14,7 @@ const Project = ({
     </div>
     <div className="project__stars">
       <span>{stars}</span>
-        &nbsp;
+      &nbsp;
       <Star />
     </div>
   </article>
