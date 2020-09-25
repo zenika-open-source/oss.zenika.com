@@ -59,11 +59,11 @@ const Layout = ({ children, noHero = false }) => (
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-  noHero: PropTypes.bool
+  noHero: PropTypes.bool,
 };
 
 Layout.defaultProps = {
-  noHero: false
+  noHero: false,
 };
 
 export default Layout;

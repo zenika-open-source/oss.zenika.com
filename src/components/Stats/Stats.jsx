@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import { People } from './People';
-import { TopProjects } from './TopProjects';
+import { People } from "./People";
+import { TopProjects } from "./TopProjects";
 
-import './Stats.css';
+import "./Stats.css";
 
 const Stats = () => (
   <div className="stats">

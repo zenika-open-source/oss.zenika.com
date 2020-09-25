@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import { ProjectCard } from './ProjectCard';
-import quickperf from './images/quickperf.jpeg';
-import hygie from './images/hygie.png';
-import './NewProjects.css';
+import { ProjectCard } from "./ProjectCard";
+import quickperf from "./images/quickperf.jpeg";
+import hygie from "./images/hygie.png";
+import "./NewProjects.css";
 
 const NewProjects = () => (
   <article className="newProjects">
@@ -12,10 +12,18 @@ const NewProjects = () => (
       <ProjectCard
         title="readme-md-generator"
         description="CLI that generates beautiful README.md files"
-        image={<div role="image" style={{ fontSize: '100px', marginRight: '2rem' }}>📄</div>}
+        image={
+          <span
+            role="img"
+            aria-label="project"
+            style={{ fontSize: "100px", marginRight: "2rem" }}
+          >
+            📄
+          </span>
+        }
         github="https://github.com/kefranabg/readme-md-generator"
         website="https://www.npmjs.com/package/readme-md-generator"
-        languages={['nodejs', 'javascript']}
+        languages={["nodejs", "javascript"]}
       />
       <ProjectCard
         title="quickperf"
@@ -23,7 +31,7 @@ const NewProjects = () => (
         image={quickperf}
         github="https://github.com/quick-perf/quickperf"
         website="https://github.com/quick-perf/doc/wiki/QuickPerf"
-        languages={['java']}
+        languages={["java"]}
       />
       <ProjectCard
         title="Hygie"
@@ -31,7 +39,7 @@ const NewProjects = () => (
         image={hygie}
         github="https://github.com/zenika-open-source/hygie"
         website="https://zenika-open-source.github.io/hygie/"
-        languages={['javascript', 'NestJS']}
+        languages={["javascript", "NestJS"]}
       />
     </div>
   </article>
