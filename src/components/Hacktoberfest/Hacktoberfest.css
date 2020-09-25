@@ -5,8 +5,8 @@
 }
 
 .hacktoberfest {
-   background-color: #152346;
-   border-bottom: 5px solid #f40dad;
+   background-color: #072540;
+   border-bottom: 5px solid #0069ff;
    color: white;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .stat__value {
-  color: #f40dad;
+  color: #0069ff;
   font-weight: 700;
   font-size: 40px;
 }
