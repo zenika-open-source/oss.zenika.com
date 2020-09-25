@@ -1,8 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import PropTypes from "prop-types";
+import { Link } from "gatsby";
 import logo from "./logo.svg";
 
 import "./Hacktoberfest.css";
+import useHacktoberfest from "./useHacktoberfest";
 
 function Stat({ title, value }) {
   return (
@@ -14,33 +16,7 @@ function Stat({ title, value }) {
 }
 
 export function Hacktoberfest() {
-  const [data, setData] = useState(null);
-  useEffect(() => {
-    fetch(
-      "https://europe-west1-github-insights-247314.cloudfunctions.net/hacktoberfest"
-    )
-      .then((res) => res.json())
-      .then(setData)
-      .catch(() => setData(null));
-  }, []);
-
-  if (data === null) return null;
-
-  const numberOfPullRequests = data.reduce(
-    (acc, { user }) =>
-      acc + user.contributionsCollection.pullRequestContributions.totalCount,
-    0
-  );
-  const completionRate = Math.round(
-    (data
-      .map(
-        ({ user }) =>
-          user.contributionsCollection.pullRequestContributions.totalCount
-      )
-      .filter((pullRequestsTotal) => pullRequestsTotal >= 4).length /
-      data.length) *
-      100
-  );
+  const { data, completionRate, numberOfPullRequests } = useHacktoberfest();
 
   return (
     <div className="hacktoberfest">
@@ -50,13 +26,21 @@ export function Hacktoberfest() {
           src={logo}
           alt="Hacktoberfest's logo"
         />
-        {data.length > 0 && (
-          <div className="hacktoberfest__stats">
-            <Stat title="Zenikas" value={data.length} />
-            <Stat title="Pull requests" value={numberOfPullRequests} />
-            <Stat title="Completion" value={`${completionRate}%`} />
+        <div className="hacktoberfest__banner">
+          <div className="hacktoberfest__title">
+            <div>Happy Hacktoberfest!</div>
+            <div>
+              <Link to="/hacktoberfest">Watch the Zenika Leaderboard</Link>
+            </div>
           </div>
-        )}
+          {data && (
+            <div className="hacktoberfest__stats">
+              <Stat title="Zenikas" value={data.length} />
+              <Stat title="Pull requests" value={numberOfPullRequests} />
+              <Stat title="Completion" value={`${completionRate}%`} />
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

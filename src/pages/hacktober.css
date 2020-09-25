@@ -1,0 +1,9 @@
+.hacktober__body {
+  max-width: 960px;
+  margin: 64px auto;
+  padding: 0 20px;
+}
+
+.hacktober__body h2 {
+  padding-left: 0;
+}
