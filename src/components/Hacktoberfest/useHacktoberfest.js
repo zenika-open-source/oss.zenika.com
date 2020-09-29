@@ -10,7 +10,7 @@ function computePRCount(data) {
 }
 
 function computeCompletionRate(data) {
-  if (!data) return 0;
+  if (!data || data.length === 0) return 0;
   return Math.round(
     (data
       .map(
