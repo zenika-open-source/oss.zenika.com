@@ -78,8 +78,8 @@ const HacktoberfestPage = () => {
               <thead>
                 <tr>
                   <th>#</th>
-                  <th>GitHub name</th>
-                  <th>Pull request number</th>
+                  <th>GitHub username</th>
+                  <th>Number of pull requests</th>
                   <th>
                     <select onChange={handleLocationFilter}>
                       <option value="">Location</option>
