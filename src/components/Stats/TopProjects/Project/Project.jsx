@@ -1,10 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import Star from "./Star";
 import "./Project.css";
 
-const Project = ({ title, description, stars, url }) => (
+const Project = ({ title, description, url }) => (
   <article className="project">
     <div className="project__text">
       <a href={url}>
@@ -13,9 +12,16 @@ const Project = ({ title, description, stars, url }) => (
       <div className="project__description">{description}</div>
     </div>
     <div className="project__stars">
-      <span>{stars}</span>
-      &nbsp;
-      <Star />
+      <a
+        className="github-button"
+        href={url}
+        data-icon="octicon-star"
+        data-size="large"
+        data-show-count="true"
+        aria-label={`Star ${url.replace("https://github.com/", "")} on GitHub`}
+      >
+        Star
+      </a>
     </div>
   </article>
 );
@@ -23,7 +29,6 @@ const Project = ({ title, description, stars, url }) => (
 Project.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  stars: PropTypes.number.isRequired,
   url: PropTypes.string.isRequired,
 };
 
