@@ -154,61 +154,51 @@
     {
       "name": "readme-md-generator",
       "description": "📄 CLI that generates beautiful README.md files",
-      "count": 7108,
       "url": "https://github.com/kefranabg/readme-md-generator"
     },
     {
       "name": "generator-gulp-angular",
       "description": "Yeoman generator for AngularJS with GulpJS [UNMAINTAINED next iteration is FountainJS]",
-      "count": 3813,
       "url": "https://github.com/Swiip/generator-gulp-angular"
     },
     {
       "name": "Rythm.js",
       "description": "A javascript library that makes your page dance.",
-      "count": 3633,
       "url": "https://github.com/Okazari/Rythm.js"
     },
     {
       "name": "bento-starter",
       "description": ":bento: Full-Stack solution to quickly build PWA applications with Vue.js and Firebase",
-      "count": 1373,
       "url": "https://github.com/kefranabg/bento-starter"
     },
     {
       "name": "rn-placeholder",
       "description": "🏖️Display some placeholder stuff before rendering your text or media content in React Native",
-      "count": 1242,
       "url": "https://github.com/mfrachet/rn-placeholder"
     },
     {
       "name": "rn-diff",
       "description": "Easier React Native upgrades by clearly expose changes from a version to another. :rocket:",
-      "count": 1093,
       "url": "https://github.com/ncuillery/rn-diff"
     },
     {
       "name": "angular-breadcrumb",
       "description": "Generate a breadcrumb from ui-router's states",
-      "count": 807,
       "url": "https://github.com/ncuillery/angular-breadcrumb"
     },
     {
       "name": "eslint-plugin-angular",
       "description": "ESLint plugin for AngularJS applications",
-      "count": 612,
       "url": "https://github.com/EmmanuelDemey/eslint-plugin-angular"
     },
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 498,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
       "name": "vue-use-web",
       "description": "🕸 Web APIs implemented as Vue.js composition functions",
-      "count": 426,
       "url": "https://github.com/Tarektouati/vue-use-web"
     }
   ],
