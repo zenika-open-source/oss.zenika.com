@@ -15,7 +15,6 @@ const TopProjects = () => (
         title={repository.name}
         url={repository.url}
         description={repository.description}
-        stars={repository.count}
       />
     ))}
   </article>
