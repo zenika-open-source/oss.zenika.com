@@ -15,14 +15,17 @@ function getPRCount(user) {
 function addRanks(sortedData) {
   let lastRank = 1;
   let lastTotalCount = null;
+  let exaequo = 0;
   for (let i = 0; i < sortedData.length; i++) {
     const { user } = sortedData[i];
     const totalCount = getPRCount(user);
-    if (lastTotalCount === totalCount || lastTotalCount === null) {
-      user.rank = lastRank;
+    if (lastTotalCount === totalCount) {
+      exaequo++;
     } else {
-      user.rank = ++lastRank;
+      lastRank += exaequo;
+      exaequo = 1;
     }
+    user.rank = lastRank;
     lastTotalCount = totalCount;
   }
   return sortedData;
