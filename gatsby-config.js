@@ -34,13 +34,21 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: "Zenika Open Source",
+        name: "Zenika Open Source Website",
         short_name: "OSS by Zenika",
+        description: "Insights about the Open Source activity of Zenika",
+        lang: "en",
         start_url: "/",
         background_color: "#000000",
         theme_color: "#000000",
         display: "minimal-ui",
         icon: "src/images/favicon.png",
+      },
+    },
+    {
+      resolve: "gatsby-plugin-offline",
+      options: {
+        precachePages: ["/white-paper/*"],
       },
     },
     {
