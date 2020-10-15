@@ -1,5 +1,7 @@
+/* eslint-disable react/no-danger */
 import React from "react";
-import { Link } from "gatsby";
+import { Link, graphql } from "gatsby";
+import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import Layout from "../components/layout";
 import { Hero } from "../components/Hero";
@@ -8,7 +10,7 @@ import "./BlogPost.css";
 
 export default function Template({ data }) {
   const { markdownRemark: post } = data;
-  const date = new Date(post.frontmatter.date);
+
   return (
     <Layout noHero>
       <Helmet title={`OSS by Zenika - ${post.frontmatter.title}`}>
@@ -45,6 +47,10 @@ export default function Template({ data }) {
     </Layout>
   );
 }
+
+Template.propTypes = {
+  data: PropTypes.node.isRequired,
+};
 
 export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {

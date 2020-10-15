@@ -26,7 +26,7 @@ const Layout = ({ children, noHero = false }) => (
         }
       }
     `}
-    render={data => (
+    render={() => (
       <>
         <Hacktoberfest />
         {noHero ? null : (
@@ -41,9 +41,11 @@ const Layout = ({ children, noHero = false }) => (
             }
             description={
               <>
-                Zenika's DNA is based on open source philosophy. <br />
+                Zenika's DNA is based on open source philosophy.
+                <br />
                 Driven by this passion, we contribute to projects and share more
-                and more with communities. <br />
+                and more with communities.
+                <br />
               </>
             }
           />
@@ -56,7 +58,12 @@ const Layout = ({ children, noHero = false }) => (
 );
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
+  noHero: PropTypes.bool,
+};
+
+Layout.defaultProps = {
+  noHero: false,
 };
 
 export default Layout;

@@ -21,6 +21,45 @@
 
 [https://oss.zenika.com](https://oss.zenika.com)
 
+## Zenika Hacktoberfest Leaderboard 2020
+
+⚠️  **You must be part of Zenika company to participate to the leaderboard** ⚠️ 
+
+Zenika Hacktoberfest Leaderboard 2020: [https://oss.zenika.com/hacktoberfest.html](https://oss.zenika.com/hacktoberfest.html)
+
+To be added to the leaderboard you must add your GitHub username and Zenika location in the `/static/hacktoberfest.json` file.
+
+**You will need:**
+- a [GitHub account](https://github.com).
+- to be registered to [Hacktoberfest website](https://hacktoberfest.digitalocean.com/).
+- belongs to Zenika company.
+
+**Then you can make a PR to add your name:**
+1. Fork this repository
+2. Edit the `/static/hacktoberfest.json` file by adding a line in the file with
+```
+  "your-github-username": "your-location"
+```
+⚠️  Please copy/paste one of the following location:
+- "Bordeaux, FR"
+- "Brest, FR"
+- "Grenoble, FR"
+- "Lille, FR"
+- "Lyon, FR"
+- "Montreal, CA"
+- "Nantes, FR"
+- "Paris, FR"
+- "Rennes, FR"
+- "Singapore, SG"
+
+3. Create the PR.
+
+🎉 So you will have your first PR. Happy Hacktoberfest! 
+
+Once reviewed and merged, it may take one hour before the website is updated (cache stuff :)
+
+Zenika Hacktoberfest Leaderboard 2020: [https://oss.zenika.com/hacktoberfest.html](https://oss.zenika.com/hacktoberfest.html)
+
 ## 📦 Install
 
 ```sh

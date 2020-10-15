@@ -32,76 +32,76 @@ function SEO({ description, lang, meta, keywords, title }) {
   return (
     <Helmet
       htmlAttributes={{
-        lang
+        lang,
       }}
       title={title}
       meta={[
         {
-          itemprop: `name`,
-          content: title
+          itemprop: "name",
+          content: title,
         },
         {
-          itemprop: `description`,
-          content: metaDescription
+          itemprop: "description",
+          content: metaDescription,
         },
         {
-          name: `name`,
-          content: title
+          name: "name",
+          content: title,
         },
         {
-          name: `Description`,
-          content: metaDescription
+          name: "Description",
+          content: metaDescription,
         },
         {
-          property: `og:title`,
-          content: title
+          property: "og:title",
+          content: title,
         },
         {
-          property: `og:description`,
-          content: metaDescription
+          property: "og:description",
+          content: metaDescription,
         },
         {
-          property: `og:image`,
-          content: site.siteMetadata.image
+          property: "og:image",
+          content: site.siteMetadata.image,
         },
         {
-          property: `og:type`,
-          content: `website`
+          property: "og:type",
+          content: "website",
         },
         {
-          property: `og:url`,
-          content: site.siteMetadata.siteUrl
+          property: "og:url",
+          content: site.siteMetadata.siteUrl,
         },
         {
-          property: `og:site_name`,
-          content: title
+          property: "og:site_name",
+          content: title,
         },
         {
-          name: `twitter:card`,
-          content: `summary_large_image`
+          name: "twitter:card",
+          content: "summary_large_image",
         },
         {
-          name: `twitter:creator`,
-          content: site.siteMetadata.author
+          name: "twitter:creator",
+          content: site.siteMetadata.author,
         },
         {
-          name: `twitter:title`,
-          content: title
+          name: "twitter:title",
+          content: title,
         },
         {
-          name: `twitter:description`,
-          content: metaDescription
+          name: "twitter:description",
+          content: metaDescription,
         },
         {
-          name: `twitter:image`,
-          content: site.siteMetadata.image
-        }
+          name: "twitter:image",
+          content: site.siteMetadata.image,
+        },
       ]
         .concat(
           keywords.length > 0
             ? {
-                name: `keywords`,
-                content: keywords.join(`, `)
+                name: "keywords",
+                content: keywords.join(", "),
               }
             : []
         )
@@ -123,10 +123,10 @@ function SEO({ description, lang, meta, keywords, title }) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: "en",
   meta: [],
   keywords: [],
-  description: ``
+  description: "",
 };
 
 SEO.propTypes = {
@@ -134,7 +134,7 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   keywords: PropTypes.arrayOf(PropTypes.string),
-  title: PropTypes.string.isRequired
+  title: PropTypes.string.isRequired,
 };
 
 export default SEO;

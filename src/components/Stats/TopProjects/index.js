@@ -1,1 +1,1 @@
-export { default as TopProjects } from "./TopProjects"
+export { default as TopProjects } from "./TopProjects";

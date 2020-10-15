@@ -1,9 +1,9 @@
-const path = require("path")
+const path = require("path");
 
 exports.createPages = ({ actions, graphql }) => {
-  const { createPage } = actions
+  const { createPage } = actions;
 
-  const BlogPost = path.resolve(`src/templates/BlogPost.jsx`)
+  const BlogPost = path.resolve("src/templates/BlogPost.jsx");
 
   return graphql(`
     {
@@ -20,17 +20,18 @@ exports.createPages = ({ actions, graphql }) => {
         }
       }
     }
-  `).then(result => {
+  `).then((result) => {
+    // eslint-disable-line consistent-return
     if (result.errors) {
-      return Promise.reject(result.errors)
+      return Promise.reject(result.errors);
     }
 
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    return result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
         path: node.frontmatter.path,
         component: BlogPost,
         context: {}, // additional data can be passed via context
-      })
-    })
-  })
-}
+      });
+    });
+  });
+};
