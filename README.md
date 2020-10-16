@@ -76,6 +76,8 @@ yarn start
 
 Contributions, issues and feature requests are welcome. Feel free to check [issues page](https://github.com/zenika-open-source/insights-website/issues) if you want to contribute.
 
+Please see [contribution doc](./docs/CONTRIBUTING.md)
+
 ## 👤 Author
 
 **Zenika**
