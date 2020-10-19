@@ -1,48 +1,48 @@
 {
   "organization": "Zenika",
-  "totalMembers": 480,
-  "membersWithRepositories": 394,
-  "totalRepositories": 5900,
+  "totalMembers": 495,
+  "membersWithRepositories": 408,
+  "totalRepositories": 6129,
   "topLanguages": [
     {
       "language": "JavaScript",
-      "count": 1635
+      "count": 1687
     },
     {
       "language": "Java",
-      "count": 1029
+      "count": 1035
     },
     {
       "language": "TypeScript",
-      "count": 349
+      "count": 370
     },
     {
       "language": "HTML",
-      "count": 336
+      "count": 351
     },
     {
       "language": "Shell",
-      "count": 221
+      "count": 228
     },
     {
       "language": "CSS",
-      "count": 174
+      "count": 177
     },
     {
       "language": "Python",
-      "count": 152
+      "count": 155
     },
     {
       "language": "C",
-      "count": 119
+      "count": 120
     },
     {
       "language": "PHP",
-      "count": 108
+      "count": 119
     },
     {
       "language": "Vue",
-      "count": 102
+      "count": 114
     }
   ],
   "topMemberRepositories": [
@@ -56,7 +56,7 @@
     },
     {
       "repo": "Rythm.js (Okazari)",
-      "count": 3633
+      "count": 3654
     },
     {
       "repo": "bento-starter (kefranabg)",
@@ -68,11 +68,11 @@
     },
     {
       "repo": "rn-diff (ncuillery)",
-      "count": 1093
+      "count": 1090
     },
     {
       "repo": "angular-breadcrumb (ncuillery)",
-      "count": 807
+      "count": 809
     },
     {
       "repo": "eslint-plugin-angular (EmmanuelDemey)",
@@ -80,19 +80,19 @@
     },
     {
       "repo": "vue-use-web (Tarektouati)",
-      "count": 426
+      "count": 511
     },
     {
       "repo": "vue-crud-x (ais-one)",
-      "count": 345
+      "count": 366
     }
   ],
-  "totalOrganizationRepositories": 560,
+  "totalOrganizationRepositories": 571,
   "topOrganizationRepositories": [
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 498,
+      "count": 620,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
@@ -104,26 +104,32 @@
     {
       "name": "k8s-on-gce",
       "description": "Use Infra as Code to pop a k8S cluster on gcp",
-      "count": 29,
+      "count": 31,
       "url": "https://github.com/Zenika/k8s-on-gce"
     },
     {
       "name": "docker-kotlin",
       "description": "Kotlin docker images built upon official openjdk images.",
-      "count": 21,
+      "count": 26,
       "url": "https://github.com/Zenika/docker-kotlin"
+    },
+    {
+      "name": "traefik-gke-demo",
+      "description": "Demo to use Traefik as GKE loadbalancer",
+      "count": 23,
+      "url": "https://github.com/Zenika/traefik-gke-demo"
     },
     {
       "name": "alpine-firestore-backup",
       "description": "Image that performs Firestore backups based on Alpine Google Cloud SDK image.",
-      "count": 21,
+      "count": 22,
       "url": "https://github.com/Zenika/alpine-firestore-backup"
     },
     {
-      "name": "Blogs",
-      "description": "Source code for the blog posts",
-      "count": 20,
-      "url": "https://github.com/Zenika/Blogs"
+      "name": "kubernetes-security-workshop",
+      "description": null,
+      "count": 21,
+      "url": "https://github.com/Zenika/kubernetes-security-workshop"
     },
     {
       "name": "zenscaler",
@@ -132,21 +138,15 @@
       "url": "https://github.com/Zenika/zenscaler"
     },
     {
-      "name": "traefik-gke-demo",
-      "description": "Demo to use Traefik as GKE loadbalancer",
-      "count": 20,
-      "url": "https://github.com/Zenika/traefik-gke-demo"
-    },
-    {
-      "name": "kubernetes-security-workshop",
-      "description": null,
-      "count": 20,
-      "url": "https://github.com/Zenika/kubernetes-security-workshop"
+      "name": "Blogs",
+      "description": "Source code for the blog posts",
+      "count": 19,
+      "url": "https://github.com/Zenika/Blogs"
     },
     {
       "name": "marcel",
       "description": "marcel is a configurable plugin based dashboard system",
-      "count": 16,
+      "count": 15,
       "url": "https://github.com/Zenika/marcel"
     }
   ],
@@ -154,78 +154,88 @@
     {
       "name": "readme-md-generator",
       "description": "📄 CLI that generates beautiful README.md files",
+      "count": 7108,
       "url": "https://github.com/kefranabg/readme-md-generator"
     },
     {
       "name": "generator-gulp-angular",
       "description": "Yeoman generator for AngularJS with GulpJS [UNMAINTAINED next iteration is FountainJS]",
+      "count": 3813,
       "url": "https://github.com/Swiip/generator-gulp-angular"
     },
     {
       "name": "Rythm.js",
       "description": "A javascript library that makes your page dance.",
+      "count": 3654,
       "url": "https://github.com/Okazari/Rythm.js"
     },
     {
       "name": "bento-starter",
       "description": ":bento: Full-Stack solution to quickly build PWA applications with Vue.js and Firebase",
+      "count": 1373,
       "url": "https://github.com/kefranabg/bento-starter"
     },
     {
       "name": "rn-placeholder",
       "description": "🏖️Display some placeholder stuff before rendering your text or media content in React Native",
+      "count": 1242,
       "url": "https://github.com/mfrachet/rn-placeholder"
     },
     {
       "name": "rn-diff",
       "description": "Easier React Native upgrades by clearly expose changes from a version to another. :rocket:",
+      "count": 1090,
       "url": "https://github.com/ncuillery/rn-diff"
     },
     {
       "name": "angular-breadcrumb",
       "description": "Generate a breadcrumb from ui-router's states",
+      "count": 809,
       "url": "https://github.com/ncuillery/angular-breadcrumb"
-    },
-    {
-      "name": "eslint-plugin-angular",
-      "description": "ESLint plugin for AngularJS applications",
-      "url": "https://github.com/EmmanuelDemey/eslint-plugin-angular"
     },
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
+      "count": 620,
       "url": "https://github.com/Zenika/alpine-chrome"
+    },
+    {
+      "name": "eslint-plugin-angular",
+      "description": "ESLint plugin for AngularJS applications",
+      "count": 612,
+      "url": "https://github.com/EmmanuelDemey/eslint-plugin-angular"
     },
     {
       "name": "vue-use-web",
       "description": "🕸 Web APIs implemented as Vue.js composition functions",
+      "count": 511,
       "url": "https://github.com/Tarektouati/vue-use-web"
     }
   ],
   "topPrimaryLanguages": [
     {
       "language": "JavaScript",
-      "count": 127
+      "count": 128
     },
     {
       "language": "Java",
-      "count": 116
+      "count": 117
     },
     {
       "language": "Shell",
-      "count": 66
+      "count": 64
     },
     {
       "language": "HTML",
-      "count": 43
+      "count": 49
     },
     {
       "language": "TypeScript",
-      "count": 33
+      "count": 34
     },
     {
       "language": "Vue",
-      "count": 18
+      "count": 20
     },
     {
       "language": "Python",
@@ -233,18 +243,22 @@
     },
     {
       "language": "CSS",
-      "count": 11
-    },
-    {
-      "language": "Dockerfile",
-      "count": 11
+      "count": 12
     },
     {
       "language": "Kotlin",
       "count": 11
+    },
+    {
+      "language": "Go",
+      "count": 9
     }
   ],
   "topContributors": [
+    {
+      "login": "chesterheng",
+      "totalContributions": 2202
+    },
     {
       "login": "EmmanuelDemey",
       "totalContributions": 1581
@@ -254,37 +268,33 @@
       "totalContributions": 1513
     },
     {
-      "login": "chesterheng",
-      "totalContributions": 1118
-    },
-    {
       "login": "FBerthelot",
       "totalContributions": 1111
     },
     {
-      "login": "frinyvonnick",
-      "totalContributions": 857
+      "login": "bpetetot",
+      "totalContributions": 1049
     },
     {
-      "login": "bpetetot",
-      "totalContributions": 855
+      "login": "frinyvonnick",
+      "totalContributions": 926
+    },
+    {
+      "login": "Riduidel",
+      "totalContributions": 853
     },
     {
       "login": "lisequesnel",
-      "totalContributions": 854
+      "totalContributions": 847
     },
     {
       "login": "Romakita",
-      "totalContributions": 842
+      "totalContributions": 762
     },
     {
-      "login": "kefranabg",
-      "totalContributions": 661
-    },
-    {
-      "login": "nlepage",
-      "totalContributions": 629
+      "login": "coyotte508",
+      "totalContributions": 762
     }
   ],
-  "totalContributions": 40025
+  "totalContributions": 42772
 }
