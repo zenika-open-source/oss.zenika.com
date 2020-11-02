@@ -1,36 +1,36 @@
 {
   "organization": "Zenika",
-  "totalMembers": 495,
-  "membersWithRepositories": 408,
-  "totalRepositories": 6129,
+  "totalMembers": 500,
+  "membersWithRepositories": 411,
+  "totalRepositories": 6160,
   "topLanguages": [
     {
       "language": "JavaScript",
-      "count": 1687
+      "count": 1702
     },
     {
       "language": "Java",
-      "count": 1035
+      "count": 1037
     },
     {
       "language": "TypeScript",
-      "count": 370
+      "count": 376
     },
     {
       "language": "HTML",
-      "count": 351
+      "count": 360
     },
     {
       "language": "Shell",
-      "count": 228
+      "count": 227
     },
     {
       "language": "CSS",
-      "count": 177
+      "count": 180
     },
     {
       "language": "Python",
-      "count": 155
+      "count": 156
     },
     {
       "language": "C",
@@ -42,7 +42,7 @@
     },
     {
       "language": "Vue",
-      "count": 114
+      "count": 115
     }
   ],
   "topMemberRepositories": [
@@ -80,19 +80,19 @@
     },
     {
       "repo": "vue-use-web (Tarektouati)",
-      "count": 511
+      "count": 517
     },
     {
       "repo": "vue-crud-x (ais-one)",
-      "count": 366
+      "count": 373
     }
   ],
-  "totalOrganizationRepositories": 571,
+  "totalOrganizationRepositories": 573,
   "topOrganizationRepositories": [
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 620,
+      "count": 628,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
@@ -196,7 +196,7 @@
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 620,
+      "count": 628,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
@@ -208,7 +208,7 @@
     {
       "name": "vue-use-web",
       "description": "🕸 Web APIs implemented as Vue.js composition functions",
-      "count": 511,
+      "count": 517,
       "url": "https://github.com/Tarektouati/vue-use-web"
     }
   ],
@@ -231,7 +231,7 @@
     },
     {
       "language": "TypeScript",
-      "count": 34
+      "count": 35
     },
     {
       "language": "Vue",
@@ -257,7 +257,7 @@
   "topContributors": [
     {
       "login": "chesterheng",
-      "totalContributions": 2202
+      "totalContributions": 2199
     },
     {
       "login": "EmmanuelDemey",
@@ -268,33 +268,33 @@
       "totalContributions": 1513
     },
     {
+      "login": "bpetetot",
+      "totalContributions": 1122
+    },
+    {
       "login": "FBerthelot",
       "totalContributions": 1111
     },
     {
-      "login": "bpetetot",
-      "totalContributions": 1049
+      "login": "Romakita",
+      "totalContributions": 1096
     },
     {
       "login": "frinyvonnick",
-      "totalContributions": 926
-    },
-    {
-      "login": "Riduidel",
-      "totalContributions": 853
+      "totalContributions": 906
     },
     {
       "login": "lisequesnel",
-      "totalContributions": 847
+      "totalContributions": 858
     },
     {
-      "login": "Romakita",
-      "totalContributions": 762
+      "login": "Riduidel",
+      "totalContributions": 832
     },
     {
       "login": "coyotte508",
-      "totalContributions": 762
+      "totalContributions": 769
     }
   ],
-  "totalContributions": 42772
+  "totalContributions": 44034
 }
