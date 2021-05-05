@@ -30,7 +30,7 @@ const NewProjects = () => (
         description="QuickPerf is a testing library for Java providing annotations to quickly evaluate performance"
         image={quickperf}
         github="https://github.com/quick-perf/quickperf"
-        website="https://github.com/quick-perf/doc/wiki/QuickPerf"
+        website="https://quickperf.io"
         languages={["java"]}
       />
       <ProjectCard
