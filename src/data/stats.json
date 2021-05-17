@@ -1,16 +1,16 @@
 {
   "organization": "Zenika",
-  "totalMembers": 533,
-  "membersWithRepositories": 438,
-  "totalRepositories": 6942,
+  "totalMembers": 537,
+  "membersWithRepositories": 445,
+  "totalRepositories": 6975,
   "topLanguages": [
     {
       "language": "JavaScript",
-      "count": 1884
+      "count": 1891
     },
     {
       "language": "Java",
-      "count": 1117
+      "count": 1119
     },
     {
       "language": "TypeScript",
@@ -18,7 +18,7 @@
     },
     {
       "language": "HTML",
-      "count": 398
+      "count": 400
     },
     {
       "language": "Shell",
@@ -26,11 +26,11 @@
     },
     {
       "language": "CSS",
-      "count": 205
+      "count": 208
     },
     {
       "language": "Python",
-      "count": 204
+      "count": 208
     },
     {
       "language": "PHP",
@@ -42,7 +42,7 @@
     },
     {
       "language": "Kotlin",
-      "count": 130
+      "count": 134
     }
   ],
   "topMemberRepositories": [
@@ -72,15 +72,15 @@
     },
     {
       "repo": "refreshVersions (jmfayard)",
-      "count": 895
+      "count": 903
     },
     {
       "repo": "angular-breadcrumb (ncuillery)",
-      "count": 804
+      "count": 803
     },
     {
       "repo": "vue-use-web (Tarektouati)",
-      "count": 624
+      "count": 629
     },
     {
       "repo": "eslint-plugin-angular (EmmanuelDemey)",
@@ -92,7 +92,7 @@
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 804,
+      "count": 828,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
@@ -190,40 +190,40 @@
     {
       "name": "refreshVersions",
       "description": "Life is too short to google for dependencies and versions",
-      "count": 895,
+      "count": 903,
       "url": "https://github.com/jmfayard/refreshVersions"
     },
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 804,
+      "count": 828,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
       "name": "angular-breadcrumb",
       "description": "Generate a breadcrumb from ui-router's states",
-      "count": 804,
+      "count": 803,
       "url": "https://github.com/ncuillery/angular-breadcrumb"
     },
     {
       "name": "vue-use-web",
       "description": "🕸 Web APIs implemented as Vue.js composition functions",
-      "count": 624,
+      "count": 629,
       "url": "https://github.com/Tarektouati/vue-use-web"
     }
   ],
   "topPrimaryLanguages": [
     {
       "language": "JavaScript",
-      "count": 130
+      "count": 129
     },
     {
       "language": "Java",
-      "count": 116
+      "count": 118
     },
     {
       "language": "Shell",
-      "count": 57
+      "count": 54
     },
     {
       "language": "HTML",
@@ -256,12 +256,12 @@
   ],
   "topContributors": [
     {
-      "login": "chesterheng",
-      "totalContributions": 2153
+      "login": "Romakita",
+      "totalContributions": 1972
     },
     {
-      "login": "Romakita",
-      "totalContributions": 1826
+      "login": "chesterheng",
+      "totalContributions": 1911
     },
     {
       "login": "EmmanuelDemey",
@@ -273,28 +273,28 @@
     },
     {
       "login": "bpetetot",
-      "totalContributions": 1353
-    },
-    {
-      "login": "coyotte508",
-      "totalContributions": 1169
+      "totalContributions": 1313
     },
     {
       "login": "FBerthelot",
       "totalContributions": 1111
     },
     {
+      "login": "coyotte508",
+      "totalContributions": 1041
+    },
+    {
       "login": "loicmathieu",
-      "totalContributions": 863
+      "totalContributions": 848
     },
     {
       "login": "lisequesnel",
-      "totalContributions": 843
+      "totalContributions": 832
     },
     {
       "login": "frinyvonnick",
       "totalContributions": 824
     }
   ],
-  "totalContributions": 47666
+  "totalContributions": 46874
 }
