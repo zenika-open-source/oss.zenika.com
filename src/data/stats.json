@@ -1,24 +1,24 @@
 {
   "organization": "Zenika",
-  "totalMembers": 533,
-  "membersWithRepositories": 438,
-  "totalRepositories": 6942,
+  "totalMembers": 542,
+  "membersWithRepositories": 447,
+  "totalRepositories": 7039,
   "topLanguages": [
     {
       "language": "JavaScript",
-      "count": 1884
+      "count": 1909
     },
     {
       "language": "Java",
-      "count": 1117
+      "count": 1136
     },
     {
       "language": "TypeScript",
-      "count": 447
+      "count": 452
     },
     {
       "language": "HTML",
-      "count": 398
+      "count": 401
     },
     {
       "language": "Shell",
@@ -26,23 +26,23 @@
     },
     {
       "language": "CSS",
-      "count": 205
+      "count": 212
     },
     {
       "language": "Python",
-      "count": 204
+      "count": 209
+    },
+    {
+      "language": "Kotlin",
+      "count": 142
+    },
+    {
+      "language": "Vue",
+      "count": 136
     },
     {
       "language": "PHP",
       "count": 135
-    },
-    {
-      "language": "Vue",
-      "count": 135
-    },
-    {
-      "language": "Kotlin",
-      "count": 130
     }
   ],
   "topMemberRepositories": [
@@ -72,27 +72,27 @@
     },
     {
       "repo": "refreshVersions (jmfayard)",
-      "count": 895
+      "count": 913
     },
     {
       "repo": "angular-breadcrumb (ncuillery)",
-      "count": 804
+      "count": 802
     },
     {
       "repo": "vue-use-web (Tarektouati)",
-      "count": 624
+      "count": 632
     },
     {
       "repo": "eslint-plugin-angular (EmmanuelDemey)",
       "count": 612
     }
   ],
-  "totalOrganizationRepositories": 585,
+  "totalOrganizationRepositories": 587,
   "topOrganizationRepositories": [
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 804,
+      "count": 834,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
@@ -190,44 +190,44 @@
     {
       "name": "refreshVersions",
       "description": "Life is too short to google for dependencies and versions",
-      "count": 895,
+      "count": 913,
       "url": "https://github.com/jmfayard/refreshVersions"
     },
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 804,
+      "count": 834,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
       "name": "angular-breadcrumb",
       "description": "Generate a breadcrumb from ui-router's states",
-      "count": 804,
+      "count": 802,
       "url": "https://github.com/ncuillery/angular-breadcrumb"
     },
     {
       "name": "vue-use-web",
       "description": "🕸 Web APIs implemented as Vue.js composition functions",
-      "count": 624,
+      "count": 632,
       "url": "https://github.com/Tarektouati/vue-use-web"
     }
   ],
   "topPrimaryLanguages": [
     {
       "language": "JavaScript",
-      "count": 130
+      "count": 129
     },
     {
       "language": "Java",
-      "count": 116
+      "count": 118
     },
     {
       "language": "Shell",
-      "count": 57
+      "count": 54
     },
     {
       "language": "HTML",
-      "count": 50
+      "count": 51
     },
     {
       "language": "TypeScript",
@@ -238,11 +238,11 @@
       "count": 21
     },
     {
-      "language": "Kotlin",
-      "count": 14
+      "language": "Python",
+      "count": 15
     },
     {
-      "language": "Python",
+      "language": "Kotlin",
       "count": 14
     },
     {
@@ -256,12 +256,12 @@
   ],
   "topContributors": [
     {
-      "login": "chesterheng",
-      "totalContributions": 2153
+      "login": "Romakita",
+      "totalContributions": 1980
     },
     {
-      "login": "Romakita",
-      "totalContributions": 1826
+      "login": "chesterheng",
+      "totalContributions": 1760
     },
     {
       "login": "EmmanuelDemey",
@@ -273,28 +273,28 @@
     },
     {
       "login": "bpetetot",
-      "totalContributions": 1353
-    },
-    {
-      "login": "coyotte508",
-      "totalContributions": 1169
+      "totalContributions": 1285
     },
     {
       "login": "FBerthelot",
       "totalContributions": 1111
     },
     {
+      "login": "coyotte508",
+      "totalContributions": 1017
+    },
+    {
       "login": "loicmathieu",
-      "totalContributions": 863
+      "totalContributions": 840
     },
     {
       "login": "lisequesnel",
-      "totalContributions": 843
+      "totalContributions": 839
     },
     {
       "login": "frinyvonnick",
       "totalContributions": 824
     }
   ],
-  "totalContributions": 47666
+  "totalContributions": 47487
 }
