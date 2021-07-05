@@ -1,48 +1,48 @@
 {
   "organization": "Zenika",
-  "totalMembers": 533,
-  "membersWithRepositories": 438,
-  "totalRepositories": 6942,
+  "totalMembers": 547,
+  "membersWithRepositories": 451,
+  "totalRepositories": 7198,
   "topLanguages": [
     {
       "language": "JavaScript",
-      "count": 1884
+      "count": 1971
     },
     {
       "language": "Java",
-      "count": 1117
+      "count": 1146
     },
     {
       "language": "TypeScript",
-      "count": 447
+      "count": 460
     },
     {
       "language": "HTML",
-      "count": 398
+      "count": 411
     },
     {
       "language": "Shell",
-      "count": 238
+      "count": 241
     },
     {
       "language": "CSS",
-      "count": 205
+      "count": 216
     },
     {
       "language": "Python",
-      "count": 204
-    },
-    {
-      "language": "PHP",
-      "count": 135
-    },
-    {
-      "language": "Vue",
-      "count": 135
+      "count": 211
     },
     {
       "language": "Kotlin",
-      "count": 130
+      "count": 145
+    },
+    {
+      "language": "Vue",
+      "count": 138
+    },
+    {
+      "language": "PHP",
+      "count": 136
     }
   ],
   "topMemberRepositories": [
@@ -68,31 +68,31 @@
     },
     {
       "repo": "rn-diff (ncuillery)",
-      "count": 1082
+      "count": 1081
     },
     {
       "repo": "refreshVersions (jmfayard)",
-      "count": 895
+      "count": 959
     },
     {
       "repo": "angular-breadcrumb (ncuillery)",
-      "count": 804
+      "count": 802
     },
     {
       "repo": "vue-use-web (Tarektouati)",
-      "count": 624
+      "count": 651
     },
     {
       "repo": "eslint-plugin-angular (EmmanuelDemey)",
       "count": 612
     }
   ],
-  "totalOrganizationRepositories": 585,
+  "totalOrganizationRepositories": 588,
   "topOrganizationRepositories": [
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 804,
+      "count": 862,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
@@ -104,7 +104,7 @@
     {
       "name": "karto",
       "description": "A simple static analysis tool to explore a Kubernetes cluster : observe your cluster state in real time, diagnosticate network policies, and more!",
-      "count": 36,
+      "count": 37,
       "url": "https://github.com/Zenika/karto"
     },
     {
@@ -184,65 +184,65 @@
     {
       "name": "rn-diff",
       "description": "Easier React Native upgrades by clearly expose changes from a version to another. :rocket:",
-      "count": 1082,
+      "count": 1081,
       "url": "https://github.com/ncuillery/rn-diff"
     },
     {
       "name": "refreshVersions",
       "description": "Life is too short to google for dependencies and versions",
-      "count": 895,
+      "count": 959,
       "url": "https://github.com/jmfayard/refreshVersions"
     },
     {
       "name": "alpine-chrome",
       "description": "Chrome Headless docker images built upon alpine official image",
-      "count": 804,
+      "count": 862,
       "url": "https://github.com/Zenika/alpine-chrome"
     },
     {
       "name": "angular-breadcrumb",
       "description": "Generate a breadcrumb from ui-router's states",
-      "count": 804,
+      "count": 802,
       "url": "https://github.com/ncuillery/angular-breadcrumb"
     },
     {
       "name": "vue-use-web",
       "description": "🕸 Web APIs implemented as Vue.js composition functions",
-      "count": 624,
+      "count": 651,
       "url": "https://github.com/Tarektouati/vue-use-web"
     }
   ],
   "topPrimaryLanguages": [
     {
       "language": "JavaScript",
-      "count": 130
+      "count": 131
     },
     {
       "language": "Java",
-      "count": 116
+      "count": 118
     },
     {
       "language": "Shell",
-      "count": 57
+      "count": 53
     },
     {
       "language": "HTML",
-      "count": 50
+      "count": 51
     },
     {
       "language": "TypeScript",
-      "count": 36
+      "count": 37
     },
     {
       "language": "Vue",
-      "count": 21
-    },
-    {
-      "language": "Kotlin",
-      "count": 14
+      "count": 22
     },
     {
       "language": "Python",
+      "count": 15
+    },
+    {
+      "language": "Kotlin",
       "count": 14
     },
     {
@@ -256,12 +256,8 @@
   ],
   "topContributors": [
     {
-      "login": "chesterheng",
-      "totalContributions": 2153
-    },
-    {
       "login": "Romakita",
-      "totalContributions": 1826
+      "totalContributions": 2168
     },
     {
       "login": "EmmanuelDemey",
@@ -272,12 +268,12 @@
       "totalContributions": 1513
     },
     {
-      "login": "bpetetot",
-      "totalContributions": 1353
+      "login": "chesterheng",
+      "totalContributions": 1240
     },
     {
-      "login": "coyotte508",
-      "totalContributions": 1169
+      "login": "bpetetot",
+      "totalContributions": 1221
     },
     {
       "login": "FBerthelot",
@@ -285,16 +281,20 @@
     },
     {
       "login": "loicmathieu",
-      "totalContributions": 863
+      "totalContributions": 887
     },
     {
-      "login": "lisequesnel",
-      "totalContributions": 843
+      "login": "coyotte508",
+      "totalContributions": 837
     },
     {
       "login": "frinyvonnick",
       "totalContributions": 824
+    },
+    {
+      "login": "lisequesnel",
+      "totalContributions": 818
     }
   ],
-  "totalContributions": 47666
+  "totalContributions": 47022
 }
