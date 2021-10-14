@@ -35,15 +35,6 @@ export function Blog() {
           <li className="blog__chapter">
             <Link to="/white-paper/licenses">Chapter 4: Licenses</Link>
           </li>
-          <li className="blog__chapter blog__chapter--disabled">
-            Chapter 5: Maintaining
-          </li>
-          <li className="blog__chapter blog__chapter--disabled">
-            Chapter 6: Recruitment
-          </li>
-          <li className="blog__chapter blog__chapter--disabled">
-            Chapter 7: Business
-          </li>
         </ul>
       </div>
     </article>
