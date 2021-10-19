@@ -21,11 +21,11 @@
 
 [https://oss.zenika.com](https://oss.zenika.com)
 
-## Zenika Hacktoberfest Leaderboard 2020
+## Zenika Hacktoberfest Leaderboard 2021
 
 ⚠️  **You must be part of Zenika company to participate to the leaderboard** ⚠️ 
 
-Zenika Hacktoberfest Leaderboard 2020: [https://oss.zenika.com/hacktoberfest.html](https://oss.zenika.com/hacktoberfest.html)
+Zenika Hacktoberfest Leaderboard 2021: [https://oss.zenika.com/hacktoberfest.html](https://oss.zenika.com/hacktoberfest.html)
 
 To be added to the leaderboard you must add your GitHub username and Zenika location in the `/static/hacktoberfest.json` file.
 
@@ -58,7 +58,7 @@ To be added to the leaderboard you must add your GitHub username and Zenika loca
 
 Once reviewed and merged, it may take one hour before the website is updated (cache stuff :)
 
-Zenika Hacktoberfest Leaderboard 2020: [https://oss.zenika.com/hacktoberfest.html](https://oss.zenika.com/hacktoberfest.html)
+Zenika Hacktoberfest Leaderboard 2021: [https://oss.zenika.com/hacktoberfest.html](https://oss.zenika.com/hacktoberfest.html)
 
 ## 📦 Install
 

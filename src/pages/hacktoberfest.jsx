@@ -65,10 +65,10 @@ const HacktoberfestPage = () => {
         <h2>
           <strong>Zenika's Hacktoberfest Leaderboard</strong>
         </h2>
-        <p>Count the number of PR between Oct. 1st and Oct. 31st 2020.</p>
+        <p>Count the number of PR between Oct. 1st and Oct. 31st 2021.</p>
         <p>
           <a
-            href="https://github.com/zenika-open-source/insights-website#zenika-hacktoberfest-leaderboard-2020"
+            href="https://github.com/zenika-open-source/oss.zenika.com#zenika-hacktoberfest-leaderboard-2021"
             target="new"
           >
             How to be added to the Zenika Leaderboard ?
