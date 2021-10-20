@@ -2,7 +2,7 @@ import React from "react";
 
 import logoTwitter from "./icon-twitter.svg";
 import logoGithub from "./icon-github.svg";
-import logoZenika from "./Zenika_RougesurBlanc.svg";
+import logoZenika from "./zenika.svg";
 import "./SocialLinks.css";
 
 const SocialLinks = () => (
