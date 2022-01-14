@@ -49,7 +49,7 @@ export default function Template({ data }) {
 }
 
 Template.propTypes = {
-  data: PropTypes.node.isRequired,
+  data: PropTypes.object.isRequired,
 };
 
 export const pageQuery = graphql`
