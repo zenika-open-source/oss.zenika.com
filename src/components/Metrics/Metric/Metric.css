@@ -9,13 +9,13 @@
 }
 
 .metric__value {
-  color: #b51432;
+  color: #ee2238;
   font-size: 3rem;
   padding-right: 0.8rem;
 }
 
 .metric__title {
-  color: #b51432;
+  color: #ee2238;
   font-size: 1.5rem;
   text-transform: uppercase;
 }
