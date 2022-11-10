@@ -8,8 +8,28 @@ import SEO from "../components/seo";
 
 import "./hacktober.css";
 
-function getPRCount(user) {
-  return user.contributionsCollection.pullRequestContributions.totalCount;
+function getPRCount(infosUser) {
+  if (
+    infosUser &&
+    infosUser.github &&
+    undefined != infosUser.github.nbContributions
+  ) {
+    return infosUser.github.nbContributions;
+  } else return 0;
+}
+
+function getMRCount(infosUser) {
+  if (
+    infosUser &&
+    infosUser.gitlab &&
+    undefined != infosUser.gitlab.nbContributions
+  ) {
+    return infosUser.gitlab.nbContributions;
+  } else return 0;
+}
+
+function getMRPRCount(infosUser) {
+  return getMRCount(infosUser) + getPRCount(infosUser);
 }
 
 function addRanks(sortedData) {
@@ -17,15 +37,15 @@ function addRanks(sortedData) {
   let lastTotalCount = null;
   let exaequo = 0;
   for (let i = 0; i < sortedData.length; i++) {
-    const { user } = sortedData[i];
-    const totalCount = getPRCount(user);
+    const user = sortedData[i];
+    const totalCount = getMRPRCount(user[1]);
     if (lastTotalCount === totalCount) {
       exaequo++;
     } else {
       lastRank += exaequo;
       exaequo = 1;
     }
-    user.rank = lastRank;
+    user[1].rank = lastRank;
     lastTotalCount = totalCount;
   }
   return sortedData;
@@ -42,12 +62,12 @@ const HacktoberfestPage = () => {
   const leaderboard = useMemo(() => {
     if (!data) return null;
     const sortedData = data
-      .filter(({ user }) => {
+      .filter((infosUsers) => {
         if (locationFilter === "") return true;
-        return user.location === locationFilter;
+        return infosUsers[1].agency === locationFilter;
       })
       .sort((a, b) => {
-        return getPRCount(b.user) - getPRCount(a.user);
+        return getMRPRCount(b[1]) - getMRPRCount(a[1]);
       });
     return addRanks(sortedData);
   }, [data, locationFilter]);
@@ -65,7 +85,7 @@ const HacktoberfestPage = () => {
         <h2>
           <strong>Zenika's Hacktoberfest Leaderboard</strong>
         </h2>
-        <p>Count the number of PR between Oct. 1st and Oct. 31st 2022.</p>
+        <p>Count the number of PR & MR between Oct. 1st and Oct. 31st 2022.</p>
         <p>
           <a
             href="https://github.com/zenika-open-source/oss.zenika.com#zenika-hacktoberfest-leaderboard-2022"
@@ -81,36 +101,57 @@ const HacktoberfestPage = () => {
               <thead>
                 <tr>
                   <th>#</th>
-                  <th>GitHub username</th>
-                  <th>Number of pull requests</th>
+                  <th>Nom</th>
+                  <th>GitHub</th>
+                  <th>Number of PR</th>
+                  <th>GitLab</th>
+                  <th>Number of MR</th>
+                  <th>Total</th>
                   <th>
                     <select onChange={handleLocationFilter}>
                       <option value="">Location</option>
                       <option value="Bordeaux, FR">Bordeaux, FR</option>
                       <option value="Brest, FR">Brest, FR</option>
+                      <option value="Casablanca, MA">Casablanca, MA</option>
                       <option value="Grenoble, FR">Grenoble, FR</option>
                       <option value="Lille, FR">Lille, FR</option>
                       <option value="Lyon, FR">Lyon, FR</option>
                       <option value="Montreal, CA">Montreal, CA</option>
                       <option value="Nantes, FR">Nantes, FR</option>
+                      <option value="Niort, FR">Niort, FR</option>
                       <option value="Paris, FR">Paris, FR</option>
                       <option value="Rennes, FR">Rennes, FR</option>
                       <option value="Singapore, SG">Singapore, SG</option>
+                      <option value="Toulouse, FR">Toulouse, SG</option>
                     </select>
                   </th>
                 </tr>
               </thead>
               <tbody>
-                {leaderboard.map(({ user }) => (
-                  <tr key={user.login}>
-                    <td>{user.rank}</td>
+                {leaderboard.map((infosUser) => (
+                  <tr key={infosUser[0]}>
+                    <td>{infosUser[1].rank}</td>
+                    <td>{infosUser[1].name}</td>
                     <td>
-                      <a href={`https://github.com/${user.login}`}>
-                        {user.login}
+                      <a
+                        href={`https://github.com/${infosUser[1].github.handle}`}
+                      >
+                        {infosUser[1].github.handle}
                       </a>
                     </td>
-                    <td>{getPRCount(user)}</td>
-                    <td>{user.location}</td>
+                    <td>{getPRCount(infosUser[1])}</td>
+                    <td>
+                      {infosUser[1].gitlab && (
+                        <a
+                          href={`https://gitlab.com/${infosUser[1].gitlab.handle}`}
+                        >
+                          {infosUser[1].gitlab.handle}
+                        </a>
+                      )}
+                    </td>
+                    <td>{getMRCount(infosUser[1])}</td>
+                    <td>{getMRPRCount(infosUser[1])}</td>
+                    <td>{infosUser[1].agency}</td>
                   </tr>
                 ))}
               </tbody>
