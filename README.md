@@ -30,27 +30,39 @@ Zenika Hacktoberfest Leaderboard 2022: [https://oss.zenika.com/hacktoberfest.htm
 To be added to the leaderboard you must add your GitHub username and Zenika location in the `/static/hacktoberfest.json` file.
 
 **You will need:**
-- a [GitHub account](https://github.com).
+- a [GitHub account](https://github.com) or a [GitLab account](https://gitlab.com/).
 - to be registered to [Hacktoberfest website](https://hacktoberfest.digitalocean.com/).
 - belongs to Zenika company.
 
 **Then you can make a PR to add your name:**
 1. Fork this repository
-2. Edit the `/static/hacktoberfest.json` file by adding a line in the file with
+2. Edit the `/static/hacktoberfest.json` file by adding your informations like this :
 ```
-  "your-github-username": "your-location"
+  {
+      "name": "your name you want to display on this website",
+      "agency": "your-location",
+      "github": {
+        "handle": "your-github-username"
+      },
+      "gitlab": {
+        "handle": "your-gitlab-username"
+      }
+    }
 ```
 ⚠️  Please copy/paste one of the following location:
 - "Bordeaux, FR"
 - "Brest, FR"
+- "Casablanca, MA"
 - "Grenoble, FR"
 - "Lille, FR"
 - "Lyon, FR"
 - "Montreal, CA"
 - "Nantes, FR"
+- "Niort, FR"
 - "Paris, FR"
 - "Rennes, FR"
 - "Singapore, SG"
+- "Toulouse, FR"
 
 3. Create the PR.
 
