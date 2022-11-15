@@ -2,7 +2,7 @@
   "name": "insights-website",
   "private": true,
   "description": "Website to display awesome insights about organization open source activity",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Zenika",
   "dependencies": {
     "classnames": "^2.3.1",
