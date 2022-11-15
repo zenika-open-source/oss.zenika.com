@@ -16,7 +16,8 @@ function Stat({ title, value }) {
 }
 
 export function Hacktoberfest() {
-  const { data, completionRate, numberOfPullRequests } = useHacktoberfest();
+  const { data, completionRate, numberOfPullRequests, numberOfMergeRequests } =
+    useHacktoberfest();
 
   return (
     <div className="hacktoberfest">
@@ -36,7 +37,10 @@ export function Hacktoberfest() {
           {data && (
             <div className="hacktoberfest__stats">
               <Stat title="Zenikas" value={data.length} />
-              <Stat title="Pull requests" value={numberOfPullRequests} />
+              <Stat
+                title="Contributions (PR/MR)"
+                value={numberOfPullRequests + numberOfMergeRequests}
+              />
               <Stat title="Completion" value={`${completionRate}%`} />
             </div>
           )}
