@@ -197,5 +197,15 @@
     "github": {
       "handle": "loicmathieu"
     }
+  },
+  {
+    "name": "Alexandre Garnier",
+    "agency": "Paris, FR",
+    "github": {
+      "handle": "zigarn"
+    },
+    "gitlab": {
+      "handle": "zigarn"
+    }
   }
 ]
