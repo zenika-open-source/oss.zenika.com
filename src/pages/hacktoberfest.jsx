@@ -88,7 +88,7 @@ const HacktoberfestPage = () => {
         <p>Count the number of PR & MR between Oct. 1st and Oct. 31st 2022.</p>
         <p>
           <a
-            href="https://github.com/zenika-open-source/oss.zenika.com#zenika-hacktoberfest-leaderboard-2022"
+            href="https://github.com/zenika-open-source/oss.zenika.com#zenika-hacktoberfest-leaderboard"
             target="new"
           >
             How to be added to the Zenika Leaderboard ?
@@ -113,6 +113,7 @@ const HacktoberfestPage = () => {
                       <option value="Bordeaux, FR">Bordeaux, FR</option>
                       <option value="Brest, FR">Brest, FR</option>
                       <option value="Casablanca, MA">Casablanca, MA</option>
+                      <option value="Clermont-Ferrand, MA">Clermont-Ferrand, FR</option>
                       <option value="Grenoble, FR">Grenoble, FR</option>
                       <option value="Lille, FR">Lille, FR</option>
                       <option value="Lyon, FR">Lyon, FR</option>
