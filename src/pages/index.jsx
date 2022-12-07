@@ -4,7 +4,6 @@ import { Helmet } from "react-helmet";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { Metrics } from "../components/Metrics";
-import { Stats } from "../components/Stats";
 import { NewProjects } from "../components/NewProjects";
 import { Resources } from "../components/Resources";
 import { Blog } from "../components/Blog";
@@ -17,7 +16,6 @@ const IndexPage = () => (
     </Helmet>
     <NewProjects />
     <Metrics />
-    <Stats />
     <Blog />
     <Resources />
   </Layout>
