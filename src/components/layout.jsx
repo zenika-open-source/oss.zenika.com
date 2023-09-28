@@ -10,6 +10,7 @@ import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
 
 import byZenika from "./byzenika.png";
+import { Hacktoberfest } from "./Hacktoberfest";
 import { Hero } from "./Hero";
 import { Footer } from "./Footer";
 import "./layout.css";
@@ -27,6 +28,7 @@ const Layout = ({ children, noHero = false }) => (
     `}
     render={() => (
       <>
+        <Hacktoberfest />
         {noHero ? null : (
           <Hero
             title={
