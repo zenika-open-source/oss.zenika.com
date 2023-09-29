@@ -13,7 +13,7 @@ export default function Template({ data }) {
 
   return (
     <Layout noHero>
-      <Helmet title={`OSS by Zenika - ${post.frontmatter.title}`}>
+      <Helmet title={`OSS by Zenika`}>
         <link
           rel="stylesheet"
           type="text/css"
@@ -25,7 +25,7 @@ export default function Template({ data }) {
       <Hero
         title={
           <h1>
-            {post.frontmatter.title}
+            OSS by Zenika
             <br />
             <sub />
           </h1>
