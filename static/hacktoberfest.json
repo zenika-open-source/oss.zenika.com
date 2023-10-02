@@ -16,7 +16,7 @@
       "handle": "gfeun"
     },
     "gitlab": {}
-  }, 
+  },
   {
     "name" : "Théophile Chenais",
     "agency": "Nantes, FR",
@@ -213,6 +213,13 @@
     },
     "gitlab": {
       "handle": "zigarn"
+    }
+  },
+  {
+    "name": "Alexandre Guérin",
+    "agency": "Niort, FR",
+    "github": {
+      "handle": "Ithrandil"
     }
   }
 ]
