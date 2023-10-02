@@ -214,5 +214,15 @@
     "gitlab": {
       "handle": "zigarn"
     }
+  },
+  {
+    "name": "Sylvain Gougouzian",
+    "agency": "Feurs, FR",
+    "github": {
+      "handle": "gouz"
+    },
+    "gitlab": {
+      "handle": "gouz"
+    }
   }
 ]
