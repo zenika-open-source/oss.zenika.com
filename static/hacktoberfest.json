@@ -214,5 +214,12 @@
     "gitlab": {
       "handle": "zigarn"
     }
-  }
+  },
+  {
+    "name": "Olivier Le Lay",
+    "agency": "Rennes, FR",
+    "github": {
+      "handle": "liollury"
+    }
+  },
 ]
