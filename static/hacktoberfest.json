@@ -24,5 +24,15 @@
       "handle": "Gosunet"
     },
     "gitlab": {}
+  },
+  {
+    "name": "Benjamin Bourgeois",
+    "agency": "Nantes, FR",
+    "github": {
+      "handle": "bengeois"
+    },
+    "gitlab": {
+      "handle": "bengeois"
+    }
   }
 ]
