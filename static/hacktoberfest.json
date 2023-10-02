@@ -214,5 +214,15 @@
     "gitlab": {
       "handle": "zigarn"
     }
+  },
+  {
+    "name": "Antoine Ceol",
+    "agency": "Paris, FR",
+    "github": {
+      "handle": "aceol"
+    },
+    "gitlab": {
+      "handle": "aceol"
+    }
   }
 ]
