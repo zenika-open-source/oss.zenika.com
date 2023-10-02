@@ -2,7 +2,7 @@
 title: "Chapter 3: Open source promotion cheat sheet"
 date: 2019-09-18T12:00:00.284Z
 author: Franck Abgrall, Thomas Betous
-path: "/white-paper/promotion"
+path: "/white-paper/promotion/"
 ---
 
 > This cheat sheet summarizes important steps you should follow to promote your open source project in the best conditions. You can click items to expand and get more information from a topic. 

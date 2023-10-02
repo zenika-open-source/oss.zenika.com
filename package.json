@@ -19,7 +19,6 @@
     "gatsby-source-filesystem": "^5.12.0",
     "gatsby-transformer-remark": "^6.12.0",
     "gatsby-transformer-sharp": "^5.12.0",
-    "node-gyp": "9.4.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -30,7 +29,6 @@
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
     "netlify-cli": "^16.4.2",
-    "pre-commit": "^1.2.2",
     "prettier": "^3.0.3"
   },
   "keywords": [
@@ -49,7 +47,6 @@
     "deploy": "netlify deploy --prod",
     "lint": "eslint . --ext js --ext jsx"
   },
-  "pre-commit": "format:check",
   "repository": {
     "type": "git",
     "url": "https://github.com/zenika-open-source/insights-website"

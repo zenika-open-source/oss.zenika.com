@@ -2,7 +2,7 @@
 title: "Chapter 4: Understanding software licenses"
 date: 2019-12-10T12:00:00.284Z
 author: Benjamin Petetot
-path: "/white-paper/licenses"
+path: "/white-paper/licenses/"
 ---
 
 As a developer or an open source project maintainer, it's essential to have knowledge of the different types of licenses. What are your rights and duties when you use them? Which license should you use for your project?
