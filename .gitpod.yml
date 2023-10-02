@@ -1,4 +1,4 @@
-image: node:19.2.0
+image: node:18.18.0
 
 tasks:
   - init: yarn install && yarn run build
