@@ -214,5 +214,13 @@
     "gitlab": {
       "handle": "zigarn"
     }
-  }
+  },
+    {
+    "name": "Alex Palma",
+    "agency": "Brest, FR",
+    "github": {
+      "handle": "elya29"
+    },
+    "gitlab": {}
+  }, 
 ]
