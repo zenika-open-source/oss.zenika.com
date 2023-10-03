@@ -8,18 +8,9 @@ jobs:
     executor: default-executor
     steps:
       - checkout
-      - restore_cache:
-          name: Restore Yarn Package Cache
-          keys:
-            - yarn-packages-v3-{{ checksum "yarn.lock" }}
       - run:
           name: Install Dependencies
-          command: yarn install --frozen-lockfile --cache-folder ~/.cache/yarn
-      - save_cache:
-          name: Save Yarn Package Cache
-          key: yarn-packages-v3-{{ checksum "yarn.lock" }}
-          paths:
-            - ~/.cache/yarn
+          command: yarn install --frozen-lockfile
       - persist_to_workspace:
           root: .
           paths: .
