@@ -2,7 +2,7 @@
 title: "Chapter 1: Getting Started 🥚"
 date: 2019-07-02T12:00:00.284Z
 author: Benjamin Petetot
-path: "/white-paper/getting-started"
+path: "/white-paper/getting-started/"
 ---
 
 The world of open source is vast, it is very easy to get lost. When starting, this world can feel unaccessible and intimidating. Where to start? What are the rules and codes to follow? Can I contribute even if I do not code?

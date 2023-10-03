@@ -5,22 +5,17 @@ exports.createPages = ({ actions, graphql }) => {
 
   const BlogPost = path.resolve("src/templates/BlogPost.jsx");
 
-  return graphql(`
-    {
-      allMarkdownRemark(
-        sort: { order: DESC, fields: [frontmatter___date] }
-        limit: 1000
-      ) {
-        edges {
-          node {
-            frontmatter {
-              path
-            }
+  return graphql(`{
+    allMarkdownRemark(sort: {frontmatter: {date: DESC}}, limit: 1000) {
+      edges {
+        node {
+          frontmatter {
+            path  
           }
         }
       }
     }
-  `).then((result) => {
+  }`).then((result) => {
     // eslint-disable-line consistent-return
     if (result.errors) {
       return Promise.reject(result.errors);
