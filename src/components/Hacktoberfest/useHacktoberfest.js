@@ -47,7 +47,7 @@ function computeCompletionRate(data) {
       })
       .filter((pullRequestsTotal) => pullRequestsTotal >= 4).length /
       data.length) *
-      100
+      100,
   );
 }
 
@@ -55,7 +55,7 @@ export default () => {
   const [data, setData] = useState(null);
   useEffect(() => {
     fetch(
-      "https://europe-west1-github-insights-247314.cloudfunctions.net/hacktoberfest"
+      "https://europe-west1-github-insights-247314.cloudfunctions.net/hacktoberfest",
     )
       .then((res) => res.json())
       .then(setData)
@@ -69,6 +69,6 @@ export default () => {
       numberOfMergeRequests: computeMRCount(data),
       completionRate: computeCompletionRate(data),
     }),
-    [data]
+    [data],
   );
 };
