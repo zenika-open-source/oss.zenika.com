@@ -2,7 +2,7 @@ version: 2.1
 executors:
   default-executor:
     docker:
-      - image: circleci/node:14
+      - image: cimg/node:18.18.0
 jobs:
   install-dependencies:
     executor: default-executor
@@ -11,13 +11,13 @@ jobs:
       - restore_cache:
           name: Restore Yarn Package Cache
           keys:
-            - yarn-packages-{{ checksum "yarn.lock" }}
+            - yarn-packages-v1-{{ checksum "yarn.lock" }}
       - run:
           name: Install Dependencies
           command: yarn install --frozen-lockfile
       - save_cache:
           name: Save Yarn Package Cache
-          key: yarn-packages-{{ checksum "yarn.lock" }}
+          key: yarn-packages-v1-{{ checksum "yarn.lock" }}
           paths:
             - ~/.cache/yarn
       - persist_to_workspace:

@@ -2,7 +2,7 @@
 title: "Chapter 2: Preparing your project being open sourced"
 date: 2019-08-28T12:00:00.284Z
 author: Yvonnick Frin 
-path: "/white-paper/preparing-your-project-being-open-sourced"
+path: "/white-paper/preparing-your-project-being-open-sourced/"
 ---
 
 In a [previous article](https://oss.zenika.com/white-paper/getting-started), we helped you submit your first contribution. You now want to launch your own open source project but you don't know what to do before letting everyone view your code ? No worries, in this article we will give you all the pre-requisites you need to launch your project.
