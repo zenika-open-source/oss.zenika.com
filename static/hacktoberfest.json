@@ -10,11 +10,18 @@
     }
   },
   {
-    {
     "name": "Alex Palma",
     "agency": "Brest, FR",
     "github": {
       "handle": "elya29"
+    },
+    "gitlab": {}
+  },
+  {
+    "name": "Jonathan Lagneaux",
+    "agency": "Brest, FR",
+    "github": {
+      "handle": "Gosunet"
     },
     "gitlab": {}
   }
