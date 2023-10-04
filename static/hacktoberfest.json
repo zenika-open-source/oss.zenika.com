@@ -44,5 +44,15 @@
     "gitlab": {
       "handle": "minicrash"
     }
+  },
+  {
+    "name": "Antoine Duchenet",
+    "agency": "Brest, FR",
+    "github": {
+      "handle": "antoine-duchenet"
+    },
+    "gitlab": {
+      "handle": "antoine-duchenet"
+    }
   }
 ]
