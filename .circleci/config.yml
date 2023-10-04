@@ -9,9 +9,6 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install node-gyp globally
-          command: yarn global add node-gyp
-      - run:
           name: Install Dependencies
           command: yarn install --immutable
       - persist_to_workspace:
