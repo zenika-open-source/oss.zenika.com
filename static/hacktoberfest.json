@@ -18,6 +18,16 @@
     "gitlab": {}
   },
   {
+    "name": "Guillaume Lamanda",
+    "agency": "Brest, FR",
+    "github": {
+      "handle": "guillaumeLamanda"
+    },
+    "gitlab": {
+      "handle": "guillaumeLamanda"
+    }
+  },
+  {
     "name": "Jonathan Lagneaux",
     "agency": "Brest, FR",
     "github": {
@@ -43,6 +53,16 @@
     },
     "gitlab": {
       "handle": "bengeois"
+    }
+  },
+  {
+    "name": "Antoine Duchenet",
+    "agency": "Brest, FR",
+    "github": {
+      "handle": "antoine-duchenet"
+    },
+    "gitlab": {
+      "handle": "antoine-duchenet"
     }
   }
 ]
