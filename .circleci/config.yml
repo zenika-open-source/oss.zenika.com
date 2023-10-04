@@ -13,7 +13,7 @@ jobs:
           command: yarn global add node-gyp
       - run:
           name: Install Dependencies
-          command: yarn install --frozen-lockfile
+          command: yarn install --immutable
       - persist_to_workspace:
           root: .
           paths: .
