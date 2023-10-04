@@ -27,5 +27,53 @@
       "handle": "elya29"
     },
     "gitlab": {}
+  },
+  {
+    "name": "Guillaume Lamanda",
+    "agency": "Brest, FR",
+    "github": {
+      "handle": "guillaumeLamanda"
+    },
+    "gitlab": {
+      "handle": "guillaumeLamanda"
+    }
+  },
+  {
+    "name": "Jonathan Lagneaux",
+    "agency": "Brest, FR",
+    "github": {
+      "handle": "Gosunet"
+    },
+    "gitlab": {}
+  },
+  {
+    "name": "Glenn Guegan",
+    "agency": "Brest, FR",
+    "github": {
+      "handle": "GlennGuegan"
+    },
+    "gitlab": {
+      "handle": "minicrash"
+    }
+  },
+  {
+    "name": "Benjamin Bourgeois",
+    "agency": "Nantes, FR",
+    "github": {
+      "handle": "bengeois"
+    },
+    "gitlab": {
+      "handle": "bengeois"
+    }
+  },
+  {
+    "name": "Antoine Duchenet",
+    "agency": "Brest, FR",
+    "github": {
+      "handle": "antoine-duchenet"
+    },
+    "gitlab": {
+      "handle": "antoine-duchenet"
+    }
   }
 ]
