@@ -26,6 +26,16 @@
     "gitlab": {}
   },
   {
+    "name": "Glenn Guegan",
+    "agency": "Brest, FR",
+    "github": {
+      "handle": "GlennGuegan"
+    },
+    "gitlab": {
+      "handle": "minicrash"
+    }
+  },
+  {
     "name": "Benjamin Bourgeois",
     "agency": "Nantes, FR",
     "github": {
