@@ -24,5 +24,15 @@
       "handle": "Gosunet"
     },
     "gitlab": {}
+  },
+  {
+    "name": "Glenn Guegan",
+    "agency": "Brest, FR",
+    "github": {
+      "handle": "GlennGuegan"
+    },
+    "gitlab": {
+      "handle": "minicrash"
+    }
   }
 ]
