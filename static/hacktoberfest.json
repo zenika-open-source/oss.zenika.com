@@ -18,6 +18,16 @@
     "gitlab": {}
   },
   {
+    "name": "Guillaume Lamanda",
+    "agency": "Brest, FR",
+    "github": {
+      "handle": "guillaumeLamanda"
+    },
+    "gitlab": {
+      "handle": "guillaumeLamanda"
+    }
+  },
+  {
     "name": "Jonathan Lagneaux",
     "agency": "Brest, FR",
     "github": {
