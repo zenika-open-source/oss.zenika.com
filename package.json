@@ -55,5 +55,6 @@
   },
   "bugs": {
     "url": "https://github.com/zenika-open-source/insights-website/issues"
-  }
+  },
+  "packageManager": "yarn@3.6.3"
 }
