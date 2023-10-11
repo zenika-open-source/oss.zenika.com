@@ -105,5 +105,15 @@
     "github": {
       "handle": "mguilliot"
     }
+  },
+  {
+    "name": "Guillaume Membré",
+    "agency": "Nantes, FR",
+    "github": {
+      "handle": "gmembre-zenika"
+    },
+    "gitlab": {
+      "handle": "coliss86"
+    }
   }
 ]
