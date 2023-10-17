@@ -158,5 +158,16 @@
     "github": {
       "handle": "yannbertrand"
     }
+  },
+  {
+    "name": "Arthur Lutz",
+    "agency": "Nantes, FR",
+    "github": {
+      "handle": "arthurzenika"
+    },
+    "gitlab": {
+      "handle": "arthurzenika"
+    }
+
   }
 ]
