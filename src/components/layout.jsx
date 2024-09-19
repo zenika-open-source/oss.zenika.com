@@ -12,6 +12,7 @@ import { StaticQuery, graphql } from "gatsby";
 import byZenika from "./byzenika.png";
 import { Hero } from "./Hero";
 import { Footer } from "./Footer";
+import { Hacktoberfest } from "./Hacktoberfest";
 import "./layout.css";
 
 const Layout = ({ children, noHero = false }) => (
@@ -27,6 +28,7 @@ const Layout = ({ children, noHero = false }) => (
     `}
     render={() => (
       <>
+        <Hacktoberfest />
         {noHero ? null : (
           <Hero
             title={
