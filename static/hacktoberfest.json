@@ -1,1 +1,9 @@
-[]
+[
+    {
+       "name":"Kevin Le Scouarnec",
+       "agency":"Montreal",
+       "github":{
+          "handle":"Klescouar"
+       }
+    }
+ ]
