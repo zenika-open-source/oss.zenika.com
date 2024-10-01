@@ -41,17 +41,27 @@
     "name": "Benjamin Bourgeois",
     "agency": "Nantes, FR",
     "github": {
-        "handle": "bengeois"
+      "handle": "bengeois"
     },
     "gitlab": {
-        "handle": "bengeois"
+      "handle": "bengeois"
+    }
+  },
+  {
+    "name": "Johan Bonneau",
+    "agency": "Nantes, FR",
+    "github": {
+      "handle": "Zenigata"
+    }
+  },
+  {
+    "name": "Thomas Caro",
+    "agency": "Montreal, CA",
+    "github": {
+      "handle": "ThomasCaro"
     },
-    {
-      "name": "Johan Bonneau",
-      "agency": "Nantes, FR",
-      "github": {
-        "handle": "Zenigata"
-      }
+    "gitlab": {
+      "handle": "ThomasCaro"
     }
   }
 ]
