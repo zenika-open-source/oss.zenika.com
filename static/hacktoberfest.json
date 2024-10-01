@@ -1,4 +1,11 @@
-[  
+[
+  {
+     "name":"Kevin Le Scouarnec",
+     "agency":"Montreal",
+     "github":{
+        "handle":"Klescouar"
+     }
+  },
   {
     "name": "Faustine Godbillot",
     "agency":"Rennes, FR",
