@@ -7,6 +7,30 @@
     }
   },
   {
+    "name": "Nicolas Delsaux",
+    "agency": "Lille, FR",
+    "github": {
+        "handle": "Riduidel"
+    }
+  },
+  {
+    "name": "Jean-Philippe Baconnais",
+    "agency": "Nantes, FR",
+    "github": {
+      "handle": "jeanphi-baconnais"
+    },
+    "gitlab": {
+      "handle": "jeanphi-baconnais"
+    }
+  },
+  {
+     "name":"Kevin Le Scouarnec",
+     "agency":"Montreal",
+     "github":{
+        "handle":"Klescouar"
+     }
+  },
+  {
     "name": "Faustine Godbillot",
     "agency":"Rennes, FR",
     "github": {
