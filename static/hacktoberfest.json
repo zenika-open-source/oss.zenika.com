@@ -1,10 +1,17 @@
 [
   {
-      "name": "Nicolas Delsaux",
-      "agency": "Lille, FR",
-      "github": {
-          "handle": "Riduidel"
-      }
+    "name": "Valentin Naydenov",
+    "agency": "Montreal",
+    "github": {
+       "handle": "Valnayy"
+    }
+  },
+  {
+    "name": "Nicolas Delsaux",
+    "agency": "Lille, FR",
+    "github": {
+        "handle": "Riduidel"
+    }
   },
   {
     "name": "Jean-Philippe Baconnais",
