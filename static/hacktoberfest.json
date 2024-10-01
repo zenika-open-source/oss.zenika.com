@@ -1,20 +1,43 @@
 [
-    {
-        "name": "Benjamin Bourgeois",
-        "agency": "Nantes, FR",
-        "github": {
-            "handle": "bengeois"
-        },
-        "gitlab": {
-            "handle": "bengeois"
-        }
+  {
+      "name": "Nicolas Delsaux",
+      "agency": "Lille, FR",
+      "github": {
+          "handle": "Riduidel"
+      }
+  },
+  {
+    "name": "Jean-Philippe Baconnais",
+    "agency": "Nantes, FR",
+    "github": {
+      "handle": "jeanphi-baconnais"
     },
-    {
-        "name": "Nicolas Delsaux",
-        "agency": "Lille, FR",
-        "github": {
-            "handle": "Riduidel"
-        }
+    "gitlab": {
+      "handle": "jeanphi-baconnais"
     }
-
+  },
+  {
+     "name":"Kevin Le Scouarnec",
+     "agency":"Montreal",
+     "github":{
+        "handle":"Klescouar"
+     }
+  },
+  {
+    "name": "Faustine Godbillot",
+    "agency":"Rennes, FR",
+    "github": {
+      "handle": "FaustineG"
+    }
+  },
+  {
+    "name": "Benjamin Bourgeois",
+    "agency": "Nantes, FR",
+    "github": {
+        "handle": "bengeois"
+    },
+    "gitlab": {
+        "handle": "bengeois"
+    }
+  }
 ]
