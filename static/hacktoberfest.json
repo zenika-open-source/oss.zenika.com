@@ -84,5 +84,12 @@
     "github": {
       "handle": "FarhounYoussef"
     }
+  },
+  {
+     "name":"Vincent Vanghelle",
+     "agency":"Montreal, CA",
+     "github":{
+        "handle":"vvanghelle"
+     }
   }
 ]
