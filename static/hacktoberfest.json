@@ -45,6 +45,13 @@
     },
     "gitlab": {
         "handle": "bengeois"
+    },
+    {
+      "name": "Johan Bonneau",
+      "agency": "Nantes, FR",
+      "github": {
+        "handle": "Zenigata"
+      }
     }
   }
 ]
