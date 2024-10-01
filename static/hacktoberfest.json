@@ -1,5 +1,15 @@
 [
   {
+    "name": "Jean-Philippe Baconnais",
+    "agency": "Nantes, FR",
+    "github": {
+      "handle": "jeanphi-baconnais"
+    },
+    "gitlab": {
+      "handle": "jeanphi-baconnais"
+    }
+  },
+  {
      "name":"Kevin Le Scouarnec",
      "agency":"Montreal",
      "github":{
