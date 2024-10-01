@@ -1,7 +1,19 @@
-[  {
+[  
+  {
     "name": "Faustine Godbillot",
     "agency":"Rennes, FR",
     "github": {
       "handle": "FaustineG"
     }
-  }]
+  },
+  {
+    "name": "Benjamin Bourgeois",
+    "agency": "Nantes, FR",
+    "github": {
+        "handle": "bengeois"
+    },
+    "gitlab": {
+        "handle": "bengeois"
+    }
+  }
+]
