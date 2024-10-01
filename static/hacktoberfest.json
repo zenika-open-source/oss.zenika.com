@@ -8,5 +8,13 @@
         "gitlab": {
             "handle": "bengeois"
         }
+    },
+    {
+        "name": "Nicolas Delsaux",
+        "agency": "Lille, FR",
+        "github": {
+            "handle": "Riduidel"
+        }
     }
+
 ]
