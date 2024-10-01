@@ -1,9 +1,26 @@
 [
-    {
-       "name":"Kevin Le Scouarnec",
-       "agency":"Montreal",
-       "github":{
-          "handle":"Klescouar"
-       }
+  {
+     "name":"Kevin Le Scouarnec",
+     "agency":"Montreal",
+     "github":{
+        "handle":"Klescouar"
+     }
+  },
+  {
+    "name": "Faustine Godbillot",
+    "agency":"Rennes, FR",
+    "github": {
+      "handle": "FaustineG"
     }
- ]
+  },
+  {
+    "name": "Benjamin Bourgeois",
+    "agency": "Nantes, FR",
+    "github": {
+        "handle": "bengeois"
+    },
+    "gitlab": {
+        "handle": "bengeois"
+    }
+  }
+]
