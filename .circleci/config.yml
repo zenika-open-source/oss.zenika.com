@@ -9,11 +9,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install node-gyp globally
-          command: yarn global add node-gyp
-      - run:
           name: Install Dependencies
-          command: yarn install --frozen-lockfile
+          command: npm ci
       - persist_to_workspace:
           root: .
           paths: .

@@ -76,13 +76,13 @@ Zenika Hacktoberfest Leaderboard: [https://oss.zenika.com/hacktoberfest.html](ht
 ## 📦 Install
 
 ```sh
-yarn
+npm ci
 ```
 
 ## 🚀 Usage
 
 ```sh
-yarn start
+npm start
 ```
 
 ## 🤝 Contributing
