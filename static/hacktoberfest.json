@@ -41,10 +41,20 @@
     "name": "Benjamin Bourgeois",
     "agency": "Nantes, FR",
     "github": {
-        "handle": "bengeois"
+      "handle": "bengeois"
     },
     "gitlab": {
-        "handle": "bengeois"
+      "handle": "bengeois"
+    }
+  },
+  {
+    "name": "Thomas Caro",
+    "agency": "Montreal, CA",
+    "github": {
+      "handle": "ThomasCaro"
+    },
+    "gitlab": {
+      "handle": "ThomasCaro"
     }
   }
 ]
