@@ -26,7 +26,7 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "netlify-cli": "^16.4.2",
+    "netlify-cli": "^17.36.4",
     "prettier": "^3.0.3"
   },
   "keywords": [
