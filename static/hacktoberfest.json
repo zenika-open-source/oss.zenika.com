@@ -86,6 +86,13 @@
     }
   },
   {
+    "name":"Vincent Vanghelle",
+    "agency":"Montreal, CA",
+    "github":{
+        "handle":"vvanghelle"
+    }
+  },
+  {
     "name": "Jeremy Molla",
     "agency": "Montreal, CA",
     "github": {
