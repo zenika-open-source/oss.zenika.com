@@ -1,4 +1,3 @@
-/* eslint-disable no-plusplus */
 import { Link } from "gatsby";
 import React, { useCallback, useMemo, useState } from "react";
 import useHacktoberfest from "../components/Hacktoberfest/useHacktoberfest";

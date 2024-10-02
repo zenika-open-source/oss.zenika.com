@@ -16,7 +16,6 @@ exports.createPages = ({ actions, graphql }) => {
       }
     }
   }`).then((result) => {
-    // eslint-disable-line consistent-return
     if (result.errors) {
       return Promise.reject(result.errors);
     }
