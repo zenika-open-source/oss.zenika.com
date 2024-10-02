@@ -1,6 +1,6 @@
-const path = require("path");
+import path from "node:path";
 
-exports.createPages = ({ actions, graphql }) => {
+export const createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
 
   const BlogPost = path.resolve("src/templates/BlogPost.jsx");
