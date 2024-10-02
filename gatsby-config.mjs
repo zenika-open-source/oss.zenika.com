@@ -1,4 +1,9 @@
-module.exports = {
+import { dirname } from "node:path"
+import { fileURLToPath } from "node:url"
+
+const __dirname = dirname(fileURLToPath(import.meta.url))
+
+export default {
   siteMetadata: {
     title: "Zenika Open Source",
     description: "Insights about Zenika's Open Source contributions",
