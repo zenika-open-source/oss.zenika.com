@@ -91,5 +91,26 @@
     "github": {
       "handle": "Badra00"
     }
+  },
+  {
+    "name":"Vincent Vanghelle",
+    "agency":"Montreal, CA",
+    "github":{
+        "handle":"vvanghelle"
+    }
+  },
+  {
+    "name": "Jeremy Molla",
+    "agency": "Montreal, CA",
+    "github": {
+      "handle": "jeremyzenika"
+    }
+  },
+  {
+    "name": "Yann Bertrand",
+    "agency": "Nantes, FR",
+    "github": {
+      "handle": "yannbertrand"
+    }
   }
 ]
