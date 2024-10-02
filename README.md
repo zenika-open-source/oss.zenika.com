@@ -23,20 +23,23 @@
 
 ## Zenika Hacktoberfest Leaderboard
 
-⚠️  **You must be part of Zenika company to participate to the leaderboard** ⚠️ 
+⚠️ **You must be part of Zenika company to participate to the leaderboard** ⚠️
 
 Zenika Hacktoberfest Leaderboard: [https://oss.zenika.com/hacktoberfest.html](https://oss.zenika.com/hacktoberfest.html)
 
 To be added to the leaderboard you must add your GitHub username and Zenika location in the `/static/hacktoberfest.json` file.
 
 **You will need:**
+
 - a [GitHub account](https://github.com) or a [GitLab account](https://gitlab.com/).
 - to be registered to [Hacktoberfest website](https://hacktoberfest.digitalocean.com/).
 - belongs to Zenika company.
 
 **Then you can make a PR to add your name:**
+
 1. Fork this repository
 2. Edit the `/static/hacktoberfest.json` file by adding your informations like this :
+
 ```
   {
       "name": "your name you want to display on this website",
@@ -49,7 +52,9 @@ To be added to the leaderboard you must add your GitHub username and Zenika loca
       }
     }
 ```
-⚠️  Please copy/paste one of the following location:
+
+⚠️ Please copy/paste one of the following location:
+
 - "Bordeaux, FR"
 - "Brest, FR"
 - "Casablanca, MA"
@@ -67,7 +72,7 @@ To be added to the leaderboard you must add your GitHub username and Zenika loca
 
 3. Create the PR.
 
-🎉 So you will have your first PR. Happy Hacktoberfest! 
+🎉 So you will have your first PR. Happy Hacktoberfest!
 
 Once reviewed and merged, it may take one hour before the website is updated (cache stuff :)
 
@@ -76,13 +81,13 @@ Zenika Hacktoberfest Leaderboard: [https://oss.zenika.com/hacktoberfest.html](ht
 ## 📦 Install
 
 ```sh
-yarn
+npm install
 ```
 
 ## 🚀 Usage
 
 ```sh
-yarn start
+npm start
 ```
 
 ## 🤝 Contributing
@@ -95,8 +100,8 @@ Please see [contribution doc](./docs/CONTRIBUTING.md)
 
 **Zenika**
 
-* Twitter: [@ZenikaOSS](https://twitter.com/ZenikaOSS)
-* Github: [@zenika-open-source](https://github.com/zenika-open-source)
+- Twitter: [@ZenikaOSS](https://twitter.com/ZenikaOSS)
+- Github: [@zenika-open-source](https://github.com/zenika-open-source)
 
 ## 🙏 Show your support
 
@@ -108,7 +113,8 @@ Copyright © 2019 [Zenika](https://github.com/zenika-open-source).
 
 This project is [Apache 2.0](https://github.com/zenika-open-source/insights-website/blob/master/LICENSE) licensed.
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
 
 ![with love by zenika](https://img.shields.io/badge/With%20%E2%9D%A4%EF%B8%8F%20by-Zenika-b51432.svg?link=https://oss.zenika.com)
