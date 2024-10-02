@@ -41,8 +41,7 @@
     "format:fix": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
-    "deploy": "netlify deploy --prod"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "pre-commit": "format:check",
   "repository": {
