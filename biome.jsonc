@@ -4,7 +4,7 @@
   "files": {
     "ignoreUnknown": false,
     "ignore": [],
-    "include": ["src/**/*.js", "src/**/*.jsx"]
+    "include": ["src/**/*.js", "src/**/*.jsx", "src/**/*.css"]
   },
   "formatter": {
     "enabled": true,
