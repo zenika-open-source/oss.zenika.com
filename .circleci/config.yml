@@ -22,7 +22,7 @@ jobs:
           at: .
       - run:
           name: "Check prettier"
-          command: echo 'Fake prettier check'
+          command: npm run format:check
 
   check-linter:
     executor: default-executor
