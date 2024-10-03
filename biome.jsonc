@@ -3,8 +3,8 @@
   "vcs": { "enabled": false, "clientKind": "git", "useIgnoreFile": false },
   "files": {
     "ignoreUnknown": false,
-    "ignore": [],
-    "include": ["src/**/*.js", "src/**/*.jsx", "src/**/*.css"]
+    "ignore": [".cache", "node_modules", "public"],
+    "include": ["src/**/*.js", "src/**/*.jsx", "src/**/*.css", "gatsby-*"]
   },
   "formatter": {
     "enabled": true,
