@@ -8,23 +8,17 @@ import SEO from "../components/seo";
 import "./hacktober.css";
 
 function getPRCount(infosUser) {
-  if (
-    infosUser &&
-    infosUser.github &&
-    undefined != infosUser.github.nbContributions
-  ) {
+  if (infosUser?.github && infosUser.github.nbContributions != null) {
     return infosUser.github.nbContributions;
-  } else return 0;
+  }
+  return 0;
 }
 
 function getMRCount(infosUser) {
-  if (
-    infosUser &&
-    infosUser.gitlab &&
-    undefined != infosUser.gitlab.nbContributions
-  ) {
+  if (infosUser?.gitlab && infosUser.gitlab.nbContributions != null) {
     return infosUser.gitlab.nbContributions;
-  } else return 0;
+  }
+  return 0;
 }
 
 function getMRPRCount(infosUser) {
@@ -95,70 +89,68 @@ const HacktoberfestPage = () => {
         </p>
         {!leaderboard && <div>Loading...</div>}
         {leaderboard && (
-          <>
-            <table>
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>Nom</th>
-                  <th>GitHub</th>
-                  <th>Number of PR</th>
-                  <th>GitLab</th>
-                  <th>Number of MR</th>
-                  <th>Total</th>
-                  <th>
-                    <select onChange={handleLocationFilter}>
-                      <option value="">Location</option>
-                      <option value="Bordeaux, FR">Bordeaux, FR</option>
-                      <option value="Brest, FR">Brest, FR</option>
-                      <option value="Casablanca, MA">Casablanca, MA</option>
-                      <option value="Clermont-Ferrand, MA">
-                        Clermont-Ferrand, FR
-                      </option>
-                      <option value="Grenoble, FR">Grenoble, FR</option>
-                      <option value="Lille, FR">Lille, FR</option>
-                      <option value="Lyon, FR">Lyon, FR</option>
-                      <option value="Montreal, CA">Montreal, CA</option>
-                      <option value="Nantes, FR">Nantes, FR</option>
-                      <option value="Niort, FR">Niort, FR</option>
-                      <option value="Paris, FR">Paris, FR</option>
-                      <option value="Rennes, FR">Rennes, FR</option>
-                      <option value="Singapore, SG">Singapore, SG</option>
-                      <option value="Toulouse, FR">Toulouse, SG</option>
-                    </select>
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                {leaderboard.map((infosUser) => (
-                  <tr key={infosUser[0]}>
-                    <td>{infosUser[1].rank}</td>
-                    <td>{infosUser[1].name}</td>
-                    <td>
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Nom</th>
+                <th>GitHub</th>
+                <th>Number of PR</th>
+                <th>GitLab</th>
+                <th>Number of MR</th>
+                <th>Total</th>
+                <th>
+                  <select onChange={handleLocationFilter}>
+                    <option value="">Location</option>
+                    <option value="Bordeaux, FR">Bordeaux, FR</option>
+                    <option value="Brest, FR">Brest, FR</option>
+                    <option value="Casablanca, MA">Casablanca, MA</option>
+                    <option value="Clermont-Ferrand, MA">
+                      Clermont-Ferrand, FR
+                    </option>
+                    <option value="Grenoble, FR">Grenoble, FR</option>
+                    <option value="Lille, FR">Lille, FR</option>
+                    <option value="Lyon, FR">Lyon, FR</option>
+                    <option value="Montreal, CA">Montreal, CA</option>
+                    <option value="Nantes, FR">Nantes, FR</option>
+                    <option value="Niort, FR">Niort, FR</option>
+                    <option value="Paris, FR">Paris, FR</option>
+                    <option value="Rennes, FR">Rennes, FR</option>
+                    <option value="Singapore, SG">Singapore, SG</option>
+                    <option value="Toulouse, FR">Toulouse, SG</option>
+                  </select>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {leaderboard.map((infosUser) => (
+                <tr key={infosUser[0]}>
+                  <td>{infosUser[1].rank}</td>
+                  <td>{infosUser[1].name}</td>
+                  <td>
+                    <a
+                      href={`https://github.com/${infosUser[1].github.handle}`}
+                    >
+                      {infosUser[1].github.handle}
+                    </a>
+                  </td>
+                  <td>{getPRCount(infosUser[1])}</td>
+                  <td>
+                    {infosUser[1].gitlab && (
                       <a
-                        href={`https://github.com/${infosUser[1].github.handle}`}
+                        href={`https://gitlab.com/${infosUser[1].gitlab.handle}`}
                       >
-                        {infosUser[1].github.handle}
+                        {infosUser[1].gitlab.handle}
                       </a>
-                    </td>
-                    <td>{getPRCount(infosUser[1])}</td>
-                    <td>
-                      {infosUser[1].gitlab && (
-                        <a
-                          href={`https://gitlab.com/${infosUser[1].gitlab.handle}`}
-                        >
-                          {infosUser[1].gitlab.handle}
-                        </a>
-                      )}
-                    </td>
-                    <td>{getMRCount(infosUser[1])}</td>
-                    <td>{getMRPRCount(infosUser[1])}</td>
-                    <td>{infosUser[1].agency}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </>
+                    )}
+                  </td>
+                  <td>{getMRCount(infosUser[1])}</td>
+                  <td>{getMRPRCount(infosUser[1])}</td>
+                  <td>{infosUser[1].agency}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         )}
       </article>
       <article className="hacktober__body">

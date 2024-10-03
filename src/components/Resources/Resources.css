@@ -39,7 +39,6 @@
   margin: 2rem 4rem;
 }
 
-
 @media (max-width: 768px) {
   .resources__content {
     flex-direction: column;
@@ -61,5 +60,4 @@
     margin: 3rem 0;
     margin-bottom: 1rem;
   }
-
 }

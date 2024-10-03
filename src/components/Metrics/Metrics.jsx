@@ -1,9 +1,9 @@
 import React from "react";
 
 import data from "../../data/stats.json";
+import contributions from "./icons/contributions.svg";
 import contributors from "./icons/contributors.svg";
 import projects from "./icons/projects.svg";
-import contributions from "./icons/contributions.svg";
 
 import { Metric } from "./Metric";
 import "./Metrics.css";

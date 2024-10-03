@@ -5,7 +5,7 @@
 }
 
 .newProjects__content > * {
-  border-right: 1px solid #CCCCCC;
+  border-right: 1px solid #cccccc;
 }
 
 .newProjects__content > *:last-child {
@@ -24,4 +24,3 @@
     padding: 2rem 1rem;
   }
 }
-

@@ -1,9 +1,9 @@
-import React from "react";
 import { Link, graphql } from "gatsby";
 import PropTypes from "prop-types";
+import React from "react";
 import { Helmet } from "react-helmet";
-import Layout from "../components/layout";
 import { Hero } from "../components/Hero";
+import Layout from "../components/layout";
 
 import "./BlogPost.css";
 
@@ -12,7 +12,7 @@ export default function Template({ data }) {
 
   return (
     <Layout noHero>
-      <Helmet title={`OSS by Zenika`}>
+      <Helmet title={"OSS by Zenika"}>
         <link
           rel="stylesheet"
           type="text/css"
@@ -37,6 +37,7 @@ export default function Template({ data }) {
         </Link>
         <div
           className="blog-post-content"
+          // biome-ignore lint/security/noDangerouslySetInnerHtml: blog posts can contain html
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
         <Link className="blog-post__back-home" to="/">
