@@ -23,13 +23,13 @@ jobs:
           root: .
           paths: .
 
-  check-prettier:
+  check-formatting:
     executor: default-executor
     steps:
       - attach_workspace:
           at: .
       - run:
-          name: "Check prettier"
+          name: "Check formatting"
           command: npm run format:check
 
   check-linter:
@@ -46,7 +46,7 @@ workflows:
   quality-checks:
     jobs:
       - install-dependencies
-      - check-prettier:
+      - check-formatting:
           requires:
             - install-dependencies
       - check-linter:

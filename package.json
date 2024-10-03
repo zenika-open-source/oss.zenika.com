@@ -24,15 +24,15 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "prettier": "^3.3.3"
+    "@biomejs/biome": "1.9.3"
   },
   "homepage": "https://oss.zenika.com",
   "license": "Apache 2.0",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format:check": "prettier --list-different src/**/*.{js,jsx}",
-    "format:fix": "prettier --write src/**/*.{js,jsx}",
+    "format:check": "biome format",
+    "format:fix": "biome format --write",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
