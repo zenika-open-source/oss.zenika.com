@@ -1,13 +1,13 @@
 import React from "react";
 
 import { Helmet } from "react-helmet";
-import Layout from "../components/layout";
-import SEO from "../components/seo";
+import { Blog } from "../components/Blog";
 import { Metrics } from "../components/Metrics";
-import { Stats } from "../components/Stats";
 import { NewProjects } from "../components/NewProjects";
 import { Resources } from "../components/Resources";
-import { Blog } from "../components/Blog";
+import { Stats } from "../components/Stats";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 const IndexPage = () => (
   <Layout>

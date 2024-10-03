@@ -5,14 +5,14 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import React from "react";
-import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
+import PropTypes from "prop-types";
+import React from "react";
 
-import byZenika from "./byzenika.png";
-import { Hero } from "./Hero";
 import { Footer } from "./Footer";
 import { Hacktoberfest } from "./Hacktoberfest";
+import { Hero } from "./Hero";
+import byZenika from "./byzenika.png";
 import "./layout.css";
 
 const Layout = ({ children, noHero = false }) => (

@@ -23,32 +23,20 @@ jobs:
           root: .
           paths: .
 
-  check-formatting:
+  check-biome:
     executor: default-executor
     steps:
       - attach_workspace:
           at: .
       - run:
-          name: "Check formatting"
-          command: npm run format:check
-
-  check-linter:
-    executor: default-executor
-    steps:
-      - attach_workspace:
-          at: .
-      - run:
-          name: "Check linter"
-          command: echo 'Fake linter check'
+          name: "Check biome"
+          command: npm run check
 
 workflows:
   version: 2
   quality-checks:
     jobs:
       - install-dependencies
-      - check-formatting:
-          requires:
-            - install-dependencies
-      - check-linter:
+      - check-biome:
           requires:
             - install-dependencies

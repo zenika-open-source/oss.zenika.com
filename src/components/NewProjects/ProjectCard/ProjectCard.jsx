@@ -1,8 +1,8 @@
-import React from "react";
 import PropTypes from "prop-types";
+import React from "react";
 
-import link from "./icons/link.svg";
 import githubIcon from "./icons/icon-github.svg";
+import link from "./icons/link.svg";
 
 import "./ProjectCard.css";
 

@@ -3,24 +3,20 @@ import { useEffect, useMemo, useState } from "react";
 function computePRCount(data) {
   if (!data) return 0;
   return data.reduce((acc, infosUser) => {
-    if (
-      infosUser[1].github &&
-      undefined != infosUser[1].github.nbContributions
-    ) {
+    if (infosUser[1].github && infosUser[1].github.nbContributions != null) {
       return acc + infosUser[1].github.nbContributions;
-    } else return acc;
+    }
+    return acc;
   }, 0);
 }
 
 function computeMRCount(data) {
   if (!data) return 0;
   return data.reduce((acc, infosUser) => {
-    if (
-      infosUser[1].gitlab &&
-      undefined != infosUser[1].gitlab.nbContributions
-    ) {
+    if (infosUser[1].gitlab && infosUser[1].gitlab.nbContributions != null) {
       return acc + infosUser[1].gitlab.nbContributions;
-    } else return acc;
+    }
+    return acc;
   }, 0);
 }
 
@@ -30,17 +26,11 @@ function computeCompletionRate(data) {
   return Math.round(
     (data
       .map((infosUser) => {
-        var nbTotalPRMR = 0;
-        if (
-          infosUser[1].github &&
-          undefined != infosUser[1].github.nbContributions
-        )
+        let nbTotalPRMR = 0;
+        if (infosUser[1].github && infosUser[1].github.nbContributions != null)
           nbTotalPRMR += +infosUser[1].github.nbContributions;
 
-        if (
-          infosUser[1].gitlab &&
-          undefined != infosUser[1].gitlab.nbContributions
-        )
+        if (infosUser[1].gitlab && infosUser[1].gitlab.nbContributions != null)
           nbTotalPRMR += +infosUser[1].gitlab.nbContributions;
 
         return nbTotalPRMR;

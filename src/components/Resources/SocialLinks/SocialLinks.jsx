@@ -1,7 +1,7 @@
 import React from "react";
 
-import logoTwitter from "./icon-twitter.svg";
 import logoGithub from "./icon-github.svg";
+import logoTwitter from "./icon-twitter.svg";
 import logoZenika from "./zenika.svg";
 import "./SocialLinks.css";
 
