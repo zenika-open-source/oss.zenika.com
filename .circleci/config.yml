@@ -8,9 +8,17 @@ jobs:
     executor: default-executor
     steps:
       - checkout
+      - run: cat package*.json > cachekey
+      - restore_cache:
+          keys:
+            - oss-zenika-com-npm-{{ checksum "cachekey" }}
       - run:
           name: Install Dependencies
           command: npm ci
+      - save_cache:
+          key: oss-zenika-com-npm-{{ checksum "cachekey" }}
+          paths:
+            - ~/.npm
       - persist_to_workspace:
           root: .
           paths: .
