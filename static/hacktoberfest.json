@@ -112,5 +112,15 @@
     "github": {
       "handle": "yannbertrand"
     }
+  },
+  {
+      "name": "Sylvain Gougouzian",
+      "agency": "Clermont-Ferrand, FR",
+      "github": {
+        "handle": "gouz"
+      },
+      "gitlab": {
+        "handle": "gouz"
+      }
   }
 ]
