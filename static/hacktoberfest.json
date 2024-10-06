@@ -122,5 +122,12 @@
       "gitlab": {
         "handle": "gouz"
       }
-  }
+  },
+  {
+    "name": "Romain Lenzotti",
+    "agency": "Paris, FR",
+    "github": {
+      "handle": "romakita"
+    }
+  },
 ]
