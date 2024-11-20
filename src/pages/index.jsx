@@ -17,7 +17,6 @@ const IndexPage = () => (
     </Helmet>
     <NewProjects />
     <Metrics />
-    <Stats />
     <Blog />
     <Resources />
   </Layout>
