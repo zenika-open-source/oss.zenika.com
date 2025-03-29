@@ -21,11 +21,11 @@ It is also important to take into account the maturity of the project and its si
 
 Another good way to identify a suitable project is to **select those which are actively looking for contributors.** Several websites and tools can help:
 
-* [Awesome for beginners](https://github.com/MunGell/awesome-for-beginners) is a list of projects looking for contributors (beginners or not) by listing their *"Good First Issues"*. In the same way, the website [Up for grabs](https://up-for-grabs.net) makes it possible to find projects in need of contributors.
+* [Awesome for beginners](https://github.com/MunGell/awesome-for-beginners) is a list of projects looking for contributors (beginners or not) by listing their [Good First Issues](https://goodfirstissues.com/). In the same way, the website [Up for grabs](https://up-for-grabs.net) makes it possible to find projects in need of contributors.
 
 * [CodeTriage](https://www.codetriage.com/) is a tool for subscribing to open source projects and receiving new requests for contributions every day.
 
-* [First contributions](https://firstcontributions.github.io/) is a little different, it is a workshop to make your first contribution in less than five minutes. It introduces the basis of the Git workflow to make contributions on GitHub. In addition to this tutorial, the website offers links to *"Good First Issues"* of large GitHub projects.
+* [First contributions](https://firstcontributions.github.io/) is a little different, it is a workshop to make your first contribution in less than five minutes. It introduces the basis of the Git workflow to make contributions on GitHub. In addition to this tutorial, the website offers links to[Good First Issues](https://goodfirstissues.com/) of large GitHub projects.
 
 * Evenings or community events like [HacktoberFest](https://hacktoberfest.digitalocean.com/) are also a good way to get started on projects looking for contributors. For example, the [hack.commit.push](https://hack-commit-pu.sh/) organizes an open source development day, open to everyone, regardless of your level. At the beginning of the day, introductory workshops are presented, followed by open source contributions with mentors.
 
