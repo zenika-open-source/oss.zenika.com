@@ -29,3 +29,14 @@ export type Resource = {
   link: string;
   icon: LucideIcon;
 };
+
+export type Contributor = {
+  id: string;
+  rank: number;
+  name: string;
+  avatarUrl: string;
+  imageHint: string;
+  prCount: number;
+  mrCount: number;
+  totalContributions: number;
+};

@@ -1,5 +1,7 @@
-import { Zap } from 'lucide-react';
+import { Zap, Users } from 'lucide-react';
 import Link from 'next/link';
+import { ThemeToggleButton } from '@/components/theme-toggle-button';
+import { Button } from '@/components/ui/button';
 
 export function Navbar() {
   return (
@@ -12,7 +14,15 @@ export function Navbar() {
               ZenithForge
             </span>
           </Link>
-          {/* Navigation links can be added here if needed */}
+          <div className="flex items-center space-x-2 sm:space-x-4">
+            <Button variant="ghost" asChild className="px-2 sm:px-3">
+              <Link href="/contributors" className="text-sm font-medium hover:text-primary">
+                <Users className="h-4 w-4 sm:mr-2" />
+                <span className="hidden sm:inline">Top Contributors</span>
+              </Link>
+            </Button>
+            <ThemeToggleButton />
+          </div>
         </div>
       </div>
     </nav>
