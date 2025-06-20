@@ -6,7 +6,7 @@
   "author": "Zenika",
   "dependencies": {
     "classnames": "^2.5.1",
-    "gatsby": "^5.13.7",
+    "gatsby": "^5.14.1",
     "gatsby-plugin-catch-links": "^5.13.1",
     "gatsby-plugin-google-analytics": "^5.13.1",
     "gatsby-plugin-manifest": "^5.13.1",
