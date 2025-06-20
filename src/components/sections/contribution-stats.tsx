@@ -26,6 +26,24 @@ const stats = [
     value: '10K+',
     label: 'Stars Received',
   },
+  {
+    id: '5',
+    icon: TrendingUp,
+    value: '500+',
+    label: 'Contributions/Month',
+  },
+  {
+    id: '6',
+    icon: FolderGit2,
+    value: '75+',
+    label: 'Projects Maintained',
+  },
+  {
+    id: '7',
+    icon: FolderGit2,
+    value: '100+',
+    label: 'Projects Contributed To',
+  },
 ];
 
 export function ContributionStats() {
@@ -43,7 +61,7 @@ export function ContributionStats() {
             Zenika's commitment to Open Source by the numbers.
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-7 gap-6 md:gap-8">
           {stats.map((stat) => {
             const IconComponent = stat.icon;
             return (
