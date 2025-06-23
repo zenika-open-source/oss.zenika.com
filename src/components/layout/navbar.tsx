@@ -11,7 +11,7 @@ export function Navbar() {
           <Link href="/" className="flex items-center space-x-2 group">
             <Zap className="h-8 w-8 text-primary group-hover:text-accent transition-colors" />
             <span className="text-2xl font-bold bg-gradient-to-r from-[#EE2238] to-[#BF1D67] bg-clip-text text-transparent group-hover:opacity-80 transition-opacity">
-              ZenithForge
+              Opensource by Zenika
             </span>
           </Link>
           <div className="flex items-center space-x-2 sm:space-x-4">
