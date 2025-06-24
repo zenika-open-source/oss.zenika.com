@@ -5,27 +5,27 @@ import { BookOpen, FileText, Wrench, Youtube, LibraryBig } from 'lucide-react';
 const mockResources: Resource[] = [
   {
     id: '1',
+    title: 'Hacktoberfest 24 \: a way to promote OpenSource',
+    type: 'Blog Post',
+    description: 'Hacktoberfest, the best motivation to contribute to opensource projects! 💪 🗓️ This is the 6th participation for Jean-Philippe Baconnais, the 4th as a maintainer of projects.',
+    icon: FileText,
+    link: 'https://dev.to/jphi_baconnais/hacktoberfest-24-a-way-to-promote-opensource-4gli'
+  },
+  {
+    id: '2',
+    title: 'Reflecting on my Hacktoberfest 2024 journey',
+    type: 'Blog Post',
+    description: 'This is a submission by Benjamin Bourgeois for the 2024 Hacktoberfest Writing challenge: Contributor Experience. This month, he had the pleasure of diving into Hacktoberfest proactively with a few clear goals in mind.',
+    icon: FileText,
+    link: 'https://dev.to/bengeois/reflecting-on-my-hacktoberfest-2024-journey-816'
+  },
+  {
+    id: '3',
     title: 'Zenika Open Source – Bilan Hacktoberfest 2024',
     type: 'Blog Post',
     description: 'Throughout the year, Zenika\'s employees are active in the open-source world, whether through contributions to projects like Quarkus, GitLab, Vitamin, R2DevOps, Remotion, and many others, or as project maintainers',
     link: 'https://blog.zenika.com/2024/11/14/zenika-open-source-bilan-hacktoberfest-2024/',
     icon: FileText,
-  },
-  {
-    id: '2',
-    title: 'L’Hacktoberfest 2023 vu par Zenika',
-    type: 'Blog Post',
-    description: 'For this 2023 edition of Hacktoberfest, Zenika\'s employees once again rallied to promote open source and guide new people, whether from Zenika or not, into the world of open source.',
-    link: 'https://blog.zenika.com/2023/12/01/lhacktoberfest-2023-vu-par-zenika/',
-    icon: BookOpen,
-  },
-  {
-    id: '3',
-    title: 'Bilan Hacktoberfest 2022',
-    type: 'Blog Post',
-    description: 'For Hacktoberfest 2022, Zenika was active, as is often the case! In addition to 197 open-source contributions, Zenika also organized three events during October.',
-    link: 'https://blog.zenika.com/2022/11/22/bilan-hacktoberfest-2022/',
-    icon: Wrench,
   },
   {
     id: '4',
@@ -58,6 +58,22 @@ const mockResources: Resource[] = [
     description: '',
     link: 'https://youtube.com/shorts/K4Bfh6q_D3s',
     icon: Youtube,
+  },
+  {
+    id: '8',
+    title: 'L’Hacktoberfest 2023 vu par Zenika',
+    type: 'Blog Post',
+    description: 'For this 2023 edition of Hacktoberfest, Zenika\'s employees once again rallied to promote open source and guide new people, whether from Zenika or not, into the world of open source.',
+    link: 'https://blog.zenika.com/2023/12/01/lhacktoberfest-2023-vu-par-zenika/',
+    icon: BookOpen,
+  },
+  {
+    id: '9',
+    title: 'Bilan Hacktoberfest 2022',
+    type: 'Blog Post',
+    description: 'For Hacktoberfest 2022, Zenika was active, as is often the case! In addition to 197 open-source contributions, Zenika also organized three events during October.',
+    link: 'https://blog.zenika.com/2022/11/22/bilan-hacktoberfest-2022/',
+    icon: Wrench,
   }
 ];
 

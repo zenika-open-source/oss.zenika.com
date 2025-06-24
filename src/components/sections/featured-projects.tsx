@@ -10,7 +10,7 @@ const mockProjects: Project[] = [
     imageUrl: '/promote-opensource.jpeg',
     imageHint: 'ai workflow',
     repoUrl: 'https://github.com/zenika-open-source/promote-open-source-project',
-    tags: ['OpenSource', 'Promote'],
+    tags: ['opensource', 'promotion'],
   },
   {
     id: '2',
