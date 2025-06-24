@@ -42,9 +42,6 @@ export default function ContributorsPage() {
               Top Contributors
             </span>
           </h1>
-          <p className="mt-4 text-lg text-foreground/70 max-w-2xl mx-auto">
-            Recognizing the champions of our open source community.
-          </p>
         </div>
 
         <div className="overflow-x-auto bg-card p-4 sm:p-6 rounded-lg shadow-xl">

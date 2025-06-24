@@ -24,7 +24,7 @@ export type Event = {
 export type Resource = {
   id: string;
   title: string;
-  type: 'Blog Post' | 'Documentation' | 'Tool' | 'Video';
+  type: 'Blog Post' | 'Documentation' | 'Tool' | 'Video' | 'WhitePaper';
   description: string;
   link: string;
   icon: LucideIcon;

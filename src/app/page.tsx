@@ -6,6 +6,7 @@ import { ContributionStats } from '@/components/sections/contribution-stats';
 import { EventsCalendar } from '@/components/sections/events-calendar';
 import { FeaturedVideos } from '@/components/sections/featured-videos';
 import { ResourceHub } from '@/components/sections/resource-hub';
+import { WhitePaper } from '@/components/sections/white-paper';
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
       <main className="flex-grow">
         <HeroSection />
         <FeaturedProjects />
+        <WhitePaper/>
         <ContributionStats />
         <EventsCalendar />
         <FeaturedVideos />

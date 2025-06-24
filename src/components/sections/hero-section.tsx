@@ -15,15 +15,16 @@ export function HeroSection() {
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-5xl md:text-7xl font-extrabold mb-6">
           <span className="bg-gradient-to-r from-[#EE2238] to-[#BF1D67] bg-clip-text text-transparent">
-            Coding the world
+            Open Source the world
           </span>
         </h1>
         <p className="text-xl md:text-2xl text-foreground/80 mb-10 max-w-3xl mx-auto">
-          Zenika's DNA is based on open source philosophy. Driven by this passion, we contribute to projects and share more and more with communities.
+          Zenika's DNA is based on open source philosophy. 
         </p>
-        <Button size="lg" variant="default" className="bg-primary hover:bg-primary/90 text-primary-foreground">
-          Explore Projects <ArrowRight className="ml-2 h-5 w-5" />
-        </Button>
+          
+        <p className="text-xl md:text-2xl text-foreground/80 mb-10 max-w-3xl mx-auto">
+          Driven by this passion, we contribute to projects and share more and more with communities.
+        </p>
       </div>
     </section>
   );

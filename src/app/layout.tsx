@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Open Source by Zenika',
+  title: 'Zenika Open Source',
   description: 'Showcasing Open Source projects, events, and resources by Zenika.',
 };
 

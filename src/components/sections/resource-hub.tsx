@@ -5,10 +5,10 @@ import { BookOpen, FileText, Wrench, Youtube, LibraryBig } from 'lucide-react';
 const mockResources: Resource[] = [
   {
     id: '1',
-    title: 'Mastering Kubernetes with Kestra',
+    title: 'Zenika Open Source – Bilan Hacktoberfest 2024',
     type: 'Blog Post',
     description: 'An in-depth guide on leveraging Kestra for advanced Kubernetes orchestration and management.',
-    link: '#',
+    link: 'https://blog.zenika.com/2024/11/14/zenika-open-source-bilan-hacktoberfest-2024/',
     icon: FileText,
   },
   {
@@ -39,7 +39,7 @@ const mockResources: Resource[] = [
 
 export function ResourceHub() {
   return (
-    <section className="py-16 md:py-24 bg-background">
+    <section className="py-16 md:py-24 bg-card">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <LibraryBig className="h-12 w-12 mx-auto mb-4 text-primary" />
