@@ -18,7 +18,9 @@ export function ResourceCard({ resource }: ResourceCardProps) {
           <Icon className="h-6 w-6 mr-3 text-accent" />
           <CardTitle className="text-xl">{resource.title}</CardTitle>
         </div>
-        <Badge variant="outline" className="w-fit border-primary text-primary">{resource.type}</Badge>
+        {resource.type !== "WhitePaper" && (
+          <Badge variant="outline" className="w-fit border-primary text-primary">{resource.type}</Badge>
+        )}
       </CardHeader>
       <CardContent className="flex-grow">
         <CardDescription>{resource.description}</CardDescription>

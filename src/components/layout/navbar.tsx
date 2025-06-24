@@ -11,12 +11,12 @@ export function Navbar() {
           <Link href="/" className="flex items-center space-x-2 group">
             <Image
               src="/zenika-opensource-logo.png"
-              alt="Opensource by Zenika Logo"
+              alt="Open source by Zenika Logo"
               width={32}
               height={32}
             />
             <span className="text-2xl font-bold bg-gradient-to-r from-[#EE2238] to-[#BF1D67] bg-clip-text text-transparent group-hover:opacity-80 transition-opacity">
-              Opensource by Zenika
+              Open source by Zenika
             </span>
           </Link>
           <div className="flex items-center space-x-2 sm:space-x-4">

@@ -5,30 +5,39 @@ import { CodeXml } from 'lucide-react';
 const mockProjects: Project[] = [
   {
     id: '1',
-    name: 'NebulaFlow',
-    description: 'An AI-powered workflow automation tool designed to streamline complex data processing pipelines.',
-    imageUrl: 'https://placehold.co/400x250.png',
+    name: 'Promote open source project',
+    description: '📄 How to promote my open source project?',
+    imageUrl: '/promote-opensource.jpeg',
     imageHint: 'ai workflow',
-    repoUrl: 'https://github.com/zenika-open-source/nebula-flow',
-    tags: ['AI', 'Python', 'Kubernetes', 'Cloud'],
+    repoUrl: 'https://github.com/zenika-open-source/promote-open-source-project',
+    tags: ['OpenSource', 'Promote'],
   },
   {
     id: '2',
-    name: 'QuantumLeap UI',
-    description: 'A modern, accessible component library for building next-generation user interfaces with ease.',
-    imageUrl: 'https://placehold.co/400x250.png',
+    name: 'Awesome Remote',
+    description: '😎 Awesome lists about remote work',
+    imageUrl: '/awesome-remote.jpeg',
     imageHint: 'ui components',
-    repoUrl: 'https://github.com/zenika-open-source/quantumleap-ui',
-    tags: ['React', 'TypeScript', 'Storybook', 'Accessibility'],
+    repoUrl: 'https://github.com/zenika-open-source/awesome-remote-work',
+    tags: ['awesome', 'remote'],
   },
   {
     id: '3',
-    name: 'ChronoGuard',
-    description: 'A decentralized identity management system leveraging blockchain for enhanced security and privacy.',
-    imageUrl: 'https://placehold.co/400x250.png',
+    name: 'The Duck Gallery',
+    description: 'A fun project to propose an easy and fun way to make your first contribution on an open source project.',
+    imageUrl: '/the-duck-gallery.png',
     imageHint: 'blockchain security',
-    repoUrl: 'https://github.com/zenika-open-source/chronoguard',
-    tags: ['Blockchain', 'Go', 'Cryptography', 'Identity'],
+    repoUrl: 'https://github.com/zenika-open-source/the-duck-gallery',
+    tags: ['opensource', 'Beginner', 'Fun', 'Duck', 'Zenikanard'],
+  },
+  {
+    id: '4',
+    name: 'Code moi un mouton',
+    description: 'A starter project to animate workshop in school to discover development for children.',
+    imageUrl: '/code-moi-mouton.jpeg',
+    imageHint: 'blockchain security',
+    repoUrl: 'https://github.com/zenika-open-source/code-moi-un-mouton',
+    tags: ['School', 'Scratch'],
   },
 ];
 
@@ -47,7 +56,7 @@ export function FeaturedProjects() {
             Discover innovative open source projects crafted by the talented minds at Zenika.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {mockProjects.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}
