@@ -1,5 +1,5 @@
-import { Button } from '@/components/ui/button';
-import { ArrowRight } from 'lucide-react';
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 
 export function HeroSection() {
   return (
@@ -19,11 +19,12 @@ export function HeroSection() {
           </span>
         </h1>
         <p className="text-xl md:text-2xl text-foreground/80 mb-10 max-w-3xl mx-auto">
-          Zenika's DNA is based on open source philosophy. 
+          Zenika's DNA is based on open source philosophy.
         </p>
-          
+
         <p className="text-xl md:text-2xl text-foreground/80 mb-10 max-w-3xl mx-auto">
-          Driven by this passion, we contribute to projects and share more and more with communities.
+          Driven by this passion, we contribute to projects and share more and
+          more with communities.
         </p>
       </div>
     </section>
