@@ -1,37 +1,40 @@
-import { EventCard } from '@/components/cards/event-card';
-import type { Event } from '@/types';
-import { CalendarClock } from 'lucide-react';
+import { EventCard } from "@/components/cards/event-card";
+import type { Event } from "@/types";
+import { CalendarClock } from "lucide-react";
 
 const mockEvents: Event[] = [
   {
-    id: '1',
-    name: 'Zenika Open Source Summit 2024',
-    date: 'October 26-28, 2024',
-    description: 'Join us for our annual summit celebrating open source contributions, with keynotes from Zenika experts and industry leaders.',
-    imageUrl: 'https://placehold.co/400x200.png',
-    imageHint: 'conference tech',
-    registrationUrl: '#',
-    location: 'Paris, France & Online',
+    id: "1",
+    name: "Zenika Open Source Summit 2024",
+    date: "October 26-28, 2024",
+    description:
+      "Join us for our annual summit celebrating open source contributions, with keynotes from Zenika experts and industry leaders.",
+    imageUrl: "https://placehold.co/400x200.png",
+    imageHint: "conference tech",
+    registrationUrl: "#",
+    location: "Paris, France & Online",
   },
   {
-    id: '2',
-    name: 'Workshop: Advanced Kubernetes Patterns',
-    date: 'November 15, 2024',
-    description: 'A hands-on workshop diving deep into advanced Kubernetes deployment strategies and management techniques.',
-    imageUrl: 'https://placehold.co/400x200.png',
-    imageHint: 'workshop code',
-    registrationUrl: '#',
-    location: 'Online',
+    id: "2",
+    name: "Workshop: Advanced Kubernetes Patterns",
+    date: "November 15, 2024",
+    description:
+      "A hands-on workshop diving deep into advanced Kubernetes deployment strategies and management techniques.",
+    imageUrl: "https://placehold.co/400x200.png",
+    imageHint: "workshop code",
+    registrationUrl: "#",
+    location: "Online",
   },
   {
-    id: '3',
-    name: 'AI Ethics in Open Source Panel',
-    date: 'December 5, 2024',
-    description: 'A thought-provoking panel discussion on the ethical implications of AI in open source projects.',
-    imageUrl: 'https://placehold.co/400x200.png',
-    imageHint: 'discussion panel',
-    registrationUrl: '#',
-    location: 'Online',
+    id: "3",
+    name: "AI Ethics in Open Source Panel",
+    date: "December 5, 2024",
+    description:
+      "A thought-provoking panel discussion on the ethical implications of AI in open source projects.",
+    imageUrl: "https://placehold.co/400x200.png",
+    imageHint: "discussion panel",
+    registrationUrl: "#",
+    location: "Online",
   },
 ];
 

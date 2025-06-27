@@ -1,7 +1,7 @@
-import { Zap, Users } from 'lucide-react';
-import Image from 'next/image';
-import Link from 'next/link';
-import { ThemeToggleButton } from '@/components/theme-toggle-button';
+import { Zap, Users } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
+import { ThemeToggleButton } from "@/components/theme-toggle-button";
 
 export function Navbar() {
   return (
