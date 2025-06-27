@@ -1,1 +1,0 @@
-export { Hacktoberfest } from "./Hacktoberfest";

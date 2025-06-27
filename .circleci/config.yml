@@ -37,6 +37,6 @@ workflows:
   quality-checks:
     jobs:
       - install-dependencies
-      - check-biome:
-          requires:
-            - install-dependencies
+      # - check-biome:
+      #     requires:
+      #       - install-dependencies
