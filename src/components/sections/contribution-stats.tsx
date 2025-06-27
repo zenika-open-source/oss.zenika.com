@@ -58,7 +58,7 @@ export function ContributionStats() {
                   <div className="mx-auto bg-accent/20 text-accent p-3 rounded-full w-fit mb-3">
                     <IconComponent className="h-8 w-8" />
                   </div>
-                  <CardTitle className="text-4xl font-bold text-primary">
+                  <CardTitle className="text-4xl font-bold text-title">
                     {stat.value}
                   </CardTitle>
                 </CardHeader>
