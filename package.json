@@ -1,7 +1,12 @@
 {
-  "name": "nextn",
-  "version": "0.1.0",
+  "name": "zenika-oss",
+  "version": "2.0.0",
+  "description": "Website to promote Open Source from Zenika",
   "private": true,
+  "author": "Zenika",
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "scripts": {
     "dev": "next dev --turbopack -p 9002",
     "genkit:dev": "genkit start -- tsx src/ai/dev.ts",
