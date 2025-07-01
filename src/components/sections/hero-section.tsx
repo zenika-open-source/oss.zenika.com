@@ -14,7 +14,7 @@ export function HeroSection() {
       />
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-5xl md:text-7xl font-extrabold mb-6">
-          <span className="bg-gradient-to-r from-[#EE2238] to-[#BF1D67] bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-titledegrade-1 to-titledegrade-2 bg-clip-text text-transparent">
             Open source the world
           </span>
         </h1>

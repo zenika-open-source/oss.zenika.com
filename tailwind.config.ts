@@ -59,7 +59,11 @@ export default {
   				'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
   				border: 'hsl(var(--sidebar-border))',
   				ring: 'hsl(var(--sidebar-ring))'
-  			}
+  			},
+			titledegrade: {
+				'1': 'hsl(var(--titledegrade-1))',
+				'2': 'hsl(var(--titledegrade-2))'
+			} 
   		},
   		borderRadius: {
   			lg: 'var(--radius)',

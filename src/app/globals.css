@@ -54,6 +54,10 @@ body {
     --sidebar-accent-foreground: 0 0% 12%;
     --sidebar-border: 0 0% 87%;
     --sidebar-ring: 354 86% 53%;
+
+    --titledegrade-1: 354 86% 53%; /* #EE2238 */
+    --titledegrade-2: 333, 85%, 43%; /* #BF1D67 */
+    
   }
 
   .dark {
@@ -101,6 +105,9 @@ body {
     --sidebar-accent-foreground: 0 0% 12%;
     --sidebar-border: 0 0% 23%;
     --sidebar-ring: 354 86% 53%;
+
+    --titledegrade-1: 354 45% 72%; /* #ed828d */
+    --titledegrade-2: 333 13% 89% /* #f3d4e2 */
   }
 }
 
