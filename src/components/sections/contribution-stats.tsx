@@ -5,33 +5,21 @@ const stats = [
   {
     id: '1',
     icon: Users,
-    value: '150+',
+    value: '50+',
     label: 'Zenika members contributor to Open Source',
   },
   {
     id: '2',
     icon: GitCommit,
-    value: '25K+',
-    label: 'Contributions per month for all Zenika',
-  },
-  {
-    id: '3',
-    icon: Star,
-    value: '10K+',
-    label: 'Stars Received',
+    value: '100+',
+    label: 'Contributions per year for all Zenika',
   },
   {
     id: '6',
     icon: FolderGit2,
-    value: '75+',
-    label: 'Projects Maintained',
-  },
-  {
-    id: '7',
-    icon: FolderGit2,
     value: '100+',
-    label: 'Projects Contributed To',
-  },
+    label: 'Projects Maintained',
+  }
 ];
 
 export function ContributionStats() {
@@ -49,7 +37,7 @@ export function ContributionStats() {
             Zenika's commitment to Open Source by the numbers.
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6 md:gap-3">
           {stats.map((stat) => {
             const IconComponent = stat.icon;
             return (
