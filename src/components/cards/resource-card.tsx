@@ -1,4 +1,7 @@
-import Link from "next/link";
+import { ExternalLink } from 'lucide-react';
+import Link from 'next/link';
+import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
 import {
   Card,
   CardContent,
@@ -6,11 +9,8 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { ExternalLink } from "lucide-react";
-import type { Resource } from "@/types";
+} from '@/components/ui/card';
+import type { Resource } from '@/types';
 
 interface ResourceCardProps {
   resource: Resource;
@@ -25,7 +25,7 @@ export function ResourceCard({ resource }: ResourceCardProps) {
           <Icon className="h-6 w-6 mr-3 text-accent" />
           <CardTitle className="text-xl">{resource.title}</CardTitle>
         </div>
-        {resource.type !== "WhitePaper" && (
+        {resource.type !== 'WhitePaper' && (
           <Badge
             variant="outline"
             className="w-fit border-primary text-primary"

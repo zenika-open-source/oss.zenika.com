@@ -1,6 +1,7 @@
-import Image from "next/image";
-import { Navbar } from "@/components/layout/navbar";
-import { Footer } from "@/components/layout/footer";
+import { Medal, Users } from 'lucide-react';
+import { Footer } from '@/components/layout/footer';
+import { Navbar } from '@/components/layout/navbar';
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import {
   Table,
   TableBody,
@@ -8,98 +9,96 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import type { Contributor } from "@/types";
-import { Medal, Users } from "lucide-react";
+} from '@/components/ui/table';
+import type { Contributor } from '@/types';
 
-const mockContributorsData: Omit<Contributor, "rank">[] = [
+const mockContributorsData: Omit<Contributor, 'rank'>[] = [
   {
-    id: "1",
-    name: "Alice Wonderland",
-    avatarUrl: "https://placehold.co/40x40.png",
-    imageHint: "avatar person",
+    id: '1',
+    name: 'Alice Wonderland',
+    avatarUrl: 'https://placehold.co/40x40.png',
+    imageHint: 'avatar person',
     prCount: 150,
     mrCount: 20,
     totalContributions: 170,
   },
   {
-    id: "2",
-    name: "Bob The Builder",
-    avatarUrl: "https://placehold.co/40x40.png",
-    imageHint: "avatar person",
+    id: '2',
+    name: 'Bob The Builder',
+    avatarUrl: 'https://placehold.co/40x40.png',
+    imageHint: 'avatar person',
     prCount: 120,
     mrCount: 15,
     totalContributions: 135,
   },
   {
-    id: "3",
-    name: "Charlie Chaplin",
-    avatarUrl: "https://placehold.co/40x40.png",
-    imageHint: "avatar person",
+    id: '3',
+    name: 'Charlie Chaplin',
+    avatarUrl: 'https://placehold.co/40x40.png',
+    imageHint: 'avatar person',
     prCount: 100,
     mrCount: 30,
     totalContributions: 130,
   },
   {
-    id: "4",
-    name: "Diana Prince",
-    avatarUrl: "https://placehold.co/40x40.png",
-    imageHint: "avatar person",
+    id: '4',
+    name: 'Diana Prince',
+    avatarUrl: 'https://placehold.co/40x40.png',
+    imageHint: 'avatar person',
     prCount: 90,
     mrCount: 25,
     totalContributions: 115,
   },
   {
-    id: "5",
-    name: "Edward Scissorhands",
-    avatarUrl: "https://placehold.co/40x40.png",
-    imageHint: "avatar person",
+    id: '5',
+    name: 'Edward Scissorhands',
+    avatarUrl: 'https://placehold.co/40x40.png',
+    imageHint: 'avatar person',
     prCount: 80,
     mrCount: 10,
     totalContributions: 90,
   },
   {
-    id: "6",
-    name: "Fiona Gallagher",
-    avatarUrl: "https://placehold.co/40x40.png",
-    imageHint: "avatar person",
+    id: '6',
+    name: 'Fiona Gallagher',
+    avatarUrl: 'https://placehold.co/40x40.png',
+    imageHint: 'avatar person',
     prCount: 75,
     mrCount: 5,
     totalContributions: 80,
   },
   {
-    id: "7",
-    name: "Geralt of Rivia",
-    avatarUrl: "https://placehold.co/40x40.png",
-    imageHint: "avatar person",
+    id: '7',
+    name: 'Geralt of Rivia',
+    avatarUrl: 'https://placehold.co/40x40.png',
+    imageHint: 'avatar person',
     prCount: 60,
     mrCount: 18,
     totalContributions: 78,
   },
   {
-    id: "8",
-    name: "Hermione Granger",
-    avatarUrl: "https://placehold.co/40x40.png",
-    imageHint: "avatar person",
+    id: '8',
+    name: 'Hermione Granger',
+    avatarUrl: 'https://placehold.co/40x40.png',
+    imageHint: 'avatar person',
     prCount: 50,
     mrCount: 25,
     totalContributions: 75,
   },
   {
-    id: "9",
-    name: "Indiana Jones",
-    avatarUrl: "https://placehold.co/40x40.png",
-    imageHint: "avatar person",
+    id: '9',
+    name: 'Indiana Jones',
+    avatarUrl: 'https://placehold.co/40x40.png',
+    imageHint: 'avatar person',
     prCount: 40,
     mrCount: 10,
     totalContributions: 50,
   },
   {
-    id: "10",
-    name: "John Doe",
-    avatarUrl: "https://placehold.co/40x40.png",
-    imageHint: "avatar person",
+    id: '10',
+    name: 'John Doe',
+    avatarUrl: 'https://placehold.co/40x40.png',
+    imageHint: 'avatar person',
     prCount: 30,
     mrCount: 5,
     totalContributions: 35,
@@ -175,9 +174,9 @@ export default function ContributorsPage() {
                         />
                         <AvatarFallback>
                           {contributor.name
-                            .split(" ")
+                            .split(' ')
                             .map((n) => n[0])
-                            .join("")
+                            .join('')
                             .toUpperCase()}
                         </AvatarFallback>
                       </Avatar>

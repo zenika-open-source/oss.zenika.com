@@ -1,5 +1,7 @@
-import Image from "next/image";
-import Link from "next/link";
+import { CalendarDays, MapPin, Ticket } from 'lucide-react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { Button } from '@/components/ui/button';
 import {
   Card,
   CardContent,
@@ -7,10 +9,8 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { CalendarDays, MapPin, Ticket } from "lucide-react";
-import type { Event } from "@/types";
+} from '@/components/ui/card';
+import type { Event } from '@/types';
 
 interface EventCardProps {
   event: Event;
@@ -26,7 +26,7 @@ export function EventCard({ event }: EventCardProps) {
             alt={event.name}
             layout="fill"
             objectFit="cover"
-            data-ai-hint={event.imageHint || "event banner"}
+            data-ai-hint={event.imageHint || 'event banner'}
           />
         </div>
       )}

@@ -57,7 +57,6 @@ body {
 
     --titledegrade-1: 354 86% 53%; /* #EE2238 */
     --titledegrade-2: 333, 85%, 43%; /* #BF1D67 */
-    
   }
 
   .dark {
@@ -107,7 +106,7 @@ body {
     --sidebar-ring: 354 86% 53%;
 
     --titledegrade-1: 354 45% 72%; /* #ed828d */
-    --titledegrade-2: 333 13% 89% /* #f3d4e2 */
+    --titledegrade-2: 333 13% 89%; /* #f3d4e2 */
   }
 }
 

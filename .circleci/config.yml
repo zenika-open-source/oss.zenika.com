@@ -37,8 +37,7 @@ jobs:
           at: .
       - run:
           name: Checking code quality
-          # command: npx @biomejs/biome ci
-          command: echo "Quality checks would run here"
+          command: npx @biomejs/biome ci
 
 ########################
 # WORKFLOWS

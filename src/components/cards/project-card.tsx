@@ -1,5 +1,8 @@
-import Image from "next/image";
-import Link from "next/link";
+import { Github } from 'lucide-react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
 import {
   Card,
   CardContent,
@@ -7,11 +10,8 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { Github, ExternalLink } from "lucide-react";
-import type { Project } from "@/types";
+} from '@/components/ui/card';
+import type { Project } from '@/types';
 
 interface ProjectCardProps {
   project: Project;

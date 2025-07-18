@@ -1,4 +1,4 @@
-import type { LucideIcon } from "lucide-react";
+import type { LucideIcon } from 'lucide-react';
 
 export type Project = {
   id: string;
@@ -24,7 +24,7 @@ export type Event = {
 export type Resource = {
   id: string;
   title: string;
-  type: "Blog Post" | "Documentation" | "Tool" | "Video" | "WhitePaper";
+  type: 'Blog Post' | 'Documentation' | 'Tool' | 'Video' | 'WhitePaper';
   description: string;
   link: string;
   icon: LucideIcon;

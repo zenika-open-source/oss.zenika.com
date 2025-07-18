@@ -1,46 +1,46 @@
-import { ProjectCard } from "@/components/cards/project-card";
-import type { Project } from "@/types";
-import { CodeXml } from "lucide-react";
+import { CodeXml } from 'lucide-react';
+import { ProjectCard } from '@/components/cards/project-card';
+import type { Project } from '@/types';
 
 const mockProjects: Project[] = [
   {
-    id: "1",
-    name: "Promote open source project",
-    description: "📄 How to promote my open source project?",
-    imageUrl: "/promote-opensource.jpeg",
-    imageHint: "ai workflow",
+    id: '1',
+    name: 'Promote open source project',
+    description: '📄 How to promote my open source project?',
+    imageUrl: '/promote-opensource.jpeg',
+    imageHint: 'ai workflow',
     repoUrl:
-      "https://github.com/zenika-open-source/promote-open-source-project",
-    tags: ["opensource", "promotion"],
+      'https://github.com/zenika-open-source/promote-open-source-project',
+    tags: ['opensource', 'promotion'],
   },
   {
-    id: "2",
-    name: "Awesome Remote",
-    description: "😎 Awesome lists about remote work",
-    imageUrl: "/awesome-remote.jpeg",
-    imageHint: "ui components",
-    repoUrl: "https://github.com/zenika-open-source/awesome-remote-work",
-    tags: ["awesome", "remote"],
+    id: '2',
+    name: 'Awesome Remote',
+    description: '😎 Awesome lists about remote work',
+    imageUrl: '/awesome-remote.jpeg',
+    imageHint: 'ui components',
+    repoUrl: 'https://github.com/zenika-open-source/awesome-remote-work',
+    tags: ['awesome', 'remote'],
   },
   {
-    id: "3",
-    name: "The Duck Gallery",
+    id: '3',
+    name: 'The Duck Gallery',
     description:
-      "A fun project to propose an easy and fun way to make your first contribution on an open source project.",
-    imageUrl: "/the-duck-gallery.png",
-    imageHint: "blockchain security",
-    repoUrl: "https://github.com/zenika-open-source/the-duck-gallery",
-    tags: ["opensource", "Beginner", "Fun", "Duck", "Zenikanard"],
+      'A fun project to propose an easy and fun way to make your first contribution on an open source project.',
+    imageUrl: '/the-duck-gallery.png',
+    imageHint: 'blockchain security',
+    repoUrl: 'https://github.com/zenika-open-source/the-duck-gallery',
+    tags: ['opensource', 'Beginner', 'Fun', 'Duck', 'Zenikanard'],
   },
   {
-    id: "4",
-    name: "Code moi un mouton",
+    id: '4',
+    name: 'Code moi un mouton',
     description:
-      "A starter project to animate workshop in school to discover development for children.",
-    imageUrl: "/code-moi-mouton.jpeg",
-    imageHint: "blockchain security",
-    repoUrl: "https://github.com/zenika-open-source/code-moi-un-mouton",
-    tags: ["School", "Scratch"],
+      'A starter project to animate workshop in school to discover development for children.',
+    imageUrl: '/code-moi-mouton.jpeg',
+    imageHint: 'blockchain security',
+    repoUrl: 'https://github.com/zenika-open-source/code-moi-un-mouton',
+    tags: ['School', 'Scratch'],
   },
 ];
 

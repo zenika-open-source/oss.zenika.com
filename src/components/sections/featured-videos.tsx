@@ -1,33 +1,33 @@
-import { ResourceCard } from "@/components/cards/resource-card";
-import type { Resource } from "@/types";
-import { Youtube, PlaySquare } from "lucide-react";
+import { PlaySquare, Youtube } from 'lucide-react';
+import { ResourceCard } from '@/components/cards/resource-card';
+import type { Resource } from '@/types';
 
 const mockVideos: Resource[] = [
   {
-    id: "v1",
-    title: "Getting Started with NebulaFlow",
-    type: "Video",
+    id: 'v1',
+    title: 'Getting Started with NebulaFlow',
+    type: 'Video',
     description:
-      "A comprehensive walkthrough of our NebulaFlow AI automation tool. Learn how to set up your first workflow.",
-    link: "#",
+      'A comprehensive walkthrough of our NebulaFlow AI automation tool. Learn how to set up your first workflow.',
+    link: '#',
     icon: Youtube,
   },
   {
-    id: "v2",
-    title: "Deep Dive into QuantumLeap UI Components",
-    type: "Video",
+    id: 'v2',
+    title: 'Deep Dive into QuantumLeap UI Components',
+    type: 'Video',
     description:
-      "Explore the advanced features and customization options of our QuantumLeap UI library.",
-    link: "#",
+      'Explore the advanced features and customization options of our QuantumLeap UI library.',
+    link: '#',
     icon: Youtube,
   },
   {
-    id: "v3",
-    title: "Zenika Open Source Philosophy",
-    type: "Video",
+    id: 'v3',
+    title: 'Zenika Open Source Philosophy',
+    type: 'Video',
     description:
       "Discover the core values and vision behind Zenika's commitment to open source.",
-    link: "#",
+    link: '#',
     icon: Youtube,
   },
 ];

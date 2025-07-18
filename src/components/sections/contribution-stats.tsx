@@ -1,25 +1,25 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Users, GitCommit, FolderGit2, Star, TrendingUp } from "lucide-react";
+import { FolderGit2, GitCommit, TrendingUp, Users } from 'lucide-react';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const stats = [
   {
-    id: "1",
+    id: '1',
     icon: Users,
     value: '50+',
     label: 'Zenika members contributor to Open Source',
   },
   {
-    id: "2",
+    id: '2',
     icon: GitCommit,
     value: '100+',
     label: 'Contributions per year for all Zenika',
   },
   {
-    id: "6",
+    id: '6',
     icon: FolderGit2,
     value: '100+',
     label: 'Projects Maintained',
-  }
+  },
 ];
 
 export function ContributionStats() {
