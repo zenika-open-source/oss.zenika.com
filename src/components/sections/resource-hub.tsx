@@ -74,16 +74,6 @@ const mockResources: Resource[] = [
     icon: BookOpen,
   },
   {
-    id: '9',
-    title:
-      'Zenika Open Source - AzkZeExpert special Hacktoberfest with Sacha Bouillez',
-    type: 'Video',
-    description:
-      "In this live session, we'll be speaking with Sacha, an Open Source expert. We'll discuss his experiences in the field, his open-source projects, and his contributions. We'll also be able to answer your questions during the live session.",
-    link: 'https://www.youtube.com/watch?v=D2hXyfrkVgo',
-    icon: BookOpen,
-  },
-  {
     id: '10',
     title: 'Hacktoberfest - How open-source have changed companies',
     type: 'Video',
