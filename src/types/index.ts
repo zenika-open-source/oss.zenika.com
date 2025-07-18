@@ -12,7 +12,7 @@ export type Project = {
 
 export type Event = {
   id: string;
-  name:string;
+  name: string;
   date: string;
   description: string;
   imageUrl?: string;

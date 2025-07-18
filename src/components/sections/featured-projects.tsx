@@ -1,6 +1,6 @@
+import { CodeXml } from 'lucide-react';
 import { ProjectCard } from '@/components/cards/project-card';
 import type { Project } from '@/types';
-import { CodeXml } from 'lucide-react';
 
 const mockProjects: Project[] = [
   {
@@ -9,7 +9,8 @@ const mockProjects: Project[] = [
     description: '📄 How to promote my open source project?',
     imageUrl: '/promote-opensource.jpeg',
     imageHint: 'ai workflow',
-    repoUrl: 'https://github.com/zenika-open-source/promote-open-source-project',
+    repoUrl:
+      'https://github.com/zenika-open-source/promote-open-source-project',
     tags: ['opensource', 'promotion'],
   },
   {
@@ -24,7 +25,8 @@ const mockProjects: Project[] = [
   {
     id: '3',
     name: 'The Duck Gallery',
-    description: 'A fun project to propose an easy and fun way to make your first contribution on an open source project.',
+    description:
+      'A fun project to propose an easy and fun way to make your first contribution on an open source project.',
     imageUrl: '/the-duck-gallery.png',
     imageHint: 'blockchain security',
     repoUrl: 'https://github.com/zenika-open-source/the-duck-gallery',
@@ -33,7 +35,8 @@ const mockProjects: Project[] = [
   {
     id: '4',
     name: 'Code moi un mouton',
-    description: 'A starter project to animate workshop in school to discover development for children.',
+    description:
+      'A starter project to animate workshop in school to discover development for children.',
     imageUrl: '/code-moi-mouton.jpeg',
     imageHint: 'blockchain security',
     repoUrl: 'https://github.com/zenika-open-source/code-moi-un-mouton',
@@ -53,7 +56,8 @@ export function FeaturedProjects() {
             </span>
           </h2>
           <p className="mt-4 text-lg text-foreground/70 max-w-2xl mx-auto">
-            Discover innovative open source projects crafted by the talented minds at Zenika.
+            Discover innovative open source projects crafted by the talented
+            minds at Zenika.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

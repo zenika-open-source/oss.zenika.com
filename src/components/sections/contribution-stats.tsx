@@ -1,5 +1,5 @@
+import { FolderGit2, GitCommit, TrendingUp, Users } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Users, GitCommit, FolderGit2, Star, TrendingUp } from 'lucide-react';
 
 const stats = [
   {
@@ -19,7 +19,7 @@ const stats = [
     icon: FolderGit2,
     value: '100+',
     label: 'Projects Maintained',
-  }
+  },
 ];
 
 export function ContributionStats() {
@@ -41,7 +41,10 @@ export function ContributionStats() {
           {stats.map((stat) => {
             const IconComponent = stat.icon;
             return (
-              <Card key={stat.id} className="text-center shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out">
+              <Card
+                key={stat.id}
+                className="text-center shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out"
+              >
                 <CardHeader className="pb-2">
                   <div className="mx-auto bg-accent/20 text-accent p-3 rounded-full w-fit mb-3">
                     <IconComponent className="h-8 w-8" />

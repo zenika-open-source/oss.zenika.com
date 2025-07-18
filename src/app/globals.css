@@ -40,9 +40,9 @@ body {
     --chart-1: 157 100% 46%; /* #00EB84 */
     --chart-2: 254 78% 73%; /* #A188EF */
     --chart-3: 207 77% 60%; /* #4CA8E7 */
-    --chart-4: 43 89% 61%;  /* #F4C042 */
+    --chart-4: 43 89% 61%; /* #F4C042 */
     --chart-5: 354 86% 53%; /* #EE2238 */
-    
+
     --radius: 0.5rem;
 
     /* Sidebar variables - Light Theme */
@@ -57,7 +57,6 @@ body {
 
     --titledegrade-1: 354 86% 53%; /* #EE2238 */
     --titledegrade-2: 333, 85%, 43%; /* #BF1D67 */
-    
   }
 
   .dark {
@@ -89,11 +88,11 @@ body {
     --border: 0 0% 23%; /* #3A3A3A */
     --input: 0 0% 23%; /* #3A3A3A */
     --ring: 354 86% 53%; /* Primary color #EE2238 */
-    
+
     --chart-1: 157 100% 46%; /* #00EB84 */
     --chart-2: 254 78% 73%; /* #A188EF */
     --chart-3: 207 77% 60%; /* #4CA8E7 */
-    --chart-4: 43 89% 61%;  /* #F4C042 */
+    --chart-4: 43 89% 61%; /* #F4C042 */
     --chart-5: 354 86% 53%; /* #EE2238 */
 
     /* Sidebar variables - Dark Theme */
@@ -107,7 +106,7 @@ body {
     --sidebar-ring: 354 86% 53%;
 
     --titledegrade-1: 354 45% 72%; /* #ed828d */
-    --titledegrade-2: 333 13% 89% /* #f3d4e2 */
+    --titledegrade-2: 333 13% 89%; /* #f3d4e2 */
   }
 }
 
