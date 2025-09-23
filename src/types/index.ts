@@ -32,11 +32,12 @@ export type Resource = {
 
 export type Contributor = {
   id: string;
-  rank: number;
   name: string;
   avatarUrl: string;
   imageHint: string;
   prCount: number;
   mrCount: number;
   totalContributions: number;
+  githubHandle?: string;
+  gitlabHandle?: string;
 };
