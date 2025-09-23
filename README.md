@@ -1,14 +1,14 @@
-<h1 align="center">Welcome to insights-website 👋</h1>
+<h1 align="center">Welcome to Zenika OSS 👋</h1>
 <p>
-  <img src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/zenika-open-source/insights-website/graphs/commit-activity">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
   </a>
   <a href="https://github.com/zenika-open-source/insights-website/blob/master/LICENSE">
     <img alt="License: Apache 2.0" src="https://img.shields.io/badge/License-Apache 2.0-yellow.svg" target="_blank" />
   </a>
-  <a href="https://circleci.com/gh/zenika-open-source/insights-website/tree/master">
-    <img alt="CircleCI" src="https://circleci.com/gh/zenika-open-source/insights-website/tree/master.svg?style=svg" target="_blank" />
+  <a href="https://circleci.com/gh/zenika-open-source/oss.zenika.com/tree/main">
+    <img alt="CircleCI" src="https://circleci.com/gh/zenika-open-source/oss.zenika.com/tree/main.svg?style=svg" target="_blank" />
   </a>
   <a href="https://app.netlify.com/sites/zenika-open-source-insights/deploys">
     <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/44effe10-3635-426d-899d-984201fa828a/deploy-status" target="_blank" />
@@ -27,7 +27,7 @@
 
 Zenika Hacktoberfest Leaderboard: [https://oss.zenika.com/hacktoberfest.html](https://oss.zenika.com/hacktoberfest.html)
 
-To be added to the leaderboard you must add your GitHub username and Zenika location in the `/static/hacktoberfest.json` file.
+To be added to the leaderboard you must add your GitHub username and Zenika location in the `/src/app/hacktoberfest.json/route.ts` file.
 
 **You will need:**
 
@@ -38,7 +38,7 @@ To be added to the leaderboard you must add your GitHub username and Zenika loca
 **Then you can make a PR to add your name:**
 
 1. Fork this repository
-2. Edit the `/static/hacktoberfest.json` file by adding your informations like this :
+2. Edit the `/src/app/hacktoberfest.json/route.ts` file by adding your informations to the `hacktoberfestData` array like this :
 
 ```
   {
@@ -86,8 +86,38 @@ npm install
 
 ## 🚀 Usage
 
+### Development
+
 ```sh
-npm start
+npm run dev
+```
+
+### Build
+
+```sh
+npm run build
+```
+
+### Start production server
+
+```sh
+npm run start
+```
+
+### Linting and formatting
+
+```sh
+# Check linting
+npm run lint
+
+# Fix linting issues
+npm run lint:fix
+
+# Format code
+npm run format
+
+# Type checking
+npm run typecheck
 ```
 
 ## 🤝 Contributing
@@ -109,7 +139,7 @@ Please ⭐️ this repository if you like it.
 
 ## 📝 License
 
-Copyright © 2019 [Zenika](https://github.com/zenika-open-source).
+Copyright © 2025 [Zenika](https://github.com/zenika-open-source).
 
 This project is [Apache 2.0](https://github.com/zenika-open-source/insights-website/blob/master/LICENSE) licensed.
 
