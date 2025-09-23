@@ -67,6 +67,9 @@ const getContributors = async (): Promise<Contributor[]> => {
   );
 };
 
+// Revalidate every 30 minutes (1800 seconds)
+export const revalidate = 1800;
+
 export default async function ContributorsPage() {
   const contributors = await getContributors();
 
