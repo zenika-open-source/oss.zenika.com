@@ -1,6 +1,8 @@
+import { Users } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ThemeToggleButton } from '@/components/theme-toggle-button';
+import { Button } from '@/components/ui/button';
 
 export function Navbar() {
   return (
@@ -19,6 +21,16 @@ export function Navbar() {
             </span>
           </Link>
           <div className="flex items-center space-x-2 sm:space-x-4">
+            <Link href="/contributors">
+              <Button
+                variant="ghost"
+                size="sm"
+                className="flex items-center gap-2"
+              >
+                <Users className="h-4 w-4" />
+                <span className="hidden sm:inline">Contributors</span>
+              </Button>
+            </Link>
             <ThemeToggleButton />
           </div>
         </div>
