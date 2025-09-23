@@ -1,4 +1,4 @@
-import { Medal, Users } from 'lucide-react';
+import { Github, Gitlab, Users } from 'lucide-react';
 import { Footer } from '@/components/layout/footer';
 import { Navbar } from '@/components/layout/navbar';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
@@ -12,110 +12,63 @@ import {
 } from '@/components/ui/table';
 import type { Contributor } from '@/types';
 
-const mockContributorsData: Omit<Contributor, 'rank'>[] = [
+type HacktoberfestData = [
+  string,
   {
-    id: '1',
-    name: 'Alice Wonderland',
-    avatarUrl: 'https://placehold.co/40x40.png',
-    imageHint: 'avatar person',
-    prCount: 150,
-    mrCount: 20,
-    totalContributions: 170,
+    name: string;
+    agency: string;
+    github: {
+      handle: string;
+      nbContributions: number;
+    };
+    gitlab: {
+      handle: string;
+      nbContributions: number;
+    };
   },
-  {
-    id: '2',
-    name: 'Bob The Builder',
-    avatarUrl: 'https://placehold.co/40x40.png',
-    imageHint: 'avatar person',
-    prCount: 120,
-    mrCount: 15,
-    totalContributions: 135,
-  },
-  {
-    id: '3',
-    name: 'Charlie Chaplin',
-    avatarUrl: 'https://placehold.co/40x40.png',
-    imageHint: 'avatar person',
-    prCount: 100,
-    mrCount: 30,
-    totalContributions: 130,
-  },
-  {
-    id: '4',
-    name: 'Diana Prince',
-    avatarUrl: 'https://placehold.co/40x40.png',
-    imageHint: 'avatar person',
-    prCount: 90,
-    mrCount: 25,
-    totalContributions: 115,
-  },
-  {
-    id: '5',
-    name: 'Edward Scissorhands',
-    avatarUrl: 'https://placehold.co/40x40.png',
-    imageHint: 'avatar person',
-    prCount: 80,
-    mrCount: 10,
-    totalContributions: 90,
-  },
-  {
-    id: '6',
-    name: 'Fiona Gallagher',
-    avatarUrl: 'https://placehold.co/40x40.png',
-    imageHint: 'avatar person',
-    prCount: 75,
-    mrCount: 5,
-    totalContributions: 80,
-  },
-  {
-    id: '7',
-    name: 'Geralt of Rivia',
-    avatarUrl: 'https://placehold.co/40x40.png',
-    imageHint: 'avatar person',
-    prCount: 60,
-    mrCount: 18,
-    totalContributions: 78,
-  },
-  {
-    id: '8',
-    name: 'Hermione Granger',
-    avatarUrl: 'https://placehold.co/40x40.png',
-    imageHint: 'avatar person',
-    prCount: 50,
-    mrCount: 25,
-    totalContributions: 75,
-  },
-  {
-    id: '9',
-    name: 'Indiana Jones',
-    avatarUrl: 'https://placehold.co/40x40.png',
-    imageHint: 'avatar person',
-    prCount: 40,
-    mrCount: 10,
-    totalContributions: 50,
-  },
-  {
-    id: '10',
-    name: 'John Doe',
-    avatarUrl: 'https://placehold.co/40x40.png',
-    imageHint: 'avatar person',
-    prCount: 30,
-    mrCount: 5,
-    totalContributions: 35,
-  },
-];
+][];
 
-const getRankedContributors = (): Contributor[] => {
-  return mockContributorsData
-    .sort((a, b) => b.totalContributions - a.totalContributions)
-    .map((contributor, index) => ({
-      ...contributor,
-      rank: index + 1,
-    }));
+async function getHacktoberfestData(): Promise<HacktoberfestData> {
+  try {
+    const response = await fetch(
+      'https://europe-west1-github-insights-247314.cloudfunctions.net/hacktoberfest',
+    );
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return await response.json();
+  } catch (error) {
+    console.error('Failed to fetch Hacktoberfest data:', error);
+    return [];
+  }
+}
+
+function transformToContributors(data: HacktoberfestData): Contributor[] {
+  return data.map(([id, contributor]) => ({
+    id,
+    name: contributor.name,
+    avatarUrl: `https://github.com/${contributor.github.handle}.png?size=40`,
+    imageHint: 'avatar person',
+    prCount: contributor.github.nbContributions,
+    mrCount: contributor.gitlab.nbContributions,
+    totalContributions:
+      contributor.github.nbContributions + contributor.gitlab.nbContributions,
+    githubHandle: contributor.github.handle,
+    gitlabHandle: contributor.gitlab.handle,
+  }));
+}
+
+const getContributors = async (): Promise<Contributor[]> => {
+  const data = await getHacktoberfestData();
+  const contributors = transformToContributors(data);
+
+  return contributors.sort(
+    (a, b) => b.totalContributions - a.totalContributions,
+  );
 };
 
-export default function ContributorsPage() {
-  const contributors = getRankedContributors();
+export default async function ContributorsPage() {
+  const contributors = await getContributors();
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -125,7 +78,7 @@ export default function ContributorsPage() {
           <Users className="h-12 w-12 mx-auto mb-4 text-primary" />
           <h1 className="text-4xl md:text-5xl font-bold">
             <span className="bg-gradient-to-r from-primary to-[#BF1D67] bg-clip-text text-transparent">
-              Top Contributors
+              Contributors
             </span>
           </h1>
         </div>
@@ -134,7 +87,6 @@ export default function ContributorsPage() {
           <Table>
             <TableHeader>
               <TableRow>
-                <TableHead className="w-[80px] text-center">Rank</TableHead>
                 <TableHead>Contributor</TableHead>
                 <TableHead className="text-center hidden sm:table-cell">
                   PRs
@@ -150,20 +102,6 @@ export default function ContributorsPage() {
             <TableBody>
               {contributors.map((contributor) => (
                 <TableRow key={contributor.id} className="hover:bg-muted/50">
-                  <TableCell className="font-medium text-center align-middle">
-                    <div className="flex items-center justify-center">
-                      {contributor.rank === 1 && (
-                        <Medal className="h-5 w-5 text-yellow-400 mr-1" />
-                      )}
-                      {contributor.rank === 2 && (
-                        <Medal className="h-5 w-5 text-slate-400 mr-1" />
-                      )}
-                      {contributor.rank === 3 && (
-                        <Medal className="h-5 w-5 text-orange-400 mr-1" />
-                      )}
-                      {contributor.rank}
-                    </div>
-                  </TableCell>
                   <TableCell className="align-middle">
                     <div className="flex items-center space-x-3">
                       <Avatar className="h-10 w-10">
@@ -181,8 +119,34 @@ export default function ContributorsPage() {
                         </AvatarFallback>
                       </Avatar>
                       <div>
-                        <div className="font-semibold text-base">
-                          {contributor.name}
+                        <div className="flex items-center gap-2">
+                          <span className="font-semibold text-base">
+                            {contributor.name}
+                          </span>
+                          <div className="flex gap-1">
+                            {contributor.githubHandle && (
+                              <a
+                                href={`https://github.com/${contributor.githubHandle}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 transition-colors"
+                                title={`GitHub: ${contributor.githubHandle}`}
+                              >
+                                <Github className="h-4 w-4" />
+                              </a>
+                            )}
+                            {contributor.gitlabHandle && (
+                              <a
+                                href={`https://gitlab.com/${contributor.gitlabHandle}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-gray-600 hover:text-orange-500 dark:text-gray-400 dark:hover:text-orange-400 transition-colors"
+                                title={`GitLab: ${contributor.gitlabHandle}`}
+                              >
+                                <Gitlab className="h-4 w-4" />
+                              </a>
+                            )}
+                          </div>
                         </div>
                       </div>
                     </div>
