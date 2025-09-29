@@ -11,6 +11,16 @@ const hacktoberfestData = [
       handle: 'bengeois',
     },
   },
+  {
+    name: 'Gudsfile Chuuut',
+    agency: 'Nantes, FR',
+    github: {
+      handle: 'Gudsfile',
+    },
+    gitlab: {
+      handle: 'Gudsfile',
+    },
+  },
 ];
 
 export async function GET() {
