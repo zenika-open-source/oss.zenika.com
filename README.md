@@ -25,7 +25,7 @@
 
 ⚠️ **You must be part of Zenika company to participate to the leaderboard** ⚠️
 
-Zenika Hacktoberfest Leaderboard: [https://oss.zenika.com/hacktoberfest.html](https://oss.zenika.com/hacktoberfest.html)
+Zenika Hacktoberfest Leaderboard: [https://oss.zenika.com/contributors](https://oss.zenika.com/contributors)
 
 To be added to the leaderboard you must add your GitHub username and Zenika location in the `/src/app/hacktoberfest.json/route.ts` file.
 
