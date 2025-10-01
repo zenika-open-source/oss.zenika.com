@@ -67,8 +67,8 @@ const getContributors = async (): Promise<Contributor[]> => {
   );
 };
 
-// Revalidate every 30 minutes (1800 seconds)
-export const revalidate = 1800;
+// Force the page to be dynamic to always fetch the latest contributors
+export const dynamic = 'force-dynamic';
 
 export default async function ContributorsPage() {
   const contributors = await getContributors();
