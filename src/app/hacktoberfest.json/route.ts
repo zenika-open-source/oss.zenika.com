@@ -30,7 +30,7 @@ const hacktoberfestData = [
     gitlab: {
       handle: 'jeanphi-baconnais',
     },
-  }
+  },
 ];
 
 export async function GET() {
