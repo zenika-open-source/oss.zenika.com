@@ -22,6 +22,17 @@ const hacktoberfestData = [
     },
   },
   {
+    name: 'Nicolas Delsaux',
+    agency: 'Lille, FR',
+    github: {
+      handle: 'Riduidel',
+    },
+    gitlab: {
+      handle: 'Riduidel',
+    },
+  },
+
+  {
     name: 'Jean-Phi Baconnais',
     agency: 'Nantes, FR',
     github: {
