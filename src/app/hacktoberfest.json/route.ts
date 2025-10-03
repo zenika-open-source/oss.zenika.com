@@ -12,6 +12,16 @@ const hacktoberfestData = [
     },
   },
   {
+    name: 'Antoine Ceol',
+    agency: 'Bordeaux, FR',
+    github: {
+      handle: 'aceol',
+    },
+    gitlab: {
+      handle: 'aceol',
+    },
+  },
+  {
     name: 'Gudsfile Chuuut',
     agency: 'Nantes, FR',
     github: {
