@@ -41,6 +41,16 @@ const hacktoberfestData = [
       handle: 'Riduidel',
     },
   },
+  {
+    name: 'Arthur Lutz',
+    agency: 'Nantes, FR',
+    github: {
+      handle: 'arthurzenika',
+    },
+    gitlab: {
+      handle: 'arthurzenika',
+    },
+  },
 
   {
     name: 'Jean-Phi Baconnais',
