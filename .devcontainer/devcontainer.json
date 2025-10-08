@@ -1,0 +1,21 @@
+{
+	"name": "Zenika Open Source",
+	"image": "node:22.20-slim",
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {
+			"version": "lts"
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"],
+			"settings": {
+				"editor.formatOnSave": true
+			}
+		},
+		"jetbrains": {
+			"plugins": ["com.wix.eslint", "intellij.prettierJS"]
+		}
+	},
+	"forwardPorts": [3000]
+}

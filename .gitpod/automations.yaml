@@ -1,0 +1,13 @@
+tasks:
+    start:
+        command: npm run start
+        dependsOn:
+            - install-build
+        description: start
+        name: 'Task 1: start'
+        triggeredBy:
+            - postDevcontainerStart
+    install-build:
+        command: npm install && npm run build
+        description: install-build
+        name: 'Task 0: install-build'
