@@ -62,6 +62,16 @@ const hacktoberfestData = [
       handle: 'jeanphi-baconnais',
     },
   },
+  {
+    name: 'David Da Silva',
+    agency: 'Bordeaux, FR',
+    github: {
+      handle: 'david-dasilva',
+    },
+    gitlab: {
+      handle: 'm3phistos',
+    },
+  },
 ];
 
 export async function GET() {
