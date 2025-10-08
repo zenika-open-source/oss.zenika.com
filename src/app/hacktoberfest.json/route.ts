@@ -63,6 +63,16 @@ const hacktoberfestData = [
     },
   },
   {
+    name: 'Guillaume Membré',
+    agency: 'Nantes, FR',
+    github: {
+      handle: 'coliss86',
+    },
+    gitlab: {
+      handle: 'coliss86',
+    },
+  },
+  {
     name: 'David Da Silva',
     agency: 'Bordeaux, FR',
     github: {
