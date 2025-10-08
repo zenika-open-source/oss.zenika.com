@@ -63,10 +63,10 @@ const hacktoberfestData = [
     },
   },
   {
-    "name": "your name you want to display on this website",
-    "agency": "Bordeaux, FR",
-    "github": {
-      "handle": "david-dasilva"
+    name: 'David Da Silva',
+    agency: 'Bordeaux, FR',
+    github: {
+      handle: 'david-dasilva',
     },
     gitlab: {
       handle: 'm3phistos',
