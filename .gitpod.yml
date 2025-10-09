@@ -1,5 +1,0 @@
-image: node:20.17.0
-
-tasks:
-  - init: npm install && npm run build
-    command: npm run start
