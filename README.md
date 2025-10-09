@@ -74,6 +74,8 @@ To be added to the leaderboard you must add your GitHub username and Zenika loca
 
 🎉 So you will have your first PR. Happy Hacktoberfest!
 
+> If you don't want this PR to be considered for Hacktoberfest, you can add the `invalid` label to your PR."
+
 Once reviewed and merged, it may take one hour before the website is updated (cache stuff :)
 
 Zenika Hacktoberfest Leaderboard: [https://oss.zenika.com/hacktoberfest.html](https://oss.zenika.com/hacktoberfest.html)
