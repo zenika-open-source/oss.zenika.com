@@ -82,6 +82,13 @@ const hacktoberfestData = [
       handle: 'm3phistos',
     },
   },
+  {
+    name: 'Patrice de Saint Steban',
+    agency: 'Nantes, FR',
+    github: {
+      handle: 'patou',
+    },
+  },
 ];
 
 export async function GET() {
