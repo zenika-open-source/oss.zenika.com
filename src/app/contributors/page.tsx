@@ -20,11 +20,11 @@ type HacktoberfestData = [
     github: {
       handle: string;
       nbContributions: number;
-    };
+    } | null;
     gitlab: {
       handle: string;
       nbContributions: number;
-    };
+    } | null;
   },
 ][];
 
@@ -44,18 +44,31 @@ async function getHacktoberfestData(): Promise<HacktoberfestData> {
 }
 
 function transformToContributors(data: HacktoberfestData): Contributor[] {
-  return data.map(([id, contributor]) => ({
-    id,
-    name: contributor.name,
-    avatarUrl: `https://github.com/${contributor.github.handle}.png?size=40`,
-    imageHint: 'avatar person',
-    prCount: contributor.github.nbContributions,
-    mrCount: contributor.gitlab.nbContributions,
-    totalContributions:
-      contributor.github.nbContributions + contributor.gitlab.nbContributions,
-    githubHandle: contributor.github.handle,
-    gitlabHandle: contributor.gitlab.handle,
-  }));
+  return data.map(([id, contributor]) => {
+    const prCount = contributor.github?.nbContributions ?? 0;
+    const mrCount = contributor.gitlab?.nbContributions ?? 0;
+    const githubHandle = contributor.github?.handle;
+    const gitlabHandle = contributor.gitlab?.handle;
+
+    // Use GitHub avatar if available, otherwise use GitLab avatar, or fallback to a default
+    const avatarUrl = githubHandle
+      ? `https://github.com/${githubHandle}.png?size=40`
+      : gitlabHandle
+        ? `https://gitlab.com/${gitlabHandle}/avatar?size=40`
+        : null;
+
+    return {
+      id,
+      name: contributor.name,
+      avatarUrl,
+      imageHint: 'avatar person',
+      prCount,
+      mrCount,
+      totalContributions: prCount + mrCount,
+      githubHandle,
+      gitlabHandle,
+    };
+  });
 }
 
 const getContributors = async (): Promise<Contributor[]> => {
