@@ -89,6 +89,16 @@ const hacktoberfestData = [
       handle: 'patou',
     },
   },
+  {
+    name: 'Johan Bonneau',
+    agency: 'Nantes, FR',
+    github: {
+      handle: 'zenigata',
+    },
+    gitlab: {
+      handle: 'zenigata',
+    },
+  },
 ];
 
 export async function GET() {
