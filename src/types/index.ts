@@ -33,7 +33,7 @@ export type Resource = {
 export type Contributor = {
   id: string;
   name: string;
-  avatarUrl: string;
+  avatarUrl: string | null;
   imageHint: string;
   prCount: number;
   mrCount: number;
