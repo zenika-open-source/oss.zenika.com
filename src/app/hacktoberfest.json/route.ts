@@ -83,6 +83,13 @@ const hacktoberfestData = [
     },
   },
   {
+    name: 'Patrice de Saint Steban',
+    agency: 'Nantes, FR',
+    github: {
+      handle: 'patou',
+    },
+  },
+  {
     name: 'Johan Bonneau',
     agency: 'Nantes, FR',
     github: {
