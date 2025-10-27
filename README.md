@@ -15,7 +15,7 @@
   </a>
 </p>
 
-> Website to display awesome insights about organization open source activity
+> Website to display awesome insights about organization open source activity.
 
 ## ✨Homepage
 
@@ -23,22 +23,22 @@
 
 ## Zenika Hacktoberfest Leaderboard
 
-⚠️ **You must be part of Zenika company to participate to the leaderboard** ⚠️
+⚠️ **You must be part of the Zenika company to participate to the leaderboard.** ⚠️
 
-Zenika Hacktoberfest Leaderboard: [https://oss.zenika.com/contributors](https://oss.zenika.com/contributors)
+Zenika Hacktoberfest Leaderboard: [https://oss.zenika.com/contributors](https://oss.zenika.com/contributors).
 
-To be added to the leaderboard you must add your GitHub username and Zenika location in the `/src/app/hacktoberfest.json/route.ts` file.
+To be added to the leaderboard you must add your GitHub or GitLab username and your Zenika location in the `/src/app/hacktoberfest.json/route.ts` file.
 
 **You will need:**
 
 - a [GitHub account](https://github.com) or a [GitLab account](https://gitlab.com/).
 - to be registered to [Hacktoberfest website](https://hacktoberfest.digitalocean.com/).
-- belongs to Zenika company.
+- to belong to the Zenika company.
 
 **Then you can make a PR to add your name:**
 
 1. Fork this repository
-2. Edit the `/src/app/hacktoberfest.json/route.ts` file by adding your informations to the `hacktoberfestData` array like this :
+2. Edit the `/src/app/hacktoberfest.json/route.ts` file by adding your information to the `hacktoberfestData` array like this:
 
 ```
   {
@@ -53,7 +53,7 @@ To be added to the leaderboard you must add your GitHub username and Zenika loca
     }
 ```
 
-⚠️ Please copy/paste one of the following location:
+⚠️ Please copy/paste one of the following locations:
 
 - "Bordeaux, FR"
 - "Brest, FR"
@@ -78,7 +78,7 @@ To be added to the leaderboard you must add your GitHub username and Zenika loca
 
 Once reviewed and merged, it may take one hour before the website is updated (cache stuff :)
 
-Zenika Hacktoberfest Leaderboard: [https://oss.zenika.com/hacktoberfest.html](https://oss.zenika.com/hacktoberfest.html)
+Zenika Hacktoberfest Leaderboard: [https://oss.zenika.com/hacktoberfest.html](https://oss.zenika.com/hacktoberfest.html).
 
 ## 📦 Install
 
