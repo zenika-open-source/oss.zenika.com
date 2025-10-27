@@ -16,7 +16,7 @@ const mockProjects: Project[] = [
   {
     id: '2',
     name: 'Awesome Remote',
-    description: '😎 Awesome lists about remote work',
+    description: '😎 Awesome lists about remote work.',
     imageUrl: '/awesome-remote.jpeg',
     imageHint: 'ui components',
     repoUrl: 'https://github.com/zenika-open-source/awesome-remote-work',
@@ -34,9 +34,9 @@ const mockProjects: Project[] = [
   },
   {
     id: '4',
-    name: 'Code moi un mouton',
+    name: 'Code-moi un mouton',
     description:
-      'A starter project to animate workshop in school to discover development for children.',
+      'A starter project to animate workshops in school to teach the children some basics in programmation.',
     imageUrl: '/code-moi-mouton.jpeg',
     imageHint: 'blockchain security',
     repoUrl: 'https://github.com/zenika-open-source/code-moi-un-mouton',
