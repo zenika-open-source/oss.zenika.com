@@ -6,7 +6,7 @@ const stats = [
     id: '1',
     icon: Users,
     value: '50+',
-    label: 'Zenika members contributor to Open Source',
+    label: 'Zenika members contributing to Open Source',
   },
   {
     id: '2',
@@ -18,7 +18,7 @@ const stats = [
     id: '6',
     icon: FolderGit2,
     value: '100+',
-    label: 'Projects Maintained',
+    label: 'Projects maintained',
   },
 ];
 

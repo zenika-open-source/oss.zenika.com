@@ -23,7 +23,7 @@ const mockWhitePaper: Resource[] = [
   },
   {
     id: '3',
-    link: 'string',
+    link: '',
     title: 'Chapter 3: Promotion',
     type: 'WhitePaper',
     description:
