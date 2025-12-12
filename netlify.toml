@@ -4,3 +4,32 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+# Headers pour éviter les problèmes de cache entre déploiements
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+
+# Pas de cache pour les pages HTML (toujours servir la dernière version)
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Cache long pour les assets Next.js (ils ont des hashes uniques)
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Pas de cache pour les données Next.js
+[[headers]]
+  for = "/_next/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
