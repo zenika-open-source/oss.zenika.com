@@ -10,6 +10,9 @@
   <a href="https://circleci.com/gh/zenika-open-source/oss.zenika.com/tree/main">
     <img alt="CircleCI" src="https://circleci.com/gh/zenika-open-source/oss.zenika.com/tree/main.svg?style=svg" target="_blank" />
   </a>
+  <a href="https://score.getplumber.io/github.com/zenika-open-source/oss.zenika.com">
+    <img alt="Plumber Score" src="https://score.getplumber.io/github.com/zenika-open-source/oss.zenika.com.svg" target="_blank" />
+  </a>
   <a href="https://app.netlify.com/sites/zenika-open-source-insights/deploys">
     <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/44effe10-3635-426d-899d-984201fa828a/deploy-status" target="_blank" />
   </a>
