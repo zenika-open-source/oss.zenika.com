@@ -43,3 +43,6 @@ next-env.d.ts
 # firebase
 firebase-debug.log
 firestore-debug.log
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
