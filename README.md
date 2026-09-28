@@ -22,66 +22,8 @@
 
 ## ✨Homepage
 
-[https://oss.zenika.com](https://oss.zenika.com)
+This is the project for the [https://oss.zenika.com](https://oss.zenika.com) website.
 
-## Zenika Hacktoberfest Leaderboard
-
-⚠️ **You must be part of the Zenika company to participate to the leaderboard.** ⚠️
-
-Zenika Hacktoberfest Leaderboard: [https://oss.zenika.com/contributors](https://oss.zenika.com/contributors).
-
-To be added to the leaderboard you must add your GitHub or GitLab username and your Zenika location in the `/src/app/hacktoberfest.json/route.ts` file.
-
-**You will need:**
-
-- a [GitHub account](https://github.com) or a [GitLab account](https://gitlab.com/).
-- to be registered to [Hacktoberfest website](https://hacktoberfest.digitalocean.com/).
-- to belong to the Zenika company.
-
-**Then you can make a PR to add your name:**
-
-1. Fork this repository
-2. Edit the `/src/app/hacktoberfest.json/route.ts` file by adding your information to the `hacktoberfestData` array like this:
-
-```
-  {
-      "name": "your name you want to display on this website",
-      "agency": "your-location",
-      "github": {
-        "handle": "your-github-username"
-      },
-      "gitlab": {
-        "handle": "your-gitlab-username"
-      }
-    }
-```
-
-⚠️ Please copy/paste one of the following locations:
-
-- "Bordeaux, FR"
-- "Brest, FR"
-- "Casablanca, MA"
-- "Clermont-Ferrand, FR"
-- "Grenoble, FR"
-- "Lille, FR"
-- "Lyon, FR"
-- "Montreal, CA"
-- "Nantes, FR"
-- "Niort, FR"
-- "Paris, FR"
-- "Rennes, FR"
-- "Singapore, SG"
-- "Toulouse, FR"
-
-3. Create the PR.
-
-🎉 So you will have your first PR. Happy Hacktoberfest!
-
-> If you don't want this PR to be considered for Hacktoberfest, you can add the `invalid` label to your PR."
-
-Once reviewed and merged, it may take one hour before the website is updated (cache stuff :)
-
-Zenika Hacktoberfest Leaderboard: [https://oss.zenika.com/hacktoberfest.html](https://oss.zenika.com/hacktoberfest.html).
 
 ## 📦 Install
 
