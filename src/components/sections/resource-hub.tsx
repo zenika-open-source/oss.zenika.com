@@ -141,7 +141,7 @@ const mockResources: Resource[] = [
 
 export function ResourceHub() {
   return (
-    <section className="py-16 md:py-24 bg-card">
+    <section className="py-16 md:py-24 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <LibraryBig className="h-12 w-12 mx-auto mb-4 text-primary" />

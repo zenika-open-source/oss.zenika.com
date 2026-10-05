@@ -41,3 +41,15 @@ export type Contributor = {
   githubHandle?: string;
   gitlabHandle?: string;
 };
+
+export type SponsoredPerson = {
+  id: string;
+  name: string;
+  avatarUrl: string;
+  githubUrl: string;
+  githubHandle: string;
+  projectName: string;
+  projectUrl: string;
+  description: string;
+  tags?: string[];
+};
