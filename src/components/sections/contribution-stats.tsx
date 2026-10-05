@@ -11,13 +11,13 @@ const stats = [
   {
     id: '2',
     icon: GitCommit,
-    value: '100+',
+    value: '700+',
     label: 'Contributions per year for all Zenika',
   },
   {
     id: '6',
     icon: FolderGit2,
-    value: '100+',
+    value: '500+',
     label: 'Projects maintained',
   },
 ];

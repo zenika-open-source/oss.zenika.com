@@ -42,6 +42,15 @@ const mockProjects: Project[] = [
     repoUrl: 'https://github.com/zenika-open-source/code-moi-un-mouton',
     tags: ['School', 'Scratch'],
   },
+  {
+    id: '5',
+    name: 'Agent Z Transcribe Podcast',
+    description: '🤖 An AI Agent to transcribe podcasts.',
+    imageUrl: '/agent-z-transcribe-podcast.png',
+    imageHint: 'ai workflow',
+    repoUrl: 'https://github.com/zenika-open-source/agent-Z-transcribe-podcast',
+    tags: ['AI', 'Agent', 'Podcast'],
+  },
 ];
 
 export function FeaturedProjects() {
